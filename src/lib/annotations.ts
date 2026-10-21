@@ -10,7 +10,6 @@ export interface AnnotationGroup {
 
 // Tag groups (the folders of content/tags/) in display order.
 export const GROUP_TITLES: Readonly<Record<string, string>> = {
-  category: 'Catégorie',
   style: 'Style',
   period: 'Période',
   region: 'Région',
