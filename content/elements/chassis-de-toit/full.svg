@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
-<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,#8b1a1a);stroke-opacity:1}@media (prefers-color-scheme:dark){[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,#e0676d)}}</style>
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
   <g>
     <path class="s" d="M25 270L255 270L387.4 73.7L157.4 73.7Z"/>
     <path class="s" d="M25 270L255 270L264 275L34 275ZM255 270L387.4 73.7L396.4 78.7L264 275Z"/>

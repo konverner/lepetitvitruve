@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv" xmlns:c2pa="http://c2pa.org/manifest">
-  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
+  <style>.lpv{--a:var(--accent-interactive)}</style>
   <path stroke-width="2" d="M87.5 20.8L82.5 18.3C82.5 16.8 82 15.8 81 15.3A2.25 3.5 0 0 0 76.5 15.3A2.25 3 0 0 0 72.75 17.05C71.5 18.3 71.5 19.8 72 21.3C71 25.3 68 30.3 63 33.3C61 33.8 59 33.8 57 32.3C55 25.3 47 19.3 38 9.3C40 19.3 46 31.3 51 37.3C43 37.3 34 32.3 31 21.3C31 31.3 37 40.3 48 41.3C41 42.3 34 40.3 31 34.3C33 42.3 38 47.3 47 45.3C50 50.3 57 53.8 66 53.8C74 53.8 80 47.3 80.5 39.3C80 36.3 79.5 32.3 81 29.3C83.5 29.3 84.5 26.3 82.5 23.8L82.5 22.8L87.5 20.8Z"/>
   <path stroke-width="1.25" d="M73 37.3C69 34.3 62 35.3 58 39.3C56 41.8 55 43.8 54 45.3C61 46.3 69 45.3 73 37.3Z"/>
   <path stroke-width="1.25" d="M59.0 53.8L59.0 60.2M68.0 53.8L68.0 60.2"/>

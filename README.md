@@ -101,7 +101,7 @@ description:
   en: "..."
 ```
 
-The element page's annotations card (below the diagram) lists an element's tags as French-labelled chips, grouped by tag group (Style, Période, Région, Sentiment = `mood`, Rarité = `rarity`, Partie = `part`; see `GROUP_TITLES` in `src/lib/annotations.ts`). A tag file's `key` must equal its path (`style/baroque` for `content/tags/style/baroque.yaml`). Slugs must be unique within a group, per language.
+The element page's annotations card (below the diagram) lists an element's tags as French-labelled chips, grouped by tag group (Catégorie = `category`, Style, Période, Région, Sentiment = `mood`, Rarité = `rarity`, Partie = `part`; see `GROUP_TITLES` in `src/lib/annotations.ts`). A tag file's `key` must equal its path (`style/baroque` for `content/tags/style/baroque.yaml`). Slugs must be unique within a group, per language.
 
 
 ### 3.2. Element

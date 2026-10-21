@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" class="lpv">
-<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+<style>.lpv{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
   <path class="s" d="M56 0V138"/>
   <path class="s" d="M56 228V384"/>
   <path class="d" d="M-16 22H56M-16 52H56M-16 82H56M-16 112H56"/>

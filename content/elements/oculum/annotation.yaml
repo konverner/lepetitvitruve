@@ -19,7 +19,7 @@ parts:
   - { id: mullions, label: { fr: Meneaux } }
   - { id: light-rays, label: { fr: Rayons de lumière } }
 tags:
-  - category/opening
+  - category/openings-niches
   - style/renaissance
   - style/baroque
   - mood/grand

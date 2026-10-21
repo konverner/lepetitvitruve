@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" class="lpv">
-<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+<style>.lpv{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
   <g data-part="socle">
     <path class="d" d="M0 276H62M238 276H300M0 386H300"/>
     <path class="d" d="M80 330H220M150 297V330M115 330V364M185 330V364"/>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
-  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
+  <style>.lpv{--a:var(--accent-interactive)}</style>
   <g stroke-width="1" stroke-opacity=".55">
     <path d="M8 8V112M8 20H44M8 32H44M8 44H44M8 56H24M8 80H24M8 92H44M8 104H44"/>
     <path d="M26 8V20M17 20V32M35 20V32M26 32V44M17 44V56M35 44V56M26 80V92M17 92V104M35 92V104M26 104V112"/>
