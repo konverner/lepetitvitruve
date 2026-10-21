@@ -138,7 +138,7 @@
 .chip {
   display: inline-block;
   padding: var(--space-1) var(--space-2);
-  border-radius: 999px;
+  border-radius: 2px;
   background: var(--chip-bg, var(--chip-bg-default));
   color: var(--chip-text);
   font-size: 14px;
