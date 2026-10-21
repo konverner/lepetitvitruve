@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none"><style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <!-- Corps du rempart (non interactif) -->
+  <path class="s" d="M53 160L323 160L323 282L53 282Z"/>
+  <path class="s" d="M323 160L347 146L347 268L323 282Z"/>
+  <path class="d" d="M53 193H323M53 227H323M53 260H323M323 193L347 179M323 227L347 213M323 260L347 246"/>
+  <path class="s" d="M0 282L400 282"/>
+  <g data-part="creneau">
+    <path d="M127 60H163V146H127Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path d="M237 60H273V146H237Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path class="s" d="M103 160L163 160L163 146L127 146Z"/>
+    <path class="s" d="M213 160L273 160L273 146L237 146Z"/>
+    <path class="d" stroke-dasharray="3 5" d="M127 60H163M237 60H273"/>
+  </g>
+  <g data-part="bloc">
+    <path class="s" d="M53 160L53 60L103 60L103 160Z"/>
+    <path class="s" d="M103 60L127 46L127 146L103 160Z"/>
+    <path class="d" d="M53 93H103M53 127H103M103 93L127 79M103 127L127 113"/>
+    <path class="s" d="M163 160L163 60L213 60L213 160Z"/>
+    <path class="s" d="M213 60L237 46L237 146L213 160Z"/>
+    <path class="d" d="M163 93H213M163 127H213M213 93L237 79M213 127L237 113"/>
+    <path class="s" d="M273 160L273 60L323 60L323 160Z"/>
+    <path class="s" d="M323 60L347 46L347 146L323 160Z"/>
+    <path class="d" d="M273 93H323M273 127H323M323 93L347 79M323 127L347 113"/>
+  </g>
+  <g data-part="sommet">
+    <path class="s r" d="M53 60L77 46L127 46L103 60Z"/>
+    <path class="s r" d="M163 60L187 46L237 46L213 60Z"/>
+    <path class="s r" d="M273 60L297 46L347 46L323 60Z"/>
+  </g>
+</svg>

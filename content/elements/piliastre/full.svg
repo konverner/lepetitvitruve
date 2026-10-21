@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-95 0 450 600" fill="none">
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}.w{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.3;stroke-width:.9;pointer-events:none}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <defs>
+    <pattern id="pilastre-stone" width="96" height="72" patternUnits="userSpaceOnUse">
+      <path class="w" d="M0 9H96M0 45H96M24 9V45M72 45V72M72 0V9"/>
+    </pattern>
+  </defs>
+  <!-- Mur en pierre de taille, style haussmannien (décor, non interactif) : le pilastre est découpé dans le mur -->
+  <path fill="url(#pilastre-stone)" fill-rule="evenodd" pointer-events="none" d="M-95 0H355V580H-95Z M52 0H208V28H216V34H212V46H208V58H204V70H208V80H206V116H168V524H182V546H188V560H240V580H20V560H72V546H78V524H92V116H54V80H52V70H56V58H52V46H48V34H44V28H52Z"/>
+  <path class="d" pointer-events="none" d="M-95 580H20M240 580H355M-95 599.25H0M260 599.25H355"/>
+  <g data-part="stylobate">
+    <path class="s" d="M20 560H240V580H20Z"/>
+    <path class="s" d="M0 580H260V600H0Z"/>
+  </g>
+  <g data-part="base">
+    <rect class="s" x="72" y="546" width="116" height="14" rx="2"/>
+    <path class="s" d="M78 536H182L188 546H72Z"/>
+    <rect class="s" x="78" y="524" width="104" height="12" rx="2"/>
+  </g>
+  <g data-part="shaft">
+    <path class="s" d="M92 524V128H168V524Z"/>
+    <path class="d" d="M107.2 524V128M122.4 524V128M137.6 524V128M152.8 524V128"/>
+    <rect class="s" x="92" y="122" width="76" height="6" rx="3"/>
+  </g>
+  <g data-part="echinus">
+    <path class="s" d="M92 122V102Q130 112 168 102V122Z"/>
+    <path class="d" d="M86 88Q130 98 174 88"/>
+    <ellipse class="d" cx="100" cy="114" rx="3.5" ry="4.5"/>
+    <ellipse class="d" cx="115" cy="114" rx="3.5" ry="4.5"/>
+    <ellipse class="d" cx="130" cy="114" rx="3.5" ry="4.5"/>
+    <ellipse class="d" cx="145" cy="114" rx="3.5" ry="4.5"/>
+    <ellipse class="d" cx="160" cy="114" rx="3.5" ry="4.5"/>
+  </g>
+  <g data-part="volutes">
+    <path class="s" d="M72 80A18 18 0 0 0 72 116A14 14 0 0 0 72 88A9 9 0 0 0 72 106A6 6 0 0 0 72 94"/>
+    <path class="s" d="M188 80A18 18 0 0 1 188 116A14 14 0 0 1 188 88A9 9 0 0 1 188 106A6 6 0 0 1 188 94"/>
+    <circle class="d" cx="72" cy="100" r="2"/>
+    <circle class="d" cx="188" cy="100" r="2"/>
+  </g>
+  <g data-part="abacus">
+    <rect class="s" x="52" y="70" width="156" height="10"/>
+  </g>
+  <g data-part="entablature">
+    <path class="s" d="M56 70V58H204V70"/>
+    <path class="s" d="M52 58V46H208V58"/>
+    <path class="s" d="M48 46V34H212V46"/>
+    <path class="s" d="M44 28H216V34H44Z"/>
+    <path class="s" d="M52 28V0M208 28V0"/>
+  </g>
+</svg>

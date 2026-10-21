@@ -1,0 +1,11 @@
+key: rarity/exceptional
+slug:
+  fr: d-exception
+  en: exceptional
+label:
+  fr: D'exception
+  en: Exceptional
+description:
+  fr: "Élément remarquable ou unique, propre aux chefs-d'œuvre architecturaux."
+  en: "Remarkable or unique element specific to architectural masterpieces."
+color: "#f3d0d8"

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <defs>
+    <clipPath id="lpv-corniche-wall"><path d="M250 300L250 31.2L300 26.2L300 300Z"/></clipPath>
+  </defs>
+
+  <g data-part="wall">
+    <path class="s" d="M250 300L250 31.2L300 26.2L300 300Z"/>
+  </g>
+  <g data-part="bed-molding">
+    <path class="s" d="M162.5 176.6L250 176.6L250 239.6L236 239.6A52.5 63 0 0 0 183.5 176.6Z"/>
+    <path class="d" d="M219.8 194.1L250 194.1M231.9 215.1L250 215.1"/>
+  </g>
+  <g data-part="corona">
+    <path class="s" d="M162.5 131.1L250 131.1L250 176.6L162.5 176.6Z"/>
+  </g>
+  <g data-part="cymatium">
+    <path class="s" d="M76.4 52L250 52L250 131.1L162.5 131.1L138 117L129.6 112.2L125.4 92.6C90 86 76.4 64 76.4 52Z"/>
+    <path class="d" d="M91 77.2L250 77.2M126.4 97.5L250 97.5"/>
+  </g>
+  <g data-part="roof">
+    <path class="s" d="M70 52.8L300 25.2L300 17.2L70 44.8Z"/>
+    <path class="d" d="M110 48.0V40.0M150 43.2V35.2M190 38.4V30.4M230 33.6V25.6M270 28.8V20.8"/>
+  </g>
+  <g data-part="water">
+    <path class="d" stroke-dasharray="3 4" d="M232 17.3L134 29.1M64 58L64 286"/>
+    <path class="d" d="M142.4 32.1L134 29.1L141.4 24.1M60 278L64 286L68 278"/>
+    <path d="M232 17.3L134 29.1M64 58L64 286" stroke="transparent" stroke-width="14" pointer-events="stroke"/>
+  </g>
+</svg>

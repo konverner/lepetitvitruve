@@ -1,0 +1,7 @@
+key: style/art-nouveau
+slug: { fr: art-nouveau, en: art-nouveau }
+label: { fr: "Art nouveau", en: "Art Nouveau" }
+description:
+  fr: "Style de la fin du XIXe siècle inspiré des lignes courbes et des formes végétales."
+  en: "Late 19th-century style inspired by curving lines and plant forms."
+color: "#ead9f2"

@@ -1,0 +1,45 @@
+.about-prose {
+  max-width: 680px;
+}
+
+.about-prose h1 {
+  margin: 0 0 var(--space-4);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+.about-prose h2 {
+  margin: var(--space-5) 0 var(--space-2);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.about-prose p,
+.about-prose li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-body);
+}
+
+.about-prose p,
+.about-prose ul {
+  margin: 0 0 var(--space-3);
+}
+
+.about-prose ul {
+  padding-left: var(--space-4);
+}
+
+.about-prose a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 3px;
+}
+
+.about-prose a:hover {
+  text-decoration-color: var(--text-primary);
+}

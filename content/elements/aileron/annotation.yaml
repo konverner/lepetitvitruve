@@ -1,0 +1,25 @@
+name:
+  fr: Aileron
+  en: Aileron
+gender:
+  fr: n.m.
+slug:
+  fr: aileron
+  en: aileron
+aliases:
+  fr: []
+  en: []
+category: ornament
+parts:
+  - { id: aileron, label: { fr: Aileron } }
+  - { id: entablement, label: { fr: Entablement } }
+  - { id: fronton, label: { fr: Fronton } }
+  - { id: niveau-inferieur, label: { fr: Niveau inférieur } }
+  - { id: niveau-superieur, label: { fr: Niveau supérieur } }
+  - { id: volute, label: { fr: Volute } }
+tags:
+  - category/decor
+  - style/baroque
+  - mood/dramatic
+  - mood/curious
+  - rarity/medium

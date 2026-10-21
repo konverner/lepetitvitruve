@@ -1,0 +1,7 @@
+key: region/northern-europe
+slug: { fr: europe-du-nord, en: northern-europe }
+label: { fr: "Europe du Nord", en: "Northern Europe" }
+description:
+  fr: "Éléments répandus dans l'architecture européenne."
+  en: "Elements widespread in European architecture."
+color: "#a8c4d8" # pastel blue, cold, northern Europe like

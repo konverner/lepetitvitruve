@@ -1,0 +1,30 @@
+name:
+  fr: Mascaron
+  en: Mascaron
+gender:
+  fr: n.m.
+slug:
+  fr: mascaron
+  en: mascaron
+aliases:
+  fr: []
+  en: []
+category: ornament
+parts:
+  - { id: cornice, label: { fr: Corniche } }
+  - { id: archivolt, label: { fr: Archivolte } }
+  - { id: keystone, label: { fr: Clef } }
+  - { id: crown, label: { fr: Couronne } }
+  - { id: hair, label: { fr: Chevelure } }
+  - { id: locks, label: { fr: Boucles } }
+  - { id: face, label: { fr: Visage } }
+  - { id: eyes, label: { fr: Yeux } }
+  - { id: nose, label: { fr: Nez } }
+  - { id: mouth, label: { fr: Bouche } }
+  - { id: scrolls, label: { fr: Enroulements } }
+tags:
+  - rarity/medium
+  - mood/curious
+  - mood/dramatic
+  - style/baroque
+  - region/europe

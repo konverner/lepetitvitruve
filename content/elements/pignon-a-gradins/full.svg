@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <path class="s" d="M30 270L370 270"/>
+  <g data-part="mur-de-pignon">
+    <path class="s" d="M100 270V150H120V126H140V102H160V78H180V54H220V78H240V102H260V126H280V150H300V270Z"/>
+    <path class="d" d="M100 258H300M100 184H300M140 120H260"/>
+    <path class="s" d="M122 196H150V250H122ZM186 196H214V250H186ZM250 196H278V250H250Z"/>
+    <path class="d" d="M136 196V250M122 223H150M200 196V250M186 223H214M264 196V250M250 223H278"/>
+    <path class="s" d="M146 132H170V172H146ZM230 132H254V172H230Z"/>
+    <path class="d" d="M158 132V172M242 132V172"/>
+    <path class="s" d="M188 84H212V112H188Z"/>
+    <path class="d" d="M200 84V112"/>
+    <circle class="s" cx="200" cy="70" r="5.5"/>
+  </g>
+  <g data-part="rampant">
+    <path class="s" stroke-dasharray="5 4" d="M96 154.8L180 54M304 154.8L220 54"/>
+    <path stroke="transparent" stroke-width="10" pointer-events="stroke" d="M96 154.8L180 54M304 154.8L220 54"/>
+  </g>
+  <g data-part="marche">
+    <path class="s" d="M100 150H120V126H140V102H160V78H180V54H220V78H240V102H260V126H280V150H300"/>
+    <path class="s" d="M100 150H120V156H100ZM120 126H140V132H120ZM140 102H160V108H140ZM160 78H180V84H160ZM180 54H220V60H180ZM220 78H240V84H220ZM240 102H260V108H240ZM260 126H280V132H260ZM280 150H300V156H280Z"/>
+    <path stroke="transparent" stroke-width="8" pointer-events="stroke" d="M100 150H120V126H140V102H160V78H180V54H220V78H240V102H260V126H280V150H300"/>
+  </g>
+  <g data-part="sommet">
+    <path class="s" d="M190 54V46L200 30L210 46V54Z"/>
+    <path class="d" d="M190 46H210"/>
+    <path class="s" d="M200 30V22"/>
+  </g>
+</svg>

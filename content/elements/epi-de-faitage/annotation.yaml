@@ -1,0 +1,27 @@
+name:
+  fr: Épi de faîtage
+  en: Finial
+gender:
+  fr: n.m.
+slug:
+  fr: epi-de-faitage
+  en: finial
+aliases:
+  fr:
+    - Poinçon de faîtage
+    - Épi de faîte
+  en:
+    - Roof cresting
+category: ornament
+tags:
+  - region/europe
+  - style/renaissance
+  - style/gothic
+  - style/vernacular
+  - mood/curious
+  - rarity/common
+parts:
+  - { id: pointe, label: { fr: Pointe ou motif supérieur } }
+  - { id: corps, label: { fr: Corps sculpté ou modelé } }
+  - { id: base, label: { fr: Base d'étanchéité } }
+  - { id: tuile, label: { fr: Tuile faîtière } }

@@ -1,0 +1,7 @@
+key: region/southern-france
+slug: { fr: sud-de-la-france, en: southern-france }
+label: { fr: "Sud de la France", en: "Southern France" }
+description:
+  fr: "Éléments que l'on rencontre dans l'architecture du Sud de la France."
+  en: "Elements found in Southern French architecture."
+color: "#d4ead9"  # light yellow-green

@@ -1,0 +1,26 @@
+name:
+  fr: Pignon droit
+  en: Straight gable
+gender:
+  fr: n.m.
+slug:
+  fr: pignon-droit
+  en: straight-gable
+aliases:
+  fr:
+    - Pignon triangulaire
+    - Pignon simple
+  en:
+    - Triangular gable
+    - Simple gable
+category: roof
+tags:
+  - region/europe
+  - style/vernacular
+  - style/classical
+  - mood/raw
+  - rarity/common
+parts:
+  - { id: rampant, label: { fr: Rampant, en: Rake } }
+  - { id: mur-de-pignon, label: { fr: Mur de pignon, en: Gable wall } }
+  - { id: sommet, label: { fr: Sommet, en: Top } }

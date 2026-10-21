@@ -1,0 +1,26 @@
+name:
+  fr: Merlon guelfe
+  en: Guelph merlon
+gender:
+  fr: n.m.
+slug:
+  fr: merlon-guelfe
+  en: guelph-merlon
+aliases:
+  fr:
+    - Merlon carré
+    - Merlon droit
+  en:
+    - Rectangular merlon
+category: structure
+tags:
+  - region/italy
+  - region/europe
+  - style/medieval
+  - style/gothic
+  - mood/protective
+  - rarity/common
+parts:
+  - { id: bloc, label: { fr: Bloc massif } }
+  - { id: sommet, label: { fr: Sommet plat } }
+  - { id: creneau, label: { fr: Créneau } }

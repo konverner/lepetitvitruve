@@ -1,0 +1,7 @@
+key: mood/raw
+slug: { fr: brut, en: raw }
+label: { fr: Brut, en: Raw }
+description:
+  fr: "On se sent brut et austère."
+  en: "One feels raw and austere."
+color: "#e0dcd6"

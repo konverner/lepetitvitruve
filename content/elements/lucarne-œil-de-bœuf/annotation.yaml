@@ -1,0 +1,29 @@
+name:
+  fr: Lucarne œil-de-bœuf
+  en: Oculum dormer
+gender:
+  fr: n.f.
+slug:
+  fr: lucarne-oeil-de-boeuf
+  en: oculum-dormer
+aliases:
+  fr: []
+  en: []
+category: roof
+tags:
+  - region/france
+  - style/baroque
+  - mood/curious
+  - style/neoclassical
+  - rarity/medium
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: hood, label: { fr: Capot } }
+  - { id: hood-edge, label: { fr: Bord du capot } }
+  - { id: surround, label: { fr: Encadrement } }
+  - { id: molding, label: { fr: Moulure } }
+  - { id: keystone, label: { fr: Clé } }
+  - { id: frame, label: { fr: Cadre } }
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: bars, label: { fr: Petits-bois } }
+  - { id: sill, label: { fr: Appui } }

@@ -1,0 +1,7 @@
+key: style/neoclassical
+slug: { fr: neoclassique, en: neoclassical }
+label: { fr: "Néoclassique", en: "Neoclassical" }
+description:
+  fr: "Retour aux formes de l'Antiquité à partir du XVIIIe siècle, en réaction au baroque."
+  en: "Return to the forms of antiquity from the 18th century onward, in reaction to the baroque."
+color: "#d6e6f2"

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <pattern id="pilastre-stone-p" width="30" height="24" patternUnits="userSpaceOnUse">
+      <path stroke="currentColor" stroke-opacity=".35" stroke-width=".5" d="M0 3H30M0 15H30M7.5 3V15M22.5 15V24M22.5 0V3"/>
+    </pattern>
+  </defs>
+  <!-- Mur en pierre de taille : le pilastre est découpé dans le mur -->
+  <path stroke="none" fill="url(#pilastre-stone-p)" fill-rule="evenodd" d="M10 10H110V110H10Z M26 26H94V32H97V57H74V110H46V57H23V32H26Z"/>
+  <path stroke-width=".75" stroke-opacity=".5" d="M46 110H10V10H110V110H74"/>
+  <!-- Pilastre -->
+  <path stroke-width="2" d="M26 26H94V32H26Z"/>
+  <path stroke-width="2" d="M34 35A11 11 0 0 0 34 57M86 35A11 11 0 0 1 86 57M34 35Q60 43 86 35"/>
+  <path stroke-width="1.25" d="M34 57A8 8 0 0 0 34 41A5 5 0 0 0 34 51M86 57A8 8 0 0 1 86 41A5 5 0 0 1 86 51"/>
+  <path stroke-width="2" d="M46 48V60M74 48V60"/>
+  <path stroke-width="1.25" d="M46 48Q60 54 74 48M45 60H75"/>
+  <path stroke-width="2" d="M46 62V110M74 62V110"/>
+  <path stroke-width="1.25" d="M55.3 63V110M64.7 63V110"/>
+</svg>

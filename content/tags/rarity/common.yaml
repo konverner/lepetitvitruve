@@ -1,0 +1,11 @@
+key: rarity/common
+slug:
+  fr: courant
+  en: common
+label:
+  fr: Courant
+  en: Common
+description:
+  fr: "Fréquemment observé lors des promenades urbaines sur les façades ordinaires."
+  en: "Frequently observed during urban walks on ordinary facades."
+color: "#e0efd0"

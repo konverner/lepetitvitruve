@@ -1,0 +1,26 @@
+name:
+  fr: Appareil à l'anglaise
+  en: English bond
+gender:
+  fr: n.m.
+slug:
+  fr: appareil-a-l-anglaise
+  en: english-bond
+aliases:
+  fr:
+    - Appareillage anglais
+    - Appareil anglais
+  en: []
+category: structure
+tags:
+  - category/mise-en-oeuvre
+  - region/europe
+  - region/uk
+  - style/industrial
+  - mood/raw
+  - rarity/common
+parts:
+  - { id: panneresse, label: { fr: Panneresses } }
+  - { id: boutisse, label: { fr: Boutisses } }
+  - { id: assise, label: { fr: Assises horizontales } }
+  - { id: joint, label: { fr: Joints de mortier } }

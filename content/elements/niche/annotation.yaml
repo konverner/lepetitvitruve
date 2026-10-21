@@ -1,0 +1,24 @@
+name:
+  fr: Niche
+  en: Niche
+gender:
+  fr: n.f.
+slug:
+  fr: niche
+  en: niche
+aliases:
+  fr: []
+  en: []
+category: ornament
+tags:
+  - region/europe
+  - style/classical
+  - style/renaissance
+  - style/baroque
+  - mood/cozy
+  - rarity/rare
+parts:
+- { id: cul-de-four, label: { fr: Voûte en cul-de-four, en: Barrel vault } }
+- { id: fond, label: { fr: Fond de la niche, en: Back of the niche } }
+- { id: socle, label: { fr: Socle ou piédestal, en: Base or pedestal } }
+- { id: encadrement, label: { fr: Encadrement, en: Frame } }

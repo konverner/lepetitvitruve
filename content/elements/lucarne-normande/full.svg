@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,#8b1a1a);stroke-opacity:1}@media (prefers-color-scheme:dark){[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,#e0676d)}}</style>
+  <g data-part="roof">
+    <rect x="0" y="0" width="400" height="282" fill="transparent"/>
+    <path class="d" d="M0 30H90M0 60H90M0 90H90M0 120H90M0 150H90M0 180H90M0 210H90M0 240H90M0 270H90M309 30H400M309 60H400M309 90H400M309 120H400M309 150H400M309 180H400M309 210H400M309 240H400M309 270H400M10 30L18 0M50 30L58 0M330 30L338 0M370 30L378 0M30 60L38 30M70 60L78 30M310 60L318 30M350 60L358 30M390 60L398 30M10 90L18 60M50 90L58 60M330 90L338 60M370 90L378 60M30 120L38 90M70 120L78 90M310 120L318 90M350 120L358 90M390 120L398 90M10 150L18 120M50 150L58 120M330 150L338 120M370 150L378 120M30 180L38 150M70 180L78 150M310 180L318 150M350 180L358 150M390 180L398 150M10 210L18 180M50 210L58 180M330 210L338 180M370 210L378 180M30 240L38 210M70 240L78 210M310 240L318 210M350 240L358 210M390 240L398 210M10 270L18 240M50 270L58 240M330 270L338 240M370 270L378 240M30 282L33.2 270M70 282L73.2 270M310 282L313.2 270M350 282L353.2 270M390 282L393.2 270"/>
+  </g>
+  <path class="s" d="M0 282L400 282"/>
+  <g data-part="cheek">
+    <path class="s" d="M238 262L269.8 119.8L243.2 134L238 129.1Z"/>
+  </g>
+  <g data-part="dormer-roof">
+    <path class="s" d="M243.2 128L287.2 104.6L238.7 35.6L200.4 55.9L218.9 104.9Z"/>
+    <path class="s" d="M285.7 111.4L287.2 104.6L243.2 128L243.2 134Z"/>
+    <path class="s" d="M243.2 134L243.2 128L218.9 104.9L218.9 110.9Z"/>
+    <path class="s" d="M115.2 128L115.2 134L139.5 110.9L139.5 104.9Z"/>
+    <path class="d" d="M206.3 71.7L248.4 49.4M212.3 87.5L258.1 63.2M218.3 103.3L267.8 77M230.4 115.8L277.5 90.8"/>
+  </g>
+  <g data-part="ridge">
+    <path d="M200.4 55.9L238.7 35.6" stroke="transparent" stroke-width="9" stroke-linecap="round" pointer-events="stroke"/>
+    <path class="s r" d="M200.4 55.9L238.7 35.6"/>
+  </g>
+  <g data-part="hip">
+    <path class="s" d="M218.9 104.9L200.4 55.9L139.5 104.9Z"/>
+    <path class="s" d="M139.5 110.9L218.9 110.9L218.9 104.9L139.5 104.9Z"/>
+    <path class="d" d="M154.7 92.7L214.2 92.7M169.9 80.4L209.6 80.4M185.2 68.2L205 68.2"/>
+  </g>
+  <g data-part="frame">
+    <path class="s" d="M238 134L238 129.1L218.9 110.9L139.5 110.9L138 112.3L138 134Z"/>
+    <path class="s" d="M238 262L238 134L138 134L138 262Z"/>
+  </g>
+  <g data-part="window">
+    <path class="s" d="M227 250L227 146L149 146L149 250Z"/>
+    <path class="s" d="M185.9 146L185.9 250M190.1 146L190.1 250"/>
+    <path class="d" d="M149 180.7L227 180.7M149 215.3L227 215.3"/>
+  </g>
+  <g data-part="sill">
+    <path class="s" d="M230 271.6L248 262L128 262L110 271.6Z"/>
+    <path class="s" d="M110 282L230 282L230 271.6L110 271.6Z"/>
+    <path class="s" d="M230 271.6L230 282L248 272.4L248 262Z"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+name:
+  fr: Arc plein cintre
+  en: Round arch
+gender:
+  fr: n.m.
+slug:
+  fr: arc-plein-cintre
+  en: round-arch
+aliases:
+  fr: [Arc roman, Plein cintre]
+  en: []
+category: structure
+parts:
+  - { id: claveaux, label: { fr: Claveaux } }
+  - { id: extrados, label: { fr: Extrados } }
+  - { id: intrados, label: { fr: Intrados } }
+  - { id: piedroits, label: { fr: Piédroits } }
+  - { id: sol, label: { fr: Sol } }
+tags:
+  - style/romanesque
+  - mood/protective
+  - region/europe
+  - rarity/common

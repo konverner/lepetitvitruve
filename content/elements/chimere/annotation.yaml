@@ -1,0 +1,22 @@
+name:
+  fr: Chimère
+  en: Chimera
+gender:
+  fr: n.f.
+slug:
+  fr: chimere
+  en: chimera
+aliases:
+  fr: []
+  en: []
+category: ornament
+tags:
+  - region/europe
+  - style/gothic
+  - mood/curious
+  - mood/dramatic
+  - rarity/medium
+parts:
+  - { id: corps, label: { fr: Corps sculpté } }
+  - { id: tete, label: { fr: Tête fantastique } }
+  - { id: socle, label: { fr: Socle } }

@@ -1,0 +1,11 @@
+key: rarity/rare
+slug:
+  fr: rare
+  en: rare
+label:
+  fr: Rare
+  en: Rare
+description:
+  fr: "Inhabituel, principalement réservé aux monuments majeurs ou édifices d'exception."
+  en: "Unusual, primarily reserved for major monuments or exceptional buildings."
+color: "#cfa0f7" # purple

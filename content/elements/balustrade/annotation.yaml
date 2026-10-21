@@ -1,0 +1,23 @@
+name:
+  fr: Balustrade
+  en: Balustrade
+gender:
+  fr: n.f.
+slug:
+  fr: balustrade
+  en: balustrade
+aliases:
+  fr: []
+  en: []
+category: support
+parts:
+  - { id: handrail, label: { fr: Main courante } }
+  - { id: baluster, label: { fr: Balustre } }
+  - { id: pier, label: { fr: Pilier } }
+  - { id: plinth, label: { fr: Socle } }
+tags:
+  - style/classical
+  - style/baroque
+  - region/europe
+  - mood/protective
+  - rarity/medium

@@ -1,0 +1,22 @@
+name:
+  fr: Frise
+  en: Frieze
+gender:
+  fr: n.f.
+slug:
+  fr: frise
+  en: frieze
+aliases:
+  fr: []
+  en: []
+category: ornament
+parts:
+  - { id: corniche, label: { fr: Corniche } }
+  - { id: frise, label: { fr: Frise } }
+  - { id: motifs, label: { fr: Motifs } }
+  - { id: architrave, label: { fr: Architrave } }
+  - { id: colonnes, label: { fr: Colonnes } }
+tags:
+  - rarity/medium
+  - region/europe
+  - style/classical

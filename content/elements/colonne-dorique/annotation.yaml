@@ -1,0 +1,26 @@
+name:
+  fr: Colonne dorique
+  en: Greek Doric column
+gender:
+  fr: n.f.
+slug:
+  fr: colonne-dorique
+  en: greek-doric-column
+aliases:
+  fr: [Ordre dorique grec, Colonne dorique]
+  en: [Greek Doric order, Doric column]
+category: support
+parts:
+  - { id: entablature, label: { fr: Entablement } }
+  - { id: abacus, label: { fr: Abaque } }
+  - { id: echinus, label: { fr: Échine } }
+  - { id: annulets, label: { fr: Annelets } }
+  - { id: shaft, label: { fr: Fût } }
+  - { id: stylobate, label: { fr: Stylobate } }
+tags:
+  - style/antique
+  - style/classical
+  - region/europe
+  - region/north-america
+  - mood/grand
+  - mood/curious

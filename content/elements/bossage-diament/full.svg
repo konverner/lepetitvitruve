@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none"><style>svg{--bpv-accent:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}.p{fill:var(--graphic-stroke,currentColor);stroke:var(--graphic-stroke,currentColor);stroke-width:1}.c{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.5;stroke-width:.75;stroke-dasharray:4 3;pointer-events:none}.h{fill:transparent;stroke:none;pointer-events:all}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--bpv-accent));stroke-opacity:1}[data-part]:hover .p,[data-part].is-active .p{fill:var(--accent-interactive,var(--bpv-accent));stroke:var(--accent-interactive,var(--bpv-accent))}</style>
+  <g data-part="wall">
+    <path class="s" d="M40 46L232 46L239 42.5L47 42.5Z"/>
+    <path class="s" d="M232 46L239 42.5L239 250.5L232 254Z"/>
+    <path class="s" d="M304 46L328 46L328 254L304 254Z"/>
+    <path class="d" d="M304 54L312 46M304 62L320 46M304 70L328 46M304 78L328 54M304 86L328 62M304 94L328 70M304 102L328 78M304 110L328 86M304 118L328 94M304 126L328 102M304 134L328 110M304 142L328 118M304 150L328 126M304 158L328 134M304 166L328 142M304 174L328 150M304 182L328 158M304 190L328 166M304 198L328 174M304 206L328 182M304 214L328 190M304 222L328 198M304 230L328 206M304 238L328 214M304 246L328 222M304 254L328 230M312 254L328 238M320 254L328 246"/>
+  </g>
+  <g data-part="pyramid">
+    <path class="s" d="M40 46L104 46L60.5 77.8Z"/>
+    <path class="s" d="M104 46L104 98L60.5 77.8Z"/>
+    <path class="s" d="M104 98L40 98L60.5 77.8Z"/>
+    <path class="s" d="M40 98L40 46L60.5 77.8Z"/>
+    <path class="s" d="M104 46L168 46L124.5 77.8Z"/>
+    <path class="s" d="M168 46L168 98L124.5 77.8Z"/>
+    <path class="s" d="M168 98L104 98L124.5 77.8Z"/>
+    <path class="s" d="M104 98L104 46L124.5 77.8Z"/>
+    <path class="s" d="M168 46L232 46L188.5 77.8Z"/>
+    <path class="s" d="M232 46L232 98L188.5 77.8Z"/>
+    <path class="s" d="M232 98L168 98L188.5 77.8Z"/>
+    <path class="s" d="M168 98L168 46L188.5 77.8Z"/>
+    <path class="s" d="M40 98L104 98L60.5 129.8Z"/>
+    <path class="s" d="M104 98L104 150L60.5 129.8Z"/>
+    <path class="s" d="M104 150L40 150L60.5 129.8Z"/>
+    <path class="s" d="M40 150L40 98L60.5 129.8Z"/>
+    <path class="s" d="M104 98L168 98L124.5 129.8Z"/>
+    <path class="s" d="M168 98L168 150L124.5 129.8Z"/>
+    <path class="s" d="M168 150L104 150L124.5 129.8Z"/>
+    <path class="s" d="M104 150L104 98L124.5 129.8Z"/>
+    <path class="s" d="M168 98L232 98L188.5 129.8Z"/>
+    <path class="s" d="M232 98L232 150L188.5 129.8Z"/>
+    <path class="s" d="M232 150L168 150L188.5 129.8Z"/>
+    <path class="s" d="M168 150L168 98L188.5 129.8Z"/>
+    <path class="s" d="M40 150L104 150L60.5 181.8Z"/>
+    <path class="s" d="M104 150L104 202L60.5 181.8Z"/>
+    <path class="s" d="M104 202L40 202L60.5 181.8Z"/>
+    <path class="s" d="M40 202L40 150L60.5 181.8Z"/>
+    <path class="s" d="M104 150L168 150L124.5 181.8Z"/>
+    <path class="s" d="M168 150L168 202L124.5 181.8Z"/>
+    <path class="s" d="M168 202L104 202L124.5 181.8Z"/>
+    <path class="s" d="M104 202L104 150L124.5 181.8Z"/>
+    <path class="s" d="M168 150L232 150L188.5 181.8Z"/>
+    <path class="s" d="M232 150L232 202L188.5 181.8Z"/>
+    <path class="s" d="M232 202L168 202L188.5 181.8Z"/>
+    <path class="s" d="M168 202L168 150L188.5 181.8Z"/>
+    <path class="s" d="M40 202L104 202L60.5 233.8Z"/>
+    <path class="s" d="M104 202L104 254L60.5 233.8Z"/>
+    <path class="s" d="M104 254L40 254L60.5 233.8Z"/>
+    <path class="s" d="M40 254L40 202L60.5 233.8Z"/>
+    <path class="s" d="M104 202L168 202L124.5 233.8Z"/>
+    <path class="s" d="M168 202L168 254L124.5 233.8Z"/>
+    <path class="s" d="M168 254L104 254L124.5 233.8Z"/>
+    <path class="s" d="M104 254L104 202L124.5 233.8Z"/>
+    <path class="s" d="M168 202L232 202L188.5 233.8Z"/>
+    <path class="s" d="M232 202L232 254L188.5 233.8Z"/>
+    <path class="s" d="M232 254L168 254L188.5 233.8Z"/>
+    <path class="s" d="M168 254L168 202L188.5 233.8Z"/>
+    <path class="d" d="M65 76.1L65 78.3M70 72.4L70 80.6M75 68.8L75 82.9M80 65.1L80 85.2M85 61.5L85 87.6M90 57.8L90 89.9M95 54.2L95 92.2M100 50.6L100 94.5M129 76.1L129 78.3M134 72.4L134 80.6M139 68.8L139 82.9M144 65.1L144 85.2M149 61.5L149 87.6M154 57.8L154 89.9M159 54.2L159 92.2M164 50.6L164 94.5M193 76.1L193 78.3M198 72.4L198 80.6M203 68.8L203 82.9M208 65.1L208 85.2M213 61.5L213 87.6M218 57.8L218 89.9M223 54.2L223 92.2M228 50.6L228 94.5M65 128.1L65 130.3M70 124.4L70 132.6M75 120.8L75 134.9M80 117.1L80 137.2M85 113.5L85 139.6M90 109.8L90 141.9M95 106.2L95 144.2M100 102.6L100 146.5M129 128.1L129 130.3M134 124.4L134 132.6M139 120.8L139 134.9M144 117.1L144 137.2M149 113.5L149 139.6M154 109.8L154 141.9M159 106.2L159 144.2M164 102.6L164 146.5M193 128.1L193 130.3M198 124.4L198 132.6M203 120.8L203 134.9M208 117.1L208 137.2M213 113.5L213 139.6M218 109.8L218 141.9M223 106.2L223 144.2M228 102.6L228 146.5M65 180.1L65 182.3M70 176.4L70 184.6M75 172.8L75 186.9M80 169.1L80 189.2M85 165.5L85 191.6M90 161.8L90 193.9M95 158.2L95 196.2M100 154.6L100 198.5M129 180.1L129 182.3M134 176.4L134 184.6M139 172.8L139 186.9M144 169.1L144 189.2M149 165.5L149 191.6M154 161.8L154 193.9M159 158.2L159 196.2M164 154.6L164 198.5M193 180.1L193 182.3M198 176.4L198 184.6M203 172.8L203 186.9M208 169.1L208 189.2M213 165.5L213 191.6M218 161.8L218 193.9M223 158.2L223 196.2M228 154.6L228 198.5M65 232.1L65 234.3M70 228.4L70 236.6M75 224.8L75 238.9M80 221.1L80 241.2M85 217.5L85 243.6M90 213.8L90 245.9M95 210.2L95 248.2M100 206.6L100 250.5M129 232.1L129 234.3M134 228.4L134 236.6M139 224.8L139 238.9M144 221.1L144 241.2M149 217.5L149 243.6M154 213.8L154 245.9M159 210.2L159 248.2M164 206.6L164 250.5M193 232.1L193 234.3M198 228.4L198 236.6M203 224.8L203 238.9M208 221.1L208 241.2M213 217.5L213 243.6M218 213.8L218 245.9M223 210.2L223 248.2M228 206.6L228 250.5"/>
+    <path class="s" d="M328 46L354 72L328 98Z"/>
+    <path class="s" d="M328 98L354 124L328 150Z"/>
+    <path class="s" d="M328 150L354 176L328 202Z"/>
+    <path class="s" d="M328 202L354 228L328 254Z"/>
+  </g>
+  <g data-part="apex">
+    <circle class="h" cx="60.5" cy="77.8" r="8"/>
+    <circle class="p" cx="60.5" cy="77.8" r="2.2"/>
+    <circle class="h" cx="124.5" cy="77.8" r="8"/>
+    <circle class="p" cx="124.5" cy="77.8" r="2.2"/>
+    <circle class="h" cx="188.5" cy="77.8" r="8"/>
+    <circle class="p" cx="188.5" cy="77.8" r="2.2"/>
+    <circle class="h" cx="60.5" cy="129.8" r="8"/>
+    <circle class="p" cx="60.5" cy="129.8" r="2.2"/>
+    <circle class="h" cx="124.5" cy="129.8" r="8"/>
+    <circle class="p" cx="124.5" cy="129.8" r="2.2"/>
+    <circle class="h" cx="188.5" cy="129.8" r="8"/>
+    <circle class="p" cx="188.5" cy="129.8" r="2.2"/>
+    <circle class="h" cx="60.5" cy="181.8" r="8"/>
+    <circle class="p" cx="60.5" cy="181.8" r="2.2"/>
+    <circle class="h" cx="124.5" cy="181.8" r="8"/>
+    <circle class="p" cx="124.5" cy="181.8" r="2.2"/>
+    <circle class="h" cx="188.5" cy="181.8" r="8"/>
+    <circle class="p" cx="188.5" cy="181.8" r="2.2"/>
+    <circle class="h" cx="60.5" cy="233.8" r="8"/>
+    <circle class="p" cx="60.5" cy="233.8" r="2.2"/>
+    <circle class="h" cx="124.5" cy="233.8" r="8"/>
+    <circle class="p" cx="124.5" cy="233.8" r="2.2"/>
+    <circle class="h" cx="188.5" cy="233.8" r="8"/>
+    <circle class="p" cx="188.5" cy="233.8" r="2.2"/>
+    <circle class="h" cx="354" cy="72" r="8"/>
+    <circle class="p" cx="354" cy="72" r="2.2"/>
+    <circle class="h" cx="354" cy="124" r="8"/>
+    <circle class="p" cx="354" cy="124" r="2.2"/>
+    <circle class="h" cx="354" cy="176" r="8"/>
+    <circle class="p" cx="354" cy="176" r="2.2"/>
+    <circle class="h" cx="354" cy="228" r="8"/>
+    <circle class="p" cx="354" cy="228" r="2.2"/>
+  </g>
+  <path class="c" d="M136 36L136 264"/>
+</svg>

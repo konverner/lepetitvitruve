@@ -1,0 +1,23 @@
+name:
+  fr: Corniche
+  en: Cornice
+gender:
+  fr: n.f.
+slug:
+  fr: corniche
+  en: cornice
+aliases:
+  fr: []
+  en: []
+category: ornament
+parts:
+  - { id: wall, label: { fr: Mur } }
+  - { id: bed-molding, label: { fr: Moulures de soutien } }
+  - { id: corona, label: { fr: Larmier } }
+  - { id: cymatium, label: { fr: Cymaise } }
+  - { id: roof, label: { fr: Toit } }
+  - { id: water, label: { fr: Eau de pluie } }
+tags:
+  - style/antique
+  - style/classical
+  - style/renaissance

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none"><style>:root{--_a:#8b1a1a}@media (prefers-color-scheme:dark){:root{--_a:#d04a44}}.s,.d,.g,.c,.o,.h{stroke-linecap:round;stroke-linejoin:round}.s,.d,.g{pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}.g{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.5;stroke-width:1;stroke-dasharray:4 4}.h{fill:transparent;stroke:none}.c,.o{fill:none;pointer-events:none;stroke:var(--graphic-stroke,currentColor);stroke-width:.75}.c{stroke-opacity:.3;stroke-dasharray:3 4}.o{stroke-opacity:.5}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d,.g),[data-part].is-active :is(.s,.d,.g){stroke:var(--accent-interactive,var(--_a));stroke-opacity:1}[data-part]:hover :is(.s,.h),[data-part].is-active :is(.s,.h){fill:color-mix(in srgb,var(--accent-interactive,var(--_a)) 8%,transparent)}</style>
+  <path class="c" d="M76 215V252M324 215V252"/>
+  <g data-part="corniche-inferieure">
+    <path class="s" d="M40 195H360V207H40Z"/>
+    <path class="s" d="M48 207H352V215H48Z"/>
+    <path class="d" d="M40 201H360"/>
+  </g>
+  <g data-part="tympan">
+    <path class="s" d="M56 195L168 106V195Z"/>
+    <path class="s" d="M344 195L232 106V195Z"/>
+    <path class="d" d="M64 195L166 115"/>
+    <path class="d" d="M332 195L234 115"/>
+  </g>
+  <g data-part="rampant-gauche">
+    <path class="s" d="M40 195L168 95V106L56 195Z"/>
+    <path class="d" d="M54 192L166 103"/>
+  </g>
+  <g data-part="rampant-droit">
+    <path class="s" d="M360 195L232 95V106L344 195Z"/>
+    <path class="d" d="M346 192L234 103"/>
+  </g>
+  <g data-part="interruption">
+    <path class="h" d="M168 95L200 76L232 95V195H168Z"/>
+    <path class="g" d="M168 95L200 76L232 95"/>
+    <path class="s" d="M186 195H214L211 187H189Z"/>
+    <path class="s" d="M190 187C184 178 184 164 191 153L197 145H203L209 153C216 164 216 178 210 187Z"/>
+    <path class="s" d="M197 145L200 133L203 145"/>
+    <circle class="s" cx="200" cy="128" r="4"/>
+    <path class="d" d="M197 149H203"/>
+    <path class="d" d="M192 155C187 159 187 167 191 171"/>
+    <path class="d" d="M208 155C213 159 213 167 209 171"/>
+  </g>
+</svg>

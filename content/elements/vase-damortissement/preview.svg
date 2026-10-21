@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
+  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
+  <path stroke-width="2" d="M55.5 20C54.6 16 58 12 60 8C62 12 65.6 16 64.5 20"/>
+  <path stroke-width="1.25" d="M55.5 20L64.5 20L64.5 22.3L55.5 22.3Z"/>
+  <path stroke-width="2" d="M46 29.7C46 25.5 52 22.3 60 22.3C68 22.3 74 25.5 74 29.7"/>
+  <path stroke-width="1.25" d="M44 29.7L76 29.7L76 32.5L44 32.5Z"/>
+  <g>
+    <path stroke-width="2" d="M49 32.5C49 37 38.5 41.5 38.5 52.5C38.5 64 48 69.5 53 75.3L67 75.3C72 69.5 81.5 64 81.5 52.5C81.5 41.5 71 37 71 32.5Z"/>
+    <path stroke-width="1.25" d="M47 36.5A13 1.5 0 0 0 73 36.5"/>
+    <path stroke-width="1.25" d="M40 46A20 3.4 0 0 0 80 46"/>
+  </g>
+  <rect stroke-width="1.25" x="51.5" y="75.3" width="17" height="2.8" rx="1.4"/>
+  <path stroke-width="2" d="M56 78.1C56 81.5 54.3 83 51.4 84.4L68.6 84.4C65.7 83 64 81.5 64 78.1Z"/>
+  <path stroke-width="1.25" d="M49.7 84.4L70.3 84.4L70.3 87.2L49.7 87.2Z"/>
+  <path stroke-width="2" d="M40.6 87.2L79.4 87.2L79.4 91L40.6 91Z"/>
+  <path stroke-width="2" d="M45.5 91L45.5 103M74.5 91L74.5 103"/>
+  <path stroke-width="2" d="M42 103L78 103L78 107.5L42 107.5Z"/>
+</svg>

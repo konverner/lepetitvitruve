@@ -1,0 +1,23 @@
+name:
+  fr: Lucarne jacobine
+  en: Gabled dormer
+gender:
+  fr: n.f.
+slug:
+  fr: lucarne-jacobine
+  en: gabled-dormer
+aliases:
+  fr: [Lucarne à deux pentes, Lucarne à pignon, Lucarne à chevalet]
+  en: [Double-pitched dormer, Gable dormer, Saddle dormer]
+category: opening
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: dormer-roof, label: { fr: Toit de la lucarne } }
+  - { id: ridge, label: { fr: Faîtage } }
+  - { id: cheek, label: { fr: Joue } }
+  - { id: pediment, label: { fr: Fronton } }
+  - { id: frame, label: { fr: Encadrement } }
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: bars, label: { fr: Petits-bois } }
+  - { id: sill, label: { fr: Appui } }
+tags: []

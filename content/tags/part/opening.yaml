@@ -1,0 +1,6 @@
+key: part/opening
+slug: { fr: ouverture, en: opening }
+label: { fr: Ouverture, en: Opening }
+description:
+  fr: "Un élément qui perce un mur : fenêtre, porte ou baie."
+  en: "An element that pierces a wall: window, door or bay."

@@ -1,0 +1,24 @@
+name:
+  fr: Archivolte
+  en: Archivolt
+gender:
+  fr: n.f.
+aliases:
+  fr: [Bandeau d'arcade]
+  en: []
+slug:
+  fr: archivolte
+  en: archivolt
+category: ornament
+parts:
+  - { id: archivolte-billettes, label: { fr: Archivolte à billettes } }
+  - { id: archivolte-chevrons, label: { fr: Archivolte à chevrons } }
+  - { id: archivolte-plain, label: { fr: Archivolte lisse } }
+  - { id: archivolte-rosaces, label: { fr: Archivolte à rosaces } }
+  - { id: jambs, label: { fr: Jambages } }
+tags:
+  - style/romanesque
+  - style/gothic
+  - mood/grand
+  - region/france
+  - region/spain

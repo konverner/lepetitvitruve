@@ -1,0 +1,21 @@
+name:
+  fr: Boule d'amortissement
+  en: Ball finial
+gender:
+  fr: n.f.
+slug:
+  fr: boule-d-amortissement
+  en: ball-finial
+aliases:
+  fr: []
+  en: []
+category: ornament
+tags:
+  - region/europe
+  - style/classical
+  - mood/grand
+  - rarity/medium
+parts:
+  - { id: boule, label: { fr: Boule } }
+  - { id: socle, label: { fr: Socle } }
+  - { id: pilier, label: { fr: Pilier } }

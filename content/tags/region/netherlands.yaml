@@ -1,0 +1,7 @@
+key: region/netherlands
+slug: { fr: pays-bas, en: netherlands }
+label: { fr: "Pays-Bas", en: "Netherlands" }
+description:
+  fr: "Éléments que l'on rencontre dans l'architecture néerlandaise."
+  en: "Elements found in Dutch architecture."
+color: "#fce5cd" # pastel orange

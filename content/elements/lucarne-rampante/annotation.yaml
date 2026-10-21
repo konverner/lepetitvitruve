@@ -1,0 +1,24 @@
+name:
+  fr: Lucarne rampante
+  en: Sloping dormer
+gender:
+  fr: n.f.
+slug:
+  fr: lucarne-rampante
+  en: sloping-dormer
+aliases:
+  fr: [lucarne à chien couché]
+  en: [Double-pitched dormer, Gable dormer, Saddle dormer]
+category: opening
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: dormer-roof, label: { fr: Toit de la lucarne } }
+  - { id: cheek, label: { fr: Joue } }
+  - { id: frame, label: { fr: Encadrement } }
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: bars, label: { fr: Petits-bois } }
+  - { id: sill, label: { fr: Appui } }
+tags:
+  - style/vernacular
+  - region/alsace
+  - region/germany

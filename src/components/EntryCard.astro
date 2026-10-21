@@ -1,0 +1,30 @@
+---
+import CategoryIcon from './CategoryIcon.astro';
+import { loadDiagramSvg } from '../lib/diagram';
+import type { Element } from '../lib/content';
+
+interface Props {
+  element: Element;
+  number: number;
+}
+
+const { element, number } = Astro.props as Props;
+const displayNumber = String(number).padStart(2, '0');
+const previewSvg = loadDiagramSvg(element.id, 'preview.svg');
+---
+
+<li class="card">
+  <a href={`/${element.slug.fr}/`} class="card__link">
+    <span class="card__number" aria-hidden="true">{displayNumber}</span>
+    {
+      previewSvg ? (
+        <span class="card__image" set:html={previewSvg} />
+      ) : (
+        <span class="card__image">
+          <CategoryIcon category={element.category} />
+        </span>
+      )
+    }
+    <span class="card__title">{element.name.fr}</span>
+  </a>
+</li>

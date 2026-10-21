@@ -1,0 +1,37 @@
+---
+import type { Element } from '../lib/content';
+
+interface Props {
+  elements: Element[];
+  currentSlug?: string;
+}
+
+const { elements, currentSlug } = Astro.props as Props;
+---
+
+<aside class="index-list">
+  <div class="index-list__brand">
+    <a href="/" class="index-list__wordmark">Le Petit Vitruve</a>
+    <p class="index-list__eyebrow">Dictionnaire visuel</p>
+  </div>
+  <nav aria-label="Tous les éléments">
+    <ol class="index-list__items">
+      {
+        elements.map((element, i) => (
+          <li>
+            <a
+              href={`/${element.slug.fr}/`}
+              class="index-list__link"
+              aria-current={element.slug.fr === currentSlug ? 'page' : undefined}
+            >
+              <span class="index-list__number" aria-hidden="true">
+                {String(i + 1).padStart(2, '0')}
+              </span>
+              <span>{element.name.fr}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </nav>
+</aside>

@@ -1,0 +1,27 @@
+name:
+  fr: Tourelle
+  en: Turret
+gender:
+  fr: n.f.
+slug:
+  fr: tourelle
+  en: turret
+aliases:
+  fr:
+    - poivrière
+  en: []
+category: support
+tags:
+  - region/france
+  - region/uk
+  - style/medieval
+  - style/renaissance
+  - style/neo-gothic
+  - mood/curious
+  - mood/protective
+  - rarity/uncommon
+parts:
+  - { id: corps, label: { fr: Corps } }
+  - { id: toiture, label: { fr: Toiture } }
+  - { id: cul-de-lampe, label: { fr: Cul-de-lampe } }
+  - { id: fenetre, label: { fr: Fenêtre } }

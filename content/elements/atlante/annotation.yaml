@@ -1,0 +1,31 @@
+name:
+  fr: Atlante
+  en: Atlantean
+gender:
+  fr: n.m.
+slug:
+  fr: atlante
+  en: atlantean
+aliases:
+  fr: [télamon]
+  en: [telamon, atlas]
+category: support
+parts:
+  - { id: capital, label: { fr: Chapiteau } }
+  - { id: entablature, label: { fr: Entablement } }
+  - { id: head, label: { fr: Tête } }
+  - { id: hair, label: { fr: Chevelure } }
+  - { id: arms, label: { fr: Bras } }
+  - { id: torso, label: { fr: Torse } }
+  - { id: loincloth, label: { fr: Pagne } }
+  - { id: legs, label: { fr: Jambes } }
+  - { id: plinth, label: { fr: Socle } }
+tags:
+  - style/antique
+  - style/renaissance
+  - style/mannerism
+  - style/baroque
+  - mood/dramatic
+  - mood/grand
+  - region/europe
+  - rarity/rare

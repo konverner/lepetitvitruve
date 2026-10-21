@@ -1,0 +1,7 @@
+key: category/openings-niches
+slug: { fr: baies-et-niches, en: openings-and-niches }
+label: { fr: Baies et niches, en: Openings and niches }
+description:
+  fr: "Catégorie regroupant les différentes ouvertures et niches architecturales."
+  en: "Category grouping various architectural openings and niches."
+color: "#f8e1c8"

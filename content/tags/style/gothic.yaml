@@ -1,0 +1,7 @@
+key: style/gothic
+slug: { fr: gothique, en: gothic }
+label: { fr: "Gothique", en: "Gothic" }
+description:
+  fr: "Architecture médiévale marquée par l'arc brisé, la voûte d'ogives et l'élancement des formes."
+  en: "Medieval architecture marked by the pointed arch, the rib vault and soaring forms."
+color: "#d8d9ee"

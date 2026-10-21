@@ -1,0 +1,7 @@
+key: mood/protective
+slug: { fr: protecteur, en: protective }
+label: { fr: "Protecteur", en: "Protective" }
+description:
+  fr: "On se sent à l'abri et protégé."
+  en: "One feels sheltered and protected."
+color: "#d9e8f2"

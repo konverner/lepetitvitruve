@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <style>:root{--_a:transparent}.a{stroke:var(--accent-interactive,var(--_a))}</style>
+  <path d="M38.325 87A67.635 67.635 0 0 1 141.675 87Z" stroke="none" fill="transparent"/>
+  <path stroke-width="3" d="M45 100.5L135 100.5L135 114L45 114Z"/>
+  <path stroke-width="3" d="M36 94.5L144 94.5L144 100.5L36 100.5Z"/>
+  <path stroke-width="3" d="M27 87L153 87L153 94.5L27 94.5Z"/>
+  <path stroke-width="3" d="M27 87A76.635 76.635 0 0 1 153 87L141.675 87A67.635 67.635 0 0 0 38.325 87Z"/>
+  <path stroke-width="1.875" d="M32.55 87A72.135 72.135 0 0 1 147.45 87"/>
+</svg>

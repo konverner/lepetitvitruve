@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none"><style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:2.34}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:1.17}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+<g transform="translate(73.2 8) scale(0.64)">
+  <g data-part="stylobate">
+    <path class="s" d="M14 556H226V576H14Z"/>
+    <path class="s" d="M0 576H240V600H0Z"/>
+  </g>
+  <g data-part="base">
+    <rect class="s" x="64" y="536" width="112" height="20"/>
+    <rect class="s" x="68" y="522" width="104" height="14" rx="7"/>
+    <rect class="s" x="76" y="518" width="88" height="4"/>
+  </g>
+  <g data-part="shaft">
+    <path class="s" d="M80 518C81 400 85 260 88 140H152C155 260 159 400 160 518Z"/>
+    <path class="d" d="M82 410Q120 418 158 410M85 280Q120 287 155 280"/>
+  </g>
+  <g data-part="necking">
+    <rect class="s" x="86" y="132" width="68" height="8" rx="4"/>
+    <path class="s" d="M90 132V118M150 132V118"/>
+  </g>
+  <g data-part="echinus">
+    <path class="s" d="M90 118C90 108 80 102 68 100H172C160 102 150 108 150 118Z"/>
+  </g>
+  <g data-part="abacus">
+    <rect class="s" x="62" y="84" width="116" height="16"/>
+  </g>
+  <g data-part="entablature">
+    <path class="s" d="M58 84V56H182V84"/>
+    <path class="s" d="M58 56V34H182V56"/>
+    <rect class="s" x="52" y="28" width="136" height="6"/>
+    <rect class="s" x="42" y="14" width="156" height="14"/>
+    <rect class="s" x="46" y="6" width="148" height="8"/>
+    <path class="d" d="M58 62H182"/>
+  </g>
+</g>
+</svg>

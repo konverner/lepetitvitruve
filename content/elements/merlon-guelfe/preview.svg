@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="2" d="M10 94L98 94L98 101L10 101Z"/>
+  <path stroke-width="1.25" d="M98 94L108 89L108 96L98 101M104 89L108 89"/>
+  <path stroke-width="2" d="M14 94L14 38L30 38L30 66L46 66L46 38L62 38L62 66L78 66L78 38L94 38L94 94Z"/>
+  <path stroke-width="2" d="M14 38L24 33L40 33L30 38ZM46 38L56 33L72 33L62 38ZM78 38L88 33L104 33L94 38Z"/>
+  <path stroke-width="1.25" d="M94 38L104 33L104 89L94 94"/>
+  <path stroke-width="1.25" d="M30 38L40 33L40 61L30 66M62 38L72 33L72 61L62 66"/>
+  <path stroke-width="1.25" d="M30 66L46 66L46 61L40 61ZM62 66L78 66L78 61L72 61Z"/>
+  <path stroke-width="1.25" d="M14 52L30 52M46 52L62 52M78 52L94 52M14 66L94 66M14 80L94 80M94 52L104 47M94 66L104 61M94 80L104 75"/>
+</svg>

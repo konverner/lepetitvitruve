@@ -1,0 +1,26 @@
+name:
+  fr: Lucarne normande
+  en: Norman dormer
+gender:
+  fr: n.f.
+slug:
+  fr: lucarne-normande
+  en: norman-dormer
+aliases:
+  fr: [lucarne à demi-croupe]
+  en: []
+category: opening
+tags:
+  - style/vernacular
+  - region/normandy
+  - mood/cozy
+  - rarity/rare
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: hip, label: { fr: Demi-croupe, en: Hip } }
+  - { id: dormer-roof, label: { fr: Toit de la lucarne } }
+  - { id: ridge, label: { fr: Faîtage } }
+  - { id: cheek, label: { fr: Joue } }
+  - { id: frame, label: { fr: Encadrement } }
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: sill, label: { fr: Appui } }

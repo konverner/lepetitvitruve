@@ -1,0 +1,31 @@
+name:
+  fr: Cariatide
+  en: Caryatid
+gender:
+  fr: n.f.
+slug:
+  fr: cariatide
+  en: caryatid
+aliases:
+  fr: []
+  en: []
+category: support
+parts:
+  - { id: capital, label: { fr: Chapiteau } }
+  - { id: entablature, label: { fr: Entablement } }
+  - { id: head, label: { fr: Tête } }
+  - { id: hair, label: { fr: Chevelure } }
+  - { id: arms, label: { fr: Bras } }
+  - { id: torso, label: { fr: Torse } }
+  - { id: upper-drapery, label: { fr: Drapé supérieur } }
+  - { id: lower-drapery, label: { fr: Drapé inférieur } }
+  - { id: feet, label: { fr: Pieds } }
+  - { id: plinth, label: { fr: Socle } }
+tags:
+  - style/antique
+  - style/renaissance
+  - style/baroque
+  - region/europe
+  - mood/grand
+  - mood/curious
+  - rarity/rare

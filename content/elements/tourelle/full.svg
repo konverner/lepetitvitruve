@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g aria-hidden="true">
+    <path class="d" d="M0 56H144.5M155.5 56H300M0 84H130.5M169.5 84H300M0 112H112.8M187.2 112H300M0 140H108M192 140H300M0 168H108M192 168H300M0 196H108M192 196H300M0 224H108M192 224H300M0 252H102M198 252H300M0 280H115.5M184.5 280H300M0 308H129M171 308H300M0 336H147.3M152.7 336H300M0 372H300"/>
+  </g>
+  <g data-part="corps">
+    <path class="s" d="M108 138V250M192 138V250"/>
+    <path class="d" d="M133 138V250M167 138V250"/>
+    <rect x="108" y="138" width="84" height="112" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="toiture">
+    <path class="s" d="M98 132C114 112 142 72 150 40C158 72 186 112 202 132Z"/>
+    <path class="s" d="M100 132H200V138H100Z"/>
+    <path class="s" d="M150 40V34.5M150 27.5V12M150 12L160 15.5L150 19"/>
+    <circle class="s" cx="150" cy="31" r="3.5"/>
+    <path class="d" d="M128.5 132C135.1 112 146.7 72 150 40M171.5 132C164.9 112 153.3 72 150 40"/>
+    <path class="d" d="M112 114H188M127 90.5H173M141 65H159"/>
+  </g>
+  <g data-part="cul-de-lampe">
+    <path class="s" d="M102 250H198V257H102Z"/>
+    <path class="s" d="M108 257H192V263H108Z"/>
+    <path class="s" d="M112 263C114 290 130 310 150 340C170 310 186 290 188 263"/>
+    <path class="d" d="M116 282H184M124.3 300.4H175.7M135.9 319.1H164.1M144.1 331.3H155.9"/>
+    <path class="d" d="M134.3 263C135.1 290 141.7 310 150 340M165.7 263C164.9 290 158.3 310 150 340"/>
+  </g>
+  <g data-part="fenetre">
+    <path class="s" d="M139 228V183A11 11 0 0 1 161 183V228"/>
+    <path class="s" d="M135 228H165V233H135Z"/>
+    <path class="d" d="M150 172V228M139 204H161"/>
+  </g>
+</svg>

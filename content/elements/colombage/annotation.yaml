@@ -1,0 +1,25 @@
+name:
+  fr: Colombage
+  en: Half-timbering
+gender:
+  fr: n.m.
+slug:
+  fr: colombage
+  en: half-timbering
+aliases:
+  fr: []
+  en: []
+category: structure
+tags:
+  - region/france
+  - region/germany
+  - region/uk
+  - style/medieval
+  - style/vernacular
+  - mood/cozy
+  - rarity/common
+parts:
+  - { id: poteau, label: { fr: Poteau } }
+  - { id: decharge, label: { fr: Décharge } }
+  - { id: hourdage, label: { fr: Hourdage } }
+  - { id: sabliere, label: { fr: Sablière } }

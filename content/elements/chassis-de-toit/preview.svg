@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke-width="2" d="M6 92L66 92L108.4 29.2L48.4 29.2Z"/>
+  <path stroke-width="2" d="M6 92L66 92L69.5 94L9.5 94ZM66 92L108.4 29.2L111.9 31.2L69.5 94Z"/>
+  <path stroke-width="1.25" stroke-opacity=".55" d="M13.1 81.5L73.1 81.5M20.1 71.1L33.1 71.1M67.1 71.1L80.1 71.1M27.2 60.6L40.2 60.6M74.2 60.6L87.2 60.6M34.3 50.1L47.3 50.1M81.3 50.1L94.3 50.1M41.3 39.6L101.3 39.6"/>
+  <path stroke-width="1.25" stroke-opacity=".55" d="M16 92L23.1 81.5M46 92L53.1 81.5M68.1 81.5L75.1 71.1M30.1 71.1L37.2 60.6M82.2 60.6L89.3 50.1M44.3 50.1L51.3 39.6M66.3 39.6L73.4 29.2M96.3 39.6L103.4 29.2"/>
+  <path stroke-width="1.25" d="M28.7 77.6L62.7 77.6L85.7 43.6L51.7 43.6Z"/>
+  <path stroke-width="2" d="M36.6 70.1L60.6 70.1L74.7 49.2L50.7 49.2ZM38.1 71.1L62.1 71.1L60.6 70.1L36.6 70.1ZM62.1 71.1L76.3 50.1L74.7 49.2L60.6 70.1Z"/>
+  <path stroke-width="2" d="M42.9 64.1L58.9 64.1L65.9 53.7L49.9 53.7ZM44.1 64.9L60.1 64.9L58.9 64.1L42.9 64.1ZM60.1 64.9L67.2 54.4L65.9 53.7L58.9 64.1Z"/>
+  <path stroke-width="1.25" d="M47.6 61.5L57.6 61.5L61.1 56.3L51.1 56.3Z"/>
+  <path stroke-width="1.25" d="M49.9 61.1L55.9 56.7"/>
+</svg>

@@ -1,0 +1,7 @@
+key: region/europe
+slug: { fr: europe, en: europe }
+label: { fr: Europe, en: Europe }
+description:
+  fr: "Éléments répandus dans l'architecture européenne."
+  en: "Elements widespread in European architecture."
+color: "#dcebd8"

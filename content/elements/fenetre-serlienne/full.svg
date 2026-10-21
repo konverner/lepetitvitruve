@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+<style>.s,.d,.h{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}.h{fill:transparent;stroke:none}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <g data-part="wall">
+    <rect class="h" x="0" y="0" width="400" height="290"/>
+    <path class="d" d="M0 30H400M0 50H400M0 70H400M0 90H400M0 110H163.3M236.7 110H400M0 130H145.7M254.3 130H400M0 150H138.8M261.2 150H400M0 170H68M332 170H400M0 190H72M328 190H400M0 210H72M328 210H400M0 230H72M328 230H400M0 250H72M328 250H400M0 270H72M328 270H400"/>
+  </g>
+  <path class="s" d="M0 290L400 290"/>
+  <g data-part="sill">
+    <path class="s" d="M64 280H336V290H64Z"/>
+  </g>
+  <g data-part="side-openings">
+    <path class="s" d="M86 172H136V280H86Z"/>
+    <path class="s" d="M264 172H314V280H264Z"/>
+  </g>
+  <g data-part="central-bay">
+    <path class="s" d="M150 280V160A50 50 0 0 1 250 160V280Z"/>
+  </g>
+  <g data-part="supports">
+    <path class="s" d="M72 172H86V280H72Z"/>
+    <path class="s" d="M136 172H150V280H136Z"/>
+    <path class="s" d="M250 172H264V280H250Z"/>
+    <path class="s" d="M314 172H328V280H314Z"/>
+    <path class="d" d="M72 178H86M72 274H86M79 184V268M136 178H150M136 274H150M143 184V268M250 178H264M250 274H264M257 184V268M314 178H328M314 274H328M321 184V268"/>
+  </g>
+  <g data-part="lintel">
+    <path class="s" d="M68 160H150V172H68Z"/>
+    <path class="s" d="M250 160H332V172H250Z"/>
+  </g>
+  <g data-part="arch">
+    <path class="s r" d="M138 160A62 62 0 0 1 191 98.66L195 110.25A50 50 0 0 0 150 160Z"/>
+    <path class="s r" d="M209 98.66A62 62 0 0 1 262 160H250A50 50 0 0 0 205 110.25Z"/>
+  </g>
+  <g data-part="keystone">
+    <path class="s" d="M189.4 94H210.6L205 110.25A50 50 0 0 0 195 110.25Z"/>
+  </g>
+</svg>

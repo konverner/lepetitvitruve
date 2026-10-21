@@ -1,0 +1,26 @@
+name:
+  fr: Perron
+  en: Perron
+gender:
+  fr: n.m.
+slug:
+  fr: perron
+  en: perron
+aliases:
+  fr:
+    - escalier d'honneur
+    - degré
+  en:
+    - entrance steps
+    - front steps
+category: opening
+tags:
+  - region/europe
+  - style/baroque
+  - style/gothic
+  - mood/grand
+  - rarity/common
+parts:
+  - { id: garde-corps, label: { fr: Garde-corps } }
+  - { id: marches, label: { fr: Marches } }
+  - { id: palier, label: { fr: Palier } }

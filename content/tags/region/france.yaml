@@ -1,0 +1,7 @@
+key: region/france
+slug: { fr: france, en: france }
+label: { fr: "France", en: "France" }
+description:
+  fr: "Éléments que l'on rencontre dans l'architecture française."
+  en: "Elements found in French architecture."
+color: "#87a9e0" # Blue of France

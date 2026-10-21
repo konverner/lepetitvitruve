@@ -1,0 +1,7 @@
+key: region/scandinavia
+slug: { fr: scandinavie, en: scandinavia }
+label: { fr: "Scandinavie", en: "Scandinavia" }
+description:
+  fr: "Éléments caractéristiques de l'architecture régionale scandinave."
+  en: "Elements characteristic of regional Scandinavian architecture."
+color: "#cfe2f0" # pastel white

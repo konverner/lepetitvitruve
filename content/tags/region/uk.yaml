@@ -1,0 +1,7 @@
+key: region/uk
+slug: { fr: royaume-uni, en: uk }
+label: { fr: "Royaume-Uni", en: "United Kingdom" }
+description:
+  fr: "Éléments que l'on rencontre dans l'architecture du Royaume-Uni."
+  en: "Elements found in United Kingdom architecture."
+color: "#f4cccc" # pastel red

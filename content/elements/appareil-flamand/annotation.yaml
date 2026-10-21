@@ -1,0 +1,25 @@
+name:
+  fr: Appareil flamand
+  en: Flemish bond
+gender:
+  fr: n.m.
+slug:
+  fr: appareil-flamand
+  en: flemish-bond
+aliases:
+  fr:
+    - Appareillage flamand
+  en: []
+category: structure
+tags:
+  - region/france
+  - region/netherlands
+  - style/baroque
+  - style/industrial
+  - mood/raw
+  - rarity/common
+parts:
+  - { id: panneresse, label: { fr: Panneresses } }
+  - { id: boutisse, label: { fr: Boutisses } }
+  - { id: assise, label: { fr: Assises horizontales } }
+  - { id: joint, label: { fr: Joints de mortier } }

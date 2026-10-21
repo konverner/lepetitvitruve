@@ -1,0 +1,7 @@
+key: style/flemish
+slug: { fr: flamand, en: flemish }
+label: { fr: "Flamand", en: "Flemish" }
+description:
+  fr: "Architecture des anciens Pays-Bas méridionaux, à pignons et appareils de brique."
+  en: "Architecture of the historic southern Low Countries, with gables and brickwork."
+color: "#f2e0c8"

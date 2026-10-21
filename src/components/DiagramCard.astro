@@ -1,0 +1,40 @@
+---
+import CategoryIcon from './CategoryIcon.astro';
+import { loadDiagramSvg } from '../lib/diagram';
+import type { Element } from '../lib/content';
+
+interface Props {
+  element: Element;
+}
+
+const { element } = Astro.props as Props;
+const svgMarkup = loadDiagramSvg(element.id, 'full.svg') ?? loadDiagramSvg(element.id, 'preview.svg');
+const partLabels = Object.fromEntries((element.parts ?? []).map((part) => [part.id, part.label.fr]));
+const hint = 'Survolez ou touchez un élément';
+---
+
+<div class="diagram-card" data-diagram data-part-labels={JSON.stringify(partLabels)} data-hint={hint}>
+  {
+    svgMarkup ? (
+      <>
+        <div class="diagram-card__svg" set:html={svgMarkup} />
+        <div class="diagram-card__caption">
+          <p class="diagram-card__label is-hint" data-diagram-label aria-live="polite">
+            {hint}
+          </p>
+        </div>
+      </>
+    ) : (
+      <div class="diagram-card__placeholder">
+        <span class="diagram-card__placeholder-icon">
+          <CategoryIcon category={element.category} />
+        </span>
+        <p class="diagram-card__placeholder-text">Diagramme à venir</p>
+      </div>
+    )
+  }
+</div>
+
+<script>
+  import '../scripts/diagram.ts';
+</script>

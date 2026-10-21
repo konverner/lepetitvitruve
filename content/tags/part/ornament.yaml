@@ -1,0 +1,6 @@
+key: part/ornament
+slug: { fr: ornement, en: ornament }
+label: { fr: Ornement, en: Ornament }
+description:
+  fr: "Un élément qui décore ou couronne une façade sans porter de charge essentielle."
+  en: "An element that decorates or crowns a facade without carrying an essential load."

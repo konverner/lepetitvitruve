@@ -1,0 +1,53 @@
+---
+import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import IndexList from '../components/IndexList.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import TitleRow from '../components/TitleRow.astro';
+import DiagramCard from '../components/DiagramCard.astro';
+import AnnotationsCard from '../components/AnnotationsCard.astro';
+import MarkdownCard from '../components/MarkdownCard.astro';
+import '../styles/index.css';
+import '../styles/element.css';
+import { getAllElements } from '../lib/content';
+
+interface Props {
+  entry: CollectionEntry<'elements'>;
+}
+
+const { entry } = Astro.props as Props;
+const element = { ...entry.data, id: entry.id };
+const elements = await getAllElements();
+const markdownModules = import.meta.glob<{ default: AstroComponentFactory }>(
+  '../../content/elements/*/fr.md',
+  { eager: true },
+);
+const markdownModule = markdownModules[`../../content/elements/${element.id}/fr.md`];
+const Content = markdownModule?.default;
+
+const description = `${element.name.fr} : planche annotée et définition — dictionnaire visuel d'architecture.`;
+---
+
+<BaseLayout title={`${element.name.fr} — Le Petit Vitruve`} description={description}>
+  <div class="shell">
+    <input type="checkbox" id="nav-toggle" class="visually-hidden nav-toggle-input" />
+    <SiteHeader />
+    <IndexList elements={elements} currentSlug={element.slug.fr} />
+    <label for="nav-toggle" class="scrim" aria-hidden="true"></label>
+    <main class="content element-page">
+      <TitleRow element={element} />
+      <div class="stage">
+        <div class="stage__aside">
+          <DiagramCard element={element} />
+          <AnnotationsCard element={element} />
+        </div>
+        <MarkdownCard>
+          {Content && <Content />}
+        </MarkdownCard>
+      </div>
+    </main>
+    <SiteFooter />
+  </div>
+</BaseLayout>

@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import IndexList from '../components/IndexList.astro';
+import EntryCard from '../components/EntryCard.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import '../styles/index.css';
+import { getAllElements } from '../lib/content';
+
+const elements = await getAllElements();
+const count = elements.length;
+---
+
+<BaseLayout
+  title="Le Petit Vitruve — Dictionnaire visuel d'architecture"
+  description="Un dictionnaire visuel du vocabulaire de l'architecture : une planche annotée et une définition claire pour chaque élément."
+>
+  <div class="shell">
+    <input type="checkbox" id="nav-toggle" class="visually-hidden nav-toggle-input" />
+    <SiteHeader />
+    <IndexList elements={elements} />
+    <label for="nav-toggle" class="scrim" aria-hidden="true"></label>
+    <main class="content">
+      <div class="hero">
+        <hr class="hero__rule" />
+        <p class="hero__eyebrow">Dictionnaire visuel · {count} éléments · <a href="/about/" class="hero__link">À propos</a></p>
+      </div>
+      <ol class="grid">
+        {elements.map((element, i) => <EntryCard element={element} number={i + 1} />)}
+      </ol>
+    </main>
+    <SiteFooter />
+  </div>
+</BaseLayout>

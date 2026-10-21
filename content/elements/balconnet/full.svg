@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none" class="lpv"><style>.lpv{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g data-part="wall">
+    <path class="d" d="M0 42H118M282 42H400M0 70H118M282 70H400M0 98H118M282 98H400M0 126H118M282 126H400M0 154H118M282 154H400M0 182H118M282 182H400M0 210H118M282 210H400M0 238H118M282 238H400M0 266H118M282 266H400M0 300H400"/>
+    <rect x="0" y="0" width="118" height="270" fill="transparent" stroke="none" pointer-events="all"/>
+    <rect x="282" y="0" width="118" height="270" fill="transparent" stroke="none" pointer-events="all"/>
+    <rect x="0" y="288" width="400" height="32" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="frame">
+    <path class="s" d="M118 270L118 14L282 14L282 270L270 270L270 26L130 26L130 270Z"/>
+  </g>
+  <g data-part="window">
+    <path class="s" d="M134 270L134 30L266 30L266 270"/>
+    <path class="s" d="M198 30L198 196M202 30L202 196"/>
+    <path class="d" d="M134 90L266 90M134 150L266 150"/>
+  </g>
+  <g data-part="planter">
+    <path class="s" d="M144 251L168 251L168 257L144 257Z"/>
+    <path class="s" d="M146.5 257L149 273L163 273L165.5 257"/>
+    <path class="s" d="M156 251C156 236 150 228 142 222M156 251C156 232 158 220 156 208M156 251C156 238 162 232 168 229"/>
+    <path class="s" d="M142 222Q136 214 146 212Q148 218 142 222ZM156 208Q150 200 156 194Q162 200 156 208ZM168 229Q168 221 174 221Q175 226 168 229Z"/>
+    <rect x="140" y="190" width="34" height="84" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="bars">
+    <path class="s" d="M142 203L142 273M258 203L258 273M152 203L152 262M164 203L164 262M236 203L236 262M248 203L248 262"/>
+    <path class="s" d="M142 262L258 262L258 267L142 267Z"/>
+    <rect x="138" y="203" width="124" height="64" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="scrolls">
+    <path class="s" d="M200 203L200 262"/>
+    <path class="s" d="M200 210C176 210 172 238 189 240C199 241 199 229 191 229M200 210C224 210 228 238 211 240C201 241 201 229 209 229"/>
+    <rect x="170" y="205" width="60" height="56" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="handrail">
+    <path class="s" d="M136 196L264 196L264 203L136 203Z"/>
+  </g>
+  <g data-part="ledge">
+    <path class="s" d="M112 270L288 270L279 275L103 275Z"/>
+    <path class="s" d="M103 275L279 275L279 287L103 287Z"/>
+    <path class="s" d="M288 270L279 275L279 287L288 282Z"/>
+  </g>
+</svg>

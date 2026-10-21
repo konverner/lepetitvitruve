@@ -1,0 +1,7 @@
+key: style/renaissance
+slug: { fr: renaissance, en: renaissance }
+label: { fr: "Renaissance", en: "Renaissance" }
+description:
+  fr: "Style européen des XVe et XVIe siècles fondé sur l'ordre, la symétrie et les modèles antiques."
+  en: "European style of the 15th and 16th centuries based on order, symmetry and classical models."
+color: "#e5daf2"

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" class="lpv" xmlns:c2pa="http://c2pa.org/manifest">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <path class="d" d="M0 322L139 322M161 322L300 322M0 334L300 334M30 322L30 334M90 322L90 334M210 322L210 334M270 322L270 334M0 348L300 348M0 362L300 362M0 376L300 376M0 390L300 390M25 334L25 348M75 334L75 348M125 334L125 348M175 334L175 348M225 334L225 348M275 334L275 348M50 348L50 362M100 348L100 362M150 348L150 362M200 348L200 362M250 348L250 362M25 362L25 376M75 362L75 376M125 362L125 376M175 362L175 376M225 362L225 376M275 362L275 376M50 376L50 390M100 376L100 390M150 376L150 390M200 376L200 390M250 376L250 390M25 390L25 400M75 390L75 400M125 390L125 400M175 390L175 400M225 390L225 400M275 390L275 400M0 390L300 390"/>
+  <g data-part="motif">
+    <path class="s" d="M218.75 68.5L206.25 62.25C206.25 58.5 205 56 202.5 54.75A3.75 7.5 0 0 0 195 54.12A3.75 8.75 0 0 0 187.5 54.75A3.75 6.88 0 0 0 181.88 59.12C178.75 62.25 178.75 66 180 69.75C177.5 79.75 170 92.25 157.5 99.75C152.5 101 147.5 101 142.5 97.25C137.5 79.75 117.5 64.75 95 39.75C100 64.75 115 94.75 127.5 109.75C107.5 109.75 85 97.25 77.5 69.75C77.5 94.75 92.5 117.25 120 119.75C102.5 122.25 85 117.25 77.5 102.25C82.5 122.25 95 134.75 117.5 129.75C125 142.25 142.5 151 165 151C185 151 200 134.75 201.25 114.75C200 107.25 198.75 97.25 202.5 89.75C208.75 89.75 211.25 82.25 206.25 76L206.25 73.5L218.75 68.5Z"/>
+    <path class="d" d="M182.5 109.75C172.5 102.25 155 104.75 145 114.75C140 121 137.5 126 135 129.75C152.5 132.25 172.5 129.75 182.5 109.75Z"/>
+    <path class="d" d="M160 112.25C157.5 117.25 152.5 122.25 147.5 126M170 113.5C167.5 119.75 162.5 124.75 157.5 128.5"/>
+    <path class="s" d="M147.5 151L147.5 167M170 151L170 167M147.5 161L141 167M147.5 161L154 167M170 161L163.5 167M170 161L176.5 167"/>
+    <circle class="s" cx="196.25" cy="62.25" r="1.5"/>
+    <rect x="74" y="34" width="148" height="133" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="fleche">
+    <path class="s" d="M72 167L228 167L228 173L72 173Z"/>
+    <path class="s" d="M228 160L258 170L228 180Z"/>
+    <path class="d" d="M228 170L250 170"/>
+    <path class="s" d="M72 168L46 150L58 170L46 190L72 172Z"/>
+    <rect x="72" y="167" width="156" height="10" fill="transparent" stroke="none" pointer-events="all"/>
+    <rect x="42" y="146" width="34" height="48" fill="transparent" stroke="none" pointer-events="all"/>
+    <rect x="226" y="156" width="36" height="28" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="axe">
+    <circle class="s" cx="150" cy="179" r="6"/>
+    <path class="s" d="M148 185L148 196M152 185L152 196"/>
+    <path class="s" d="M144 196L156 196L156 200L144 200Z"/>
+    <path class="s" d="M148 200L148 244M152 200L152 244"/>
+    <path class="s" d="M148 256L148 306M152 256L152 306"/>
+    <path class="s" d="M143 306L157 306L161 322L139 322Z"/>
+    <path d="M150 173L150 322" fill="none" stroke="transparent" stroke-width="14" pointer-events="stroke"/>
+  </g>
+  <g data-part="points-cardinaux">
+    <circle class="s" cx="150" cy="250" r="6"/>
+    <path class="s" d="M101 250L144 250M156 250L199 250"/>
+    <path class="s" d="M128 261L144.5 253.5M155.5 246.5L172 239"/>
+    <circle class="s" cx="98.5" cy="250" r="2.5"/>
+    <circle class="s" cx="201.5" cy="250" r="2.5"/>
+    <circle class="s" cx="126" cy="262" r="2.5"/>
+    <circle class="s" cx="174" cy="238" r="2.5"/>
+    <path class="s" style="stroke-width:1.1" d="M82.0 244.5A4.0 5.5 0 1 0 82.0 255.5A4.0 5.5 0 1 0 82.0 244.5Z"/>
+    <path class="s" style="stroke-width:1.1" d="M222 244.5L214 244.5L214 255.5L222 255.5M214 250.0L220 250.0"/>
+    <path class="s" style="stroke-width:1.1" d="M121 266C121 263 113 263 113 267C113 270 121 269 121 272.5C121 276 113 276 113 273"/>
+    <path class="s" style="stroke-width:1.1" d="M176 235.5L176 224.5L184 235.5L184 224.5"/>
+    <path d="M72 250L228 250" fill="none" stroke="transparent" stroke-width="18" pointer-events="stroke"/>
+    <path d="M112 266L184 232" fill="none" stroke="transparent" stroke-width="18" pointer-events="stroke"/>
+  </g>
+</svg>

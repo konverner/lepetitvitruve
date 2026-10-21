@@ -1,0 +1,7 @@
+key: style/victorian
+slug: { fr: victorien, en: victorian }
+label: { fr: "Victorien", en: "Victorian" }
+description:
+  fr: "Style britannique du XIXe siècle, riche en ornements et en références historiques."
+  en: "19th-century British style, rich in ornament and historical references."
+color: "#f0dcec"

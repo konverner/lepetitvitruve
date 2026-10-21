@@ -1,0 +1,7 @@
+key: style/antique
+slug: { fr: antique, en: antique }
+label: { fr: "Antique", en: "Antique" }
+description:
+  fr: "Formes héritées de l'architecture et romaine de l'Antiquité."
+  en: "Forms inherited from the Greek and Roman architecture of antiquity."
+color: "#d6e2f0"

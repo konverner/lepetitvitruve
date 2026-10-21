@@ -1,0 +1,71 @@
+<svg viewBox="0 0 500 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Frise</title>
+  <desc id="desc">Élévation détaillée d'une frise : large bande horizontale continue, portant un motif répété de losanges perlés, placée sous la corniche et au-dessus de l'architrave et des colonnes.</desc>
+  <!-- Cornice: projects beyond the wall to shelter it -->
+  <g data-part="corniche" class="part-shape">
+    <rect x="40" y="204" width="420" height="26"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linejoin="round"/>
+    <line x1="40" y1="217" x2="460" y2="217"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Frieze: wide continuous band, flat against the facade -->
+  <g data-part="frise" class="part-shape">
+    <rect x="50" y="230" width="400" height="110"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linejoin="round"/>
+    <line x1="50" y1="242" x2="450" y2="242"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+    <line x1="50" y1="328" x2="450" y2="328"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Repeating motif: beaded lozenges separated by ticks -->
+  <g data-part="motifs" class="part-shape">
+    <path d="M59 285 L75 259 L91 285 L75 311 Z M109 285 L125 259 L141 285 L125 311 Z M159 285 L175 259 L191 285 L175 311 Z M209 285 L225 259 L241 285 L225 311 Z M259 285 L275 259 L291 285 L275 311 Z M309 285 L325 259 L341 285 L325 311 Z M359 285 L375 259 L391 285 L375 311 Z M409 285 L425 259 L441 285 L425 311 Z"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+    <path d="M100 272 L100 298 M150 272 L150 298 M200 272 L200 298 M250 272 L250 298 M300 272 L300 298 M350 272 L350 298 M400 272 L400 298"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3"
+          stroke-linecap="round" opacity="0.9"/>
+    <circle cx="75" cy="285" r="6"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="125" cy="285" r="6"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="175" cy="285" r="6"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="225" cy="285" r="6"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="275" cy="285" r="6"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="325" cy="285" r="6"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="375" cy="285" r="6"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="425" cy="285" r="6"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+  </g>
+
+  <!-- Architrave: plain beam carrying the frieze -->
+  <g data-part="architrave" class="part-shape">
+    <rect x="50" y="340" width="400" height="40"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Supports: column shafts under the architrave -->
+  <g data-part="colonnes" class="part-shape">
+    <path d="M80 600 L80 380 M130 380 L130 600 M370 600 L370 380 M420 380 L420 600"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="74" y1="396" x2="136" y2="396"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+    <line x1="364" y1="396" x2="426" y2="396"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+  </g>
+</svg>

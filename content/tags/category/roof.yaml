@@ -1,0 +1,7 @@
+key: category/roof
+slug: { fr: toit, en: roof }
+label: { fr: "Toit", en: "Roof" }
+description:
+  fr: "Catégorie regroupant les différents éléments architecturaux liés aux toits."
+  en: "Category grouping various architectural elements related to roofs."
+color: "#f8e1c8"

@@ -1,0 +1,37 @@
+---
+import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import IndexList from '../components/IndexList.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import '../styles/index.css';
+import '../styles/about.css';
+import { getAllElements } from '../lib/content';
+
+const elements = await getAllElements();
+const aboutModules = import.meta.glob<{ default: AstroComponentFactory }>(
+  '../../content/about/fr.md',
+  { eager: true },
+);
+const aboutPage = aboutModules['../../content/about/fr.md'];
+if (!aboutPage) throw new Error('content/about/fr.md is missing');
+const Content = aboutPage.default;
+---
+
+<BaseLayout
+  title="À propos — Le Petit Vitruve"
+  description="Le Petit Vitruve : un dictionnaire visuel du vocabulaire de l'architecture."
+>
+  <div class="shell">
+    <input type="checkbox" id="nav-toggle" class="visually-hidden nav-toggle-input" />
+    <SiteHeader />
+    <IndexList elements={elements} />
+    <label for="nav-toggle" class="scrim" aria-hidden="true"></label>
+    <main class="content">
+      <article class="about-prose">
+        <Content />
+      </article>
+    </main>
+    <SiteFooter />
+  </div>
+</BaseLayout>

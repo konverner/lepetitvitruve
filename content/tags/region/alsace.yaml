@@ -1,0 +1,7 @@
+key: region/alsace
+slug: { fr: alsace, en: alsace }
+label: { fr: "Alsace", en: "Alsace" }
+description:
+  fr: "Éléments caractéristiques de l'architecture régionale alsacienne."
+  en: "Elements characteristic of regional Alsatian architecture."
+color: "#f4d9cc"

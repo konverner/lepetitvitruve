@@ -1,0 +1,55 @@
+<svg viewBox="0 200 500 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Arc plein cintre</title>
+  <desc id="desc">Élévation détaillée d'un arc plein cintre : deux piédroits verticaux portant une voussure en demi-cercle parfait, appareillée de claveaux rayonnants.</desc>
+
+  <!-- Ground / stone floor reference -->
+  <g data-part="sol" class="part-shape">
+    <line x1="65" y1="650" x2="435" y2="650"
+          stroke="var(--text-muted, currentColor)" stroke-width="1.5"
+          stroke-linecap="round" opacity="0.55"/>
+    <line x1="90" y1="656" x2="410" y2="656"
+          stroke="var(--text-muted, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- Piers -->
+  <g data-part="piedroits" class="part-shape">
+    <rect x="145" y="400" width="35" height="250"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linejoin="round"/>
+    <rect x="320" y="400" width="35" height="250"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linejoin="round"/>
+    <!-- impost course, springing line -->
+    <line x1="140" y1="400" x2="360" y2="400"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Extrados: outer arch line -->
+  <g data-part="extrados" class="part-shape">
+    <path d="M145 400 A105 105 0 0 1 355 400"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Intrados: inner opening curve, a perfect semicircle -->
+  <g data-part="intrados" class="part-shape">
+    <path d="M180 400 A70 70 0 0 1 320 400"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Claveaux: radiating voussoir joints -->
+  <g data-part="claveaux" class="part-shape">
+    <path d="M185.33 373.21 L152.99 359.82
+             M200.50 350.50 L175.75 325.75
+             M223.21 335.33 L209.82 302.99
+             M250 330 L250 295
+             M276.79 335.33 L290.18 302.99
+             M299.50 350.50 L324.25 325.75
+             M314.67 373.21 L347.01 359.82"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3"
+          stroke-linecap="round" opacity="0.9"/>
+  </g>
+</svg>

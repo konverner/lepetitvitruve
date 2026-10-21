@@ -1,0 +1,7 @@
+key: category/mise-en-oeuvre
+slug: { fr: mise-en-oeuvre, en: mise-en-oeuvre }
+label: { fr: Mise en œuvre, en: Mise en œuvre }
+description:
+  fr: "Catégorie regroupant les différents éléments de mise en œuvre architecturale."
+  en: "Category grouping various elements of architectural implementation."
+color: "#f8e1c8"

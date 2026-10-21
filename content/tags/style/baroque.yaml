@@ -1,0 +1,7 @@
+key: style/baroque
+slug: { fr: baroque, en: baroque }
+label: { fr: "Baroque", en: "Baroque" }
+description:
+  fr: "Style des XVIIe et XVIIIe siècles aux formes courbes, au mouvement et à l'effet dramatique."
+  en: "Style of the 17th and 18th centuries with curved forms, movement and dramatic effect."
+color: "#f2d9e0"

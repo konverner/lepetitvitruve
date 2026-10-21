@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Corniche supérieure et ligne de sol -->
+  <path stroke-width="2" d="M15 18H105M15 102H105"/>
+  <path stroke-width="1.25" d="M15 22H105M15 98H105"/>
+  <!-- Limites de façade -->
+  <path stroke-width="1.25" d="M22 22V98M98 22V98"/>
+  <!-- Encadrement et moulures concentriques -->
+  <circle cx="60" cy="60" r="34" stroke-width="2"/>
+  <circle cx="60" cy="60" r="28" stroke-width="1.25"/>
+  <circle cx="60" cy="60" r="22" stroke-width="2"/>
+  <!-- Agrafes aux points cardinaux -->
+  <path stroke-width="1.25" d="M55 22H65L63 30H57Z"/>
+  <path stroke-width="1.25" d="M55 98H65L63 90H57Z"/>
+  <path stroke-width="1.25" d="M22 55V65L30 63V57Z"/>
+  <path stroke-width="1.25" d="M98 55V65L90 63V57Z"/>
+  <!-- Armature et vitrage rayonnant -->
+  <circle cx="60" cy="60" r="8" stroke-width="1.25"/>
+  <path stroke-width="1.25" d="M60 38V52M60 68V82M38 60H52M68 60H82"/>
+  <path stroke-width="1.25" d="M44.4 44.4L54.3 54.3M65.7 65.7L75.6 75.6M75.6 44.4L65.7 54.3M54.3 65.7L44.4 75.6"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g data-part="couvercle">
+    <path class="s" d="M164 78C161 64 174 50 180 36C186 50 199 64 196 78"/>
+    <path class="d" d="M180 56C183 63 187 69 184 76"/>
+    <path class="s" d="M164 78L196 78L196 86L164 86Z"/>
+    <path class="s" d="M130 112C130 96 152 86 180 86C208 86 230 96 230 112"/>
+    <path class="s" d="M124 112L236 112L236 122L124 122Z"/>
+    <rect x="120" y="34" width="120" height="88" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="corps">
+    <path class="s" d="M142 122C142 138 104 154 104 192C104 232 138 252 156 272L204 272C222 252 256 232 256 192C256 154 218 138 218 122Z"/>
+    <path class="d" d="M135 136A45 5 0 0 0 225 136"/>
+    <path class="d" d="M109 170A71 12 0 0 0 251 170"/>
+    <path class="d" d="M118 170C116 190 120 210 130 225"/>
+  </g>
+  <g data-part="piédouche">
+    <rect class="s" x="150" y="272" width="60" height="10" rx="5"/>
+    <path class="s" d="M166 282C166 294 160 300 150 304L210 304C200 300 194 294 194 282Z"/>
+    <path class="s" d="M144 304L216 304L216 314L144 314Z"/>
+    <rect x="142" y="272" width="76" height="42" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="socle">
+    <path class="s" d="M112 314L248 314L248 326L112 326Z"/>
+    <path class="s" d="M120 326L240 326L240 332L120 332Z"/>
+    <path class="s" d="M126 332L126 426L234 426L234 332"/>
+    <path class="s" d="M116 426L244 426L244 440L116 440Z"/>
+    <path class="d" d="M140 346L220 346L220 412L140 412Z"/>
+    <path class="d" d="M40 440L116 440M244 440L320 440"/>
+    <rect x="108" y="314" width="144" height="128" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

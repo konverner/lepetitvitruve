@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none"><style>svg{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g data-part="roof">
+    <path class="d" d="M0 30H80M320 30H400M0 60H80M320 60H400M0 90H80M320 90H400M0 120H80M320 120H400M0 150H80M320 150H400M0 180H80M320 180H400M0 210H80M320 210H400M0 240H80M320 240H400M0 270H80M320 270H400M10 30L18 0M50 30L58 0M330 30L338 0M370 30L378 0M30 60L38 30M70 60L78 30M350 60L358 30M390 60L398 30M10 90L18 60M50 90L58 60M330 90L338 60M370 90L378 60M30 120L38 90M70 120L78 90M350 120L358 90M390 120L398 90M10 150L18 120M50 150L58 120M330 150L338 120M370 150L378 120M30 180L38 150M70 180L78 150M350 180L358 150M390 180L398 150M10 210L18 180M50 210L58 180M330 210L338 180M370 210L378 180M30 240L38 210M70 240L78 210M350 240L358 210M390 240L398 210M10 270L18 240M50 270L58 240M330 270L338 240M370 270L378 240M30 300L38 270M70 300L78 270M350 300L358 270M390 300L398 270"/>
+  </g>
+  <path class="s" d="M0 300L400 300"/>
+  <g data-part="cheek">
+    <path class="s" d="M244 281.3L244 149L270.4 182.2Z"/>
+  </g>
+  <g data-part="dormer-roof">
+    <path class="s" d="M250 140L278.2 175.5L276.4 182.2L250 149Z"/>
+    <path class="s" d="M244 149L250 149M270.4 182.2L276.4 182.2"/>
+  </g>
+  <g data-part="pediment">
+    <path class="s" d="M134 140L250 140L250 149L134 149Z"/>
+  </g>
+  <g data-part="frame">
+    <path class="s" d="M140 149L244 149L244 281.3L140 281.3Z"/>
+  </g>
+  <g data-part="window">
+    <path class="s" d="M151.6 160.5L232.4 160.5L232.4 269.8L151.6 269.8Z"/>
+  </g>
+  <g data-part="bars">
+    <path class="s" d="M189.8 160.5L189.8 269.8M194.2 160.5L194.2 269.8"/>
+    <path class="d" d="M151.6 196.9L232.4 196.9M151.6 233.4L232.4 233.4"/>
+  </g>
+  <g data-part="sill">
+    <path class="s" d="M132.8 281.3L251.2 281.3L233.2 291L114.8 291Z"/>
+    <path class="s" d="M114.8 291L233.2 291L233.2 300L114.8 300Z"/>
+    <path class="s" d="M251.2 281.3L233.2 291L233.2 300L251.2 289.9Z"/>
+  </g>
+</svg>

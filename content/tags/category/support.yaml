@@ -1,0 +1,7 @@
+key: category/supports
+slug: { fr: supports, en: supports }
+label: { fr: Supports, en: Supports }
+description:
+  fr: "Catégorie regroupant les différents types de supports architecturaux."
+  en: "Category grouping various types of architectural supports."
+color: "#f8e1c8"

@@ -1,0 +1,7 @@
+key: style/vernacular
+slug: { fr: vernaculaire, en: vernacular }
+label: { fr: "Vernaculaire", en: "Vernacular" }
+description:
+  fr: "Architecture locale issue de savoir-faire traditionnels et des matériaux disponibles sur place."
+  en: "Local architecture drawn from traditional know-how and locally available materials."
+color: "#e8e0f0"

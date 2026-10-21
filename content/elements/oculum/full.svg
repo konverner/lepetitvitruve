@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  
+  <!-- Mur de façade avec appareil de pierre -->
+  <g data-part="wall">
+    <path class="s" d="M20 45L20 285L380 285L380 45"/>
+    <path class="d" d="M20 75H117M283 75H380M20 105H127M273 105H380M20 135H115M285 135H380M20 165H115M285 165H380M20 195H127M273 195H380M20 225H117M283 225H380M20 255H380"/>
+    <path class="d" d="M70 45V75M150 45V75M320 45V75M40 75V105M290 75V105M90 105V135M340 105V135M50 135V165M310 135V165M100 165V195M350 165V195M60 195V225M320 195V225M80 225V255M300 225V255M140 255V285M260 255V285"/>
+  </g>
+
+  <!-- Entablature et corniche -->
+  <g data-part="cornice">
+    <path class="s" d="M10 18H390V28H10Z"/>
+    <path class="s" d="M15 28L20 45H380L385 28Z"/>
+    <path class="d" d="M30 28V45M50 28V45M70 28V45M90 28V45M110 28V45M130 28V45M150 28V45M170 28V45M230 28V45M250 28V45M270 28V45M290 28V45M310 28V45M330 28V45M350 28V45M370 28V45"/>
+    <path class="s" d="M10 285H390V295H10Z"/>
+  </g>
+
+  <!-- Encadrement sculpté et moulures concentriques -->
+  <g data-part="frame">
+    <circle class="s" cx="200" cy="150" r="85"/>
+    <circle class="s" cx="200" cy="150" r="75"/>
+    <circle class="d" cx="200" cy="150" r="65"/>
+    <circle class="s" cx="200" cy="150" r="55"/>
+    <!-- Claveaux radiaux -->
+    <path class="d" d="M255 150H285M247.6 177.5L273.6 192.5M227.5 197.6L242.5 223.6M200 205V235M172.5 197.6L157.5 223.6M152.4 177.5L126.4 192.5M145 150H115M152.4 122.5L126.4 107.5M172.5 102.4L157.5 76.4M227.5 102.4L242.5 76.4M247.6 122.5L273.6 107.5"/>
+  </g>
+
+  <!-- Agrafes et claveaux d'ornementation -->
+  <g data-part="keystone">
+    <path class="s" d="M178 45C178 38 222 38 222 45Z"/>
+    <path class="s" d="M182 45L186 98H214L218 45Z"/>
+    <path class="d" d="M194 45L196 98M206 45L204 98"/>
+    <path class="s" d="M108 140H120V160H108Z"/>
+    <path class="s" d="M280 140H292V160H280Z"/>
+    <path class="s" d="M190 232H210V244H190Z"/>
+  </g>
+
+  <!-- Baie circulaire centrale (Ouverture) -->
+  <g data-part="opening">
+    <circle class="s" cx="200" cy="150" r="55"/>
+    <circle class="d" cx="200" cy="150" r="52"/>
+  </g>
+
+  <!-- Vitrage, médaillon central et croisillons -->
+  <g data-part="mullions">
+    <circle class="s" cx="200" cy="150" r="16"/>
+    <circle class="d" cx="200" cy="150" r="34"/>
+    <path class="s" d="M200 98V134M200 166V202M148 150H184M216 150H252"/>
+    <path class="d" d="M163.2 113.2L188.7 138.7M236.8 113.2L211.3 138.7M163.2 186.8L188.7 161.3M236.8 186.8L211.3 161.3"/>
+  </g>
+
+  <!-- Projection des rayons lumineux -->
+  <g data-part="light-rays">
+    <path class="d" stroke-dasharray="6 4" d="M163 113L270 300M200 98L320 300M237 113L360 300M148 150L230 300M200 150L300 300"/>
+  </g>
+</svg>

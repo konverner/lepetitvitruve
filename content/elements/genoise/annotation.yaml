@@ -1,0 +1,22 @@
+name:
+  fr: Génoise
+  en: Genoese cornice
+gender:
+  fr: n.f.
+slug:
+  fr: genoise
+  en: genoese-cornice
+aliases:
+  fr: []
+  en: []
+category: ornament
+tags:
+  - region/italy
+  - region/southern-france
+  - style/vernacular
+  - mood/curious
+  - rarity/rare
+parts:
+  - { id: tuile-canal, label: { fr: Tuile canal } }
+  - { id: rangée-de-tuiles, label: { fr: Rangée de tuiles } }
+  - { id: mur-de-façade, label: { fr: Mur de façade } }

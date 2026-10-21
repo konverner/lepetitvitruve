@@ -1,0 +1,27 @@
+name:
+  fr: Bas-relief
+  en: Bas-relief
+gender:
+  fr: n.m.
+slug:
+  fr: bas-relief
+  en: bas-relief
+aliases:
+  fr: []
+  en:
+    - Low relief
+category: ornament
+parts:
+  - { id: wall, label: { fr: Mur } }
+  - { id: ground, label: { fr: Fond } }
+  - { id: figure, label: { fr: Figure } }
+  - { id: edge, label: { fr: Bord } }
+  - { id: shadow, label: { fr: Ombre } }
+  - { id: section, label: { fr: Coupe } }
+  - { id: depth, label: { fr: Profondeur } }
+tags:
+  - region/europe
+  - style/art-deco
+  - style/classical
+  - mood/curious
+  - rarity/medium

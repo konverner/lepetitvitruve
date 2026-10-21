@@ -1,0 +1,33 @@
+name:
+  fr: Fenêtre serlienne
+  en: Serlian window
+gender:
+  fr: n.f.
+slug:
+  fr: fenetre-serlienne
+  en: serlian-window
+aliases:
+  fr:
+    - Serlienne
+    - Baie serlienne
+  en:
+    - Palladian window
+    - Venetian window
+category: opening
+parts:
+  - { id: wall, label: { fr: Mur } }
+  - { id: arch, label: { fr: Arc } }
+  - { id: keystone, label: { fr: Clef } }
+  - { id: lintel, label: { fr: Linteau } }
+  - { id: central-bay, label: { fr: Baie centrale } }
+  - { id: side-openings, label: { fr: Baies latérales } }
+  - { id: supports, label: { fr: Supports } }
+  - { id: sill, label: { fr: Appui } }
+tags:
+  - region/italy
+  - region/uk
+  - region/north-america
+  - style/palladian
+  - style/neoclassical
+  - mood/grand
+  - rarity/medium

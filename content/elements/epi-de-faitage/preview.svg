@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv" xmlns:c2pa="http://c2pa.org/manifest">
+  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
+  <path stroke-width="2" d="M56.9 33.4C55 26.1 56.6 19.9 60 15.4C63.4 19.9 65 26.1 63.1 33.4"/>
+  <path stroke-width="2" d="M55.8 33.4C52.4 23.3 42.6 22.7 44.3 33.4M64.2 33.4C67.6 23.3 77.4 22.7 75.7 33.4"/>
+  <path stroke-width="2" d="M54.7 35H65.3M52.7 50.7H67.3M52.7 78.4H67.3"/>
+  <path stroke-width="1.25" d="M57.2 37L57.2 40.1C52.7 41.2 52.2 47.9 56.6 49.6M62.8 37L62.8 40.1C67.3 41.2 67.8 47.9 63.4 49.6"/>
+  <path stroke-width="2" d="M56.6 51.8C55.5 56.3 49.4 58 49.4 64.7C49.4 70.3 53.8 73.1 56.6 74.8M63.4 51.8C64.5 56.3 70.6 58 70.6 64.7C70.6 70.3 66.2 73.1 63.4 74.8"/>
+  <path stroke-width="1.25" d="M56.6 74.8L56.6 77.4M63.4 74.8L63.4 77.4M54.4 79.4L54.4 82.6M65.6 79.4L65.6 82.6"/>
+  <path stroke-width="2" d="M54.4 82.6L49.4 90.5L70.6 90.5L65.6 82.6Z"/>
+  <path stroke-width="2" d="M18 90.5L49.4 90.5M70.6 90.5L102 90.5M18 98.9L102 98.9M18 90.5L18 98.9M102 90.5L102 98.9"/>
+  <path stroke-width="1.25" d="M44.5 90.5L44.5 98.9M75.5 90.5L75.5 98.9"/>
+</svg>

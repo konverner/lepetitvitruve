@@ -1,0 +1,7 @@
+key: style/industrial
+slug: { fr: industriel, en: industrial }
+label: { fr: "Industriel", en: "Industrial" }
+description:
+  fr: "Architecture de l'ère industrielle, où dominent la brique, le métal et la fonction."
+  en: "Architecture of the industrial age, dominated by brick, metal and function."
+color: "#dcdcd8"

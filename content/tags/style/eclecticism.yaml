@@ -1,0 +1,7 @@
+key: style/eclecticism
+slug: { fr: eclecticisme, en: eclecticism }
+label: { fr: "Éclectisme", en: "Eclecticism" }
+description:
+  fr: "Architecture qui combine des éléments de différents styles et époques."
+  en: "Architecture that combines elements from different styles and periods."
+color: "#f2e0c8"  # pastel gold

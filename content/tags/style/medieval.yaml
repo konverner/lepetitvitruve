@@ -1,0 +1,7 @@
+key: style/medieval
+slug: { fr: medieval, en: medieval }
+label: { fr: "Médiéval", en: "Medieval" }
+description:
+  fr: "Architecture du Moyen Âge, civile, religieuse ou militaire."
+  en: "Architecture of the Middle Ages, civil, religious or military."
+color: "#e4dccb"

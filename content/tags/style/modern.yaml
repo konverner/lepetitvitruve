@@ -1,0 +1,7 @@
+key: style/moderne
+slug: { fr: moderne, en: modern }
+label: { fr: "Moderne", en: "Modern" }
+description:
+  fr: "Style architectural du XXe siècle, caractérisé par des lignes épurées et une esthétique fonctionnelle."
+  en: "20th-century architectural style, characterized by clean lines and functional aesthetics."
+color: "#f0dcec"

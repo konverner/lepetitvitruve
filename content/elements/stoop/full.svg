@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g>
+    <path class="d" d="M0 270H400M0 10H400M0 16H400M0 126H100M254 126H400"/>
+    <path class="d" d="M70 28H130V96H70ZM100 28V96M70 62H130M64 96H136V102H64ZM66 22H134V28H66Z"/>
+    <path class="d" d="M270 28H330V96H270ZM300 28V96M270 62H330M264 96H336V102H264ZM266 22H334V28H266Z"/>
+    <path class="d" d="M162 22H238V30H162ZM170 30V40M230 30V40M178 40H222M178 40V126M222 40V126M178 64H222M178 64A22 22 0 0 1 222 64"/>
+    <path class="d" d="M286 190H334V240H286ZM310 190V240M286 215H334"/>
+  </g>
+  <g data-part="palier">
+    <path d="M146 126H254V134H250V270H150V134H146Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path class="s" d="M146 126H254V134H146Z"/>
+    <path class="s" d="M150 134V270M250 134V270"/>
+    <path class="s" d="M170 200H230V206H170Z"/>
+    <path class="s" d="M176 270V206H224V270"/>
+    <path class="d" d="M200 206V270"/>
+    <path class="d" d="M150 162H250M150 180H250M150 216H176M224 216H250M150 234H176M224 234H250M150 252H176M224 252H250"/>
+  </g>
+  <g data-part="marches">
+    <path class="s" d="M150 270H52V252H66V234H80V216H94V198H108V180H122V162H136V144H150V134"/>
+    <path class="d" d="M66 252H150M80 234H150M94 216H150M108 198H150M122 180H150M136 162H150"/>
+  </g>
+  <g data-part="garde-corps">
+    <path d="M42 270V194H52V270Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path d="M52 252V206L150 80V144H136V162H122V180H108V198H94V216H80V234H66V252Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path d="M148 126V64H158V126Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path d="M242 126V64H252V126Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path d="M156 82H244V126H156Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path class="s" d="M42 263H52V270H42Z"/>
+    <path class="s" d="M44 263V208M50 263V208"/>
+    <path class="s" d="M42 202H52V208H42Z"/>
+    <circle class="s" cx="47" cy="198" r="4"/>
+    <path class="s" d="M50 212.6L150 84V88L50 216.6Z"/>
+    <path class="s" d="M50 244.6L150 116"/>
+    <path class="s" d="M59 205V252M73 187V234M87 169V216M101 151V198M115 133V180M129 115V162M143 97V144"/>
+    <path class="s" d="M148 119H158V126H148Z"/>
+    <path class="s" d="M150 119V78M156 119V78"/>
+    <path class="s" d="M148 72H158V78H148Z"/>
+    <circle class="s" cx="153" cy="68" r="4"/>
+    <path class="s" d="M242 119H252V126H242Z"/>
+    <path class="s" d="M244 119V78M250 119V78"/>
+    <path class="s" d="M242 72H252V78H242Z"/>
+    <circle class="s" cx="247" cy="68" r="4"/>
+    <path class="s" d="M156 84H244V88H156Z"/>
+    <path class="s" d="M156 116H244"/>
+    <path class="s" d="M168 88V126M184 88V126M200 88V126M216 88V126M232 88V126"/>
+  </g>
+</svg>

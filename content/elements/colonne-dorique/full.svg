@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none"><style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.88}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:0.94}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+<g transform="translate(54 8) scale(0.8)">
+  <g data-part="stylobate">
+    <path class="s" d="M14 440H226V460H14Z"/>
+    <path class="s" d="M0 460H240V480H0Z"/>
+  </g>
+  <g data-part="shaft">
+    <path class="s" d="M70 440C71 340 78 220 84 124H156C162 220 169 340 170 440Z"/>
+    <path class="d" d="M103 440C103.5 340 105 220 107.8 124M86 440C86.7 340 90 220 95.5 124M137 440C136.5 340 135 220 132.2 124M154 440C153.3 340 150 220 144.5 124"/>
+  </g>
+  <g data-part="annulets">
+    <path class="s" d="M83 112V121H157V112M83 115H157M83 118H157"/>
+  </g>
+  <g data-part="echinus">
+    <path class="s" d="M84 112C84 104 70 102 62 94H178C170 102 156 104 156 112Z"/>
+  </g>
+  <g data-part="abacus">
+    <path class="s" d="M58 78H182V94H58Z"/>
+  </g>
+  <g data-part="entablature">
+    <path class="s" d="M56 78V48H184V78"/>
+    <path class="s" d="M52 42H188V48H52Z"/>
+    <path class="s" d="M56 42V0M184 42V0"/>
+    <path class="s" d="M98 0V42H142V0"/>
+    <path class="d" d="M107 8h6v30h-6zM127 8h6v30h-6zM102 8V38M138 8V38"/>
+    <path class="d" d="M98 48h44v4H98z"/>
+    <path class="d" d="M101 52h4v4h-4zM108 52h4v4h-4zM115 52h4v4h-4zM122 52h4v4h-4zM129 52h4v4h-4zM136 52h4v4h-4z"/>
+  </g>
+</g>
+</svg>

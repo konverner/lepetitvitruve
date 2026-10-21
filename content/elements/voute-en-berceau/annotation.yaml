@@ -1,0 +1,30 @@
+name:
+  fr: Voûte en berceau
+  en: Barrel vault
+gender:
+  fr: n.f.
+slug:
+  fr: voute-en-berceau
+  en: barrel-vault
+aliases:
+  fr:
+    - Voûte en tunnel
+    - Voûte cylindrique
+  en:
+    - Tunnel vault
+    - Cradle vault
+category: structure
+tags:
+  - region/europe
+  - style/romanesque
+  - style/renaissance
+  - style/baroque
+  - mood/protective
+  - rarity/common
+  - mood/raw
+parts:
+  - { id: intrados, label: { fr: Intrados } }
+  - { id: extrados, label: { fr: Extrados } }
+  - { id: cle-de-voute, label: { fr: Clé de voûte } }
+  - { id: arc-doubleau, label: { fr: Arc doubleau } }
+  - { id: piedroit, label: { fr: Piédroit } }

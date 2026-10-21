@@ -1,0 +1,29 @@
+name:
+  fr: Fronton circulaire
+  en: Segmental pediment
+gender:
+  fr: n.m.
+slug:
+  fr: fronton-circulaire
+  en: segmental-pediment
+aliases:
+  fr:
+    - Fronton cintré
+    - Fronton arrondi
+    - Fronton bombé
+  en:
+    - Curved pediment
+    - Rounded pediment
+category: ornament
+parts:
+  - { id: curved-cornice, label: { fr: Corniche courbe } }
+  - { id: tympanum, label: { fr: Tympan } }
+  - { id: relief, label: { fr: Relief } }
+  - { id: cornice, label: { fr: Corniche } }
+  - { id: entablature, label: { fr: Entablement } }
+tags:
+  - region/europe
+  - style/classical
+  - style/baroque
+  - mood/grand
+  - rarity/common

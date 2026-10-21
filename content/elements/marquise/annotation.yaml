@@ -1,0 +1,25 @@
+name:
+  fr: Marquise
+  en: Glass Canopy
+gender:
+  fr: n.f.
+slug:
+  fr: marquise
+  en: glass-canopy
+aliases:
+  fr:
+    - Auvent vitré
+  en:
+    - Glass awning
+category: roof
+tags:
+  - region/europe
+  - style/art-nouveau
+  - mood/protective
+  - mood/cozy
+  - rarity/common
+parts:
+  - { id: armature, label: { fr: Armature } }
+  - { id: console, label: { fr: Console } }
+  - { id: tirants, label: { fr: Tirants } }
+  - { id: vitrage, label: { fr: Vitrage } }

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Arc-boutant</title>
+  <desc id="desc">Élévation schématique d'un arc-boutant : un arc segmentaire entre le mur de la nef et une culée à pinacle.</desc>
+  <!-- Nave wall -->
+  <g data-part="mur" class="part-shape">
+    <rect x="15" y="35" width="10" height="65"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Buttress pier -->
+  <g data-part="culee" class="part-shape">
+    <rect x="88" y="60" width="14" height="40"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Pinnacle -->
+  <g data-part="pinacle" class="part-shape">
+    <path d="M91 60 L91 48 L95 34 L99 48 L99 60"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Extrados -->
+  <g data-part="extrados" class="part-shape">
+    <path d="M88 69 A50 50 0 0 0 25 51"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Intrados: segmental arc -->
+  <g data-part="intrados" class="part-shape">
+    <path d="M88 78 A50 50 0 0 0 25 60"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- Keystone joint -->
+  <g data-part="claveaux" class="part-shape">
+    <path d="M59.86 57.24 L62.22 48.98"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3"
+          stroke-linecap="round"/>
+  </g>
+</svg>

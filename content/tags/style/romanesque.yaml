@@ -1,0 +1,7 @@
+key: style/romanesque
+slug: { fr: roman, en: romanesque }
+label: { fr: "Roman", en: "Romanesque" }
+description:
+  fr: "Architecture médiévale d'Europe occidentale aux arcs en plein cintre et aux murs épais."
+  en: "Medieval architecture of western Europe with round arches and thick walls."
+color: "#f4cccc" # light red (lavender)

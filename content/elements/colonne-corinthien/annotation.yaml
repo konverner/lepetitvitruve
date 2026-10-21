@@ -1,0 +1,29 @@
+name:
+  fr: Colonne corinthienne
+  en: Greek Corinthian column
+gender:
+  fr: n.f.
+slug:
+  fr: colonne-corinthienne
+  en: greek-corinthian-column
+aliases:
+  fr: [Ordre corinthien grec, Colonne corinthienne]
+  en: [Greek Corinthian order, Corinthian column]
+category: support
+parts:
+  - { id: capital, label: { fr: Chapiteau } }
+  - { id: abacus, label: { fr: Abaque } }
+  - { id: volutes, label: { fr: Volutes } }
+  - { id: acanthus-leaves, label: { fr: Feuilles d'acanthe } }
+  - { id: shaft, label: { fr: Fût } }
+  - { id: fluting, label: { fr: Cannelures } }
+  - { id: base, label: { fr: Base } }
+tags:
+  - style/antique
+  - style/classical
+  - region/europe
+  - region/north-america
+  - mood/protective
+  - mood/grand
+  - mood/curious
+  - rarity/common

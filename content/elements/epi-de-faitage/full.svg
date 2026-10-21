@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" class="lpv" xmlns:c2pa="http://c2pa.org/manifest">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <path class="d" d="M0 322a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0M-15 337a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0M0 352a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0M-15 367a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0M0 382a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0a15 15 0 0 0 30 0"/>
+  <g data-part="pointe">
+    <path class="s" d="M139 88C132 62 138 40 150 24C162 40 168 62 161 88"/>
+    <path class="d" d="M150 38L150 86"/>
+    <path class="s" d="M135 88C123 52 88 50 94 88C98 72 112 68 135 88Z"/>
+    <path class="s" d="M165 88C177 52 212 50 206 88C202 72 188 68 165 88Z"/>
+    <path class="s" d="M131 88L169 88L169 100L131 100Z"/>
+    <path class="d" d="M131 94L169 94"/>
+    <rect x="92" y="20" width="116" height="82" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="corps">
+    <path class="s" d="M138 146C122 140 124 116 140 112L140 100M160 100L160 112C176 116 178 140 162 146"/>
+    <path class="s" d="M124 146L176 146L176 154L124 154Z"/>
+    <path class="s" d="M138 154C134 170 112 176 112 200C112 220 128 230 138 236L162 236C172 230 188 220 188 200C188 176 166 170 162 154Z"/>
+    <path class="d" d="M146 160C142 176 130 184 130 200C130 214 138 224 146 230M154 160C158 176 170 184 170 200C170 214 162 224 154 230"/>
+    <path class="s" d="M138 236L138 244M162 236L162 244"/>
+    <path class="s" d="M132 244L168 244C176 244 176 254 168 254L132 254C124 254 124 244 132 244Z"/>
+    <path class="s" d="M130 254L130 264L170 264L170 254Z"/>
+    <rect x="108" y="102" width="84" height="162" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="base">
+    <path class="s" d="M130 264L112 292L188 292L170 264"/>
+    <path class="d" d="M121 278L179 278"/>
+    <rect x="108" y="264" width="84" height="28" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="tuile">
+    <path class="s" d="M0 292L112 292M188 292L300 292M0 322L300 322"/>
+    <path class="s" d="M96 292L96 322M102 292L102 322M198 292L198 322M204 292L204 322"/>
+    <path class="d" d="M0 301L96 301M102 301L198 301M204 301L300 301"/>
+    <rect x="0" y="292" width="300" height="30" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

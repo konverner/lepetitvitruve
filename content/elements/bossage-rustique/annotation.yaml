@@ -1,0 +1,23 @@
+name:
+  fr: Bossage rustique
+  en: Rustic rustication
+gender:
+  fr: n.m.
+slug:
+  fr: bossage-rustique
+  en: rustic-rustication
+aliases:
+  fr: []
+  en: []
+category: ornament
+parts:
+  - { id: background, label: { fr: Fond } }
+  - { id: face, label: { fr: Parement } }
+  - { id: groove, label: { fr: Joint creux } }
+  - { id: projection, label: { fr: Saillie } }
+  - { id: texture, label: { fr: Texture } }
+tags:
+  - region/europe
+  - style/renaissance
+  - mood/raw
+  - rarity/common

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+<style>
+  .s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}
+  .s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}
+  .r{stroke-width:2.5}
+  .d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}
+  [data-part]{cursor:pointer}
+  [data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}
+</style>
+
+  <!-- Ligne de sol -->
+  <path class="s" d="M30 290H370"/>
+
+  <!-- NIVEAU INFERIEUR -->
+  <g data-part="niveau-inferieur">
+    <path class="s" d="M60 170V290M340 170V290"/>
+    <path class="d" d="M60 290H340"/>
+    <path class="d" d="M60 195H130M270 195H340M60 220H130M270 220H340M60 245H130M270 245H340M60 270H130M270 270H340"/>
+  </g>
+
+  <!-- NIVEAU SUPERIEUR -->
+  <g data-part="niveau-superieur">
+    <path class="s" d="M130 70V155M270 70V155"/>
+    <path class="d" d="M130 90H140M155 90H180M220 90H245M260 90H270"/>
+    <path class="d" d="M130 115H140M155 115H180M220 115H245M260 115H270"/>
+    <path class="d" d="M130 140H140M155 140H180M220 140H245M260 140H270"/>
+  </g>
+
+  <!-- ENTABLEMENT -->
+  <g data-part="entablement">
+    <path class="s" d="M50 170H350"/>
+    <path class="s" d="M50 162H350"/>
+    <path class="s" d="M55 155H345"/>
+    <path class="d" d="M50 166H350"/>
+  </g>
+
+  <!-- FRONTON -->
+  <g data-part="fronton">
+    <path class="s" d="M120 70H280"/>
+    <path class="s" d="M120 70L200 30L280 70"/>
+    <path class="s" d="M115 63L200 20L285 63"/>
+    <path class="s" d="M115 63H285"/>
+    <path class="d" d="M130 63L200 28L270 63"/>
+  </g>
+
+  <!-- AILERON (CONSOLE / AILE DE PIERRE EN S) -->
+  <g data-part="aileron">
+    <!-- Contour Aileron Gauche -->
+    <path class="s r" d="M130 70C100 70 80 95 85 125C88 142 75 155 55 155"/>
+    <path class="s" d="M130 70H120"/>
+    <path class="s" d="M55 155H130V150C108 150 98 138 96 122C92 98 108 78 130 78"/>
+
+    <!-- Contour Aileron Droit -->
+    <path class="s r" d="M270 70C300 70 320 95 315 125C312 142 325 155 345 155"/>
+    <path class="s" d="M270 70H280"/>
+    <path class="s" d="M345 155H270V150C292 150 302 138 304 122C308 98 292 78 270 78"/>
+
+    <!-- Moulures intérieures S -->
+    <path class="d" d="M125 74C102 74 86 96 89 123C91 138 82 152 62 153"/>
+    <path class="d" d="M275 74C298 74 314 96 311 123C309 138 318 152 338 153"/>
+  </g>
+
+  <!-- VOLUTE (ENROULEMENT SPIRALÉ) -->
+  <g data-part="volute">
+    <!-- Volute Haute Gauche -->
+    <path class="s" d="M120 70C110 70 105 78 110 86C114 92 122 92 124 85C126 79 120 75 115 78"/>
+    <path class="d" d="M117 81C115 81 113 83 115 85"/>
+
+    <!-- Volute Basse Gauche -->
+    <path class="s" d="M55 155C50 155 46 150 48 144C51 138 58 138 60 144C61 148 57 152 53 150"/>
+
+    <!-- Volute Haute Droite -->
+    <path class="s" d="M280 70C290 70 295 78 290 86C286 92 278 92 276 85C274 79 280 75 285 78"/>
+    <path class="d" d="M283 81C285 81 287 83 285 85"/>
+
+    <!-- Volute Basse Droite -->
+    <path class="s" d="M345 155C350 155 354 150 352 144C349 138 342 138 340 144C339 148 343 152 347 150"/>
+  </g>
+</svg>

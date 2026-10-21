@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <path class="s" d="M60 270L340 270"/>
+  <g data-part="mur-de-pignon">
+    <path class="s" d="M110 270V160L200 60L290 160V270Z"/>
+    <path class="d" d="M110 160H290M110 258H290"/>
+    <path class="s" d="M188 112H212V148H188Z"/>
+    <path class="d" d="M200 112V148M188 130H212"/>
+    <path class="s" d="M126 196H154V250H126ZM186 196H214V250H186ZM246 196H274V250H246Z"/>
+    <path class="d" d="M140 196V250M126 223H154M200 196V250M186 223H214M260 196V250M246 223H274"/>
+  </g>
+  <g data-part="rampant">
+    <path class="s" d="M110 160L200 60L290 160H279.2L200 72L120.8 160Z"/>
+    <path class="d" d="M115.4 160L200 66L284.6 160"/>
+  </g>
+  <g data-part="sommet">
+    <path class="s" d="M189 72.2L200 60L211 72.2Z"/>
+    <path class="s" d="M200 60V48"/>
+    <circle class="s" cx="200" cy="44" r="4"/>
+  </g>
+</svg>

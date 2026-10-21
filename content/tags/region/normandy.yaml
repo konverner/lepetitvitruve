@@ -1,0 +1,7 @@
+key: region/normandy
+slug: { fr: normandie, en: normandy }
+label: { fr: "Normandie", en: "Normandy" }
+description:
+  fr: "Éléments caractéristiques de l'architecture régionale normande."
+  en: "Elements characteristic of regional Norman architecture."
+color: "#f4cccc" # pastel red

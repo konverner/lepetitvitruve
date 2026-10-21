@@ -1,0 +1,30 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Contrefort</title>
+  <desc id="desc">Élévation schématique d'un contrefort : un massif adossé au mur, réduit par un retrait et couronné d'un chaperon en pente.</desc>
+  <!-- Wall -->
+  <g data-part="mur" class="part-shape">
+    <path d="M42 34 L42 20 L30 20 L30 100"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Buttress body -->
+  <g data-part="contrefort" class="part-shape">
+    <path d="M30 100 L82 100 L82 74 M70 64 L70 48"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Setback -->
+  <g data-part="retraits" class="part-shape">
+    <path d="M82 74 L70 64"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Coping -->
+  <g data-part="chaperon" class="part-shape">
+    <path d="M70 48 L42 34"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+</svg>

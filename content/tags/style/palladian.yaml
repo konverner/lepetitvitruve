@@ -1,0 +1,7 @@
+key: style/palladian
+slug: { fr: palladien, en: palladian }
+label: { fr: Palladien, en: Palladian }
+description:
+  fr: "Le style d'Andrea Palladio et de ses disciples, fondé sur les proportions et les ordres de l'architecture antique."
+  en: "The style of Andrea Palladio and his followers, based on the proportions and orders of classical antiquity."
+color: "#e3dcf2"

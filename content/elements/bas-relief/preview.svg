@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>.ac{stroke:var(--accent-interactive)}</style>
+  <path stroke-width="2" d="M12 28H94V101H12Z"/>
+  <path stroke-width="2" d="M12 28L22 21L104 21L94 28"/>
+  <path stroke-width="2" d="M94 28L104 21L104 94L94 101"/>
+  <path stroke-width="1" d="M52.7 48.8L48.8 52.7M46.1 55.4L41.3 60.2M54.4 51.6L44.5 61.5M54.9 55.6L49 61.5M53.6 65.9L51.7 67.8M55.3 68.7L52.7 71.3M56.3 72.2L53.7 74.8M34.5 94L32 96.5M57.3 75.7L54.6 78.4M39 94L36.5 96.5M58.2 79.3L55.6 81.9M43.5 94L41 96.5M59.2 82.8L56.6 85.4M48 94L45.5 96.5M60.2 86.3L57.6 88.9M52.5 94L50 96.5M61.2 89.8L54.5 96.5M93.8 61.7L92.7 62.8M62.1 93.4L59 96.5M94 66L92.9 67.1M94 70.5L80.7 83.8M94 75L84.5 84.5M94 79.5L90 83.5"/>
+  <g stroke-width="1.25"><path stroke-width="1.25" d="M41.6 58.6L46.6 55.1M32.4 45.4L37.4 41.9M37.4 41.9A8 8 0 0 1 46.6 55.1"/><path stroke-width="1.25" d="M29 65L45 65L50 61.5L34 61.5Z"/><path stroke-width="1.25" d="M45 65L53 94L58 90.5L50 61.5Z"/><path stroke-width="1.25" d="M82.5 79.7L87.5 76.2M67.5 58.3L72.5 54.8M72.5 54.8A13 13 0 0 1 87.5 76.2"/></g>
+  <g class="ac" stroke-width="2"><circle stroke-width="2" cx="37" cy="52" r="8"/><path stroke-width="2" d="M29 65L45 65L53 94L21 94Z"/><circle stroke-width="2" cx="75" cy="69" r="13"/></g>
+</svg>

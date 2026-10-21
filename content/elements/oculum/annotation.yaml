@@ -1,0 +1,27 @@
+name:
+  fr: Oculum
+  en: Oculus
+gender:
+  fr: n.m.
+slug:
+  fr: oculum
+  en: oculus
+aliases:
+  fr: [œil-de-bœuf]
+  en: [eye, bull's-eye]
+category: opening
+parts:
+  - { id: wall, label: { fr: Mur } }
+  - { id: cornice, label: { fr: Corniche } }
+  - { id: keystone, label: { fr: Clef } }
+  - { id: frame, label: { fr: Encadrement } }
+  - { id: opening, label: { fr: Ouverture } }
+  - { id: mullions, label: { fr: Meneaux } }
+  - { id: light-rays, label: { fr: Rayons de lumière } }
+tags:
+  - category/opening
+  - style/renaissance
+  - style/baroque
+  - mood/grand
+  - mood/curious
+  - rarity/medium

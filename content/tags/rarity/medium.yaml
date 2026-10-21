@@ -1,0 +1,7 @@
+key: rarity/medium
+slug: { fr: moyen, en: medium }
+label: { fr: "Moyen", en: "Medium" }
+description:
+  fr: "Présent sur une part notable des édifices, sans être systématique."
+  en: "Found on a notable share of buildings, without being systematic."
+color: "#eaf0c8"

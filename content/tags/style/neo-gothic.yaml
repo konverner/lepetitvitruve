@@ -1,0 +1,7 @@
+key: style/neo-gothic
+slug: { fr: neo-gothique, en: neo-gothic }
+label: { fr: "Néo-gothique", en: "Neo-Gothic" }
+description:
+  fr: "Architecture néo-gothique marquée par l'arc brisé, la voûte d'ogives et l'élancement des formes."
+  en: "Neo-Gothic architecture marked by the pointed arch, the rib vault and soaring forms."
+color: "#d8d9ee"

@@ -1,0 +1,7 @@
+key: region/germany
+slug: { fr: allemagne, en: germany }
+label: { fr: "Allemagne", en: "Germany" }
+description:
+  fr: "Éléments que l'on rencontre dans l'architecture allemande."
+  en: "Elements found in German architecture."
+color: "#a2aab8"  # dark-grey

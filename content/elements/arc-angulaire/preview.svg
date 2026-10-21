@@ -1,0 +1,34 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Arc en mitre</title>
+  <desc id="desc">Élévation schématique d'un arc en mitre : une voussure triangulaire à deux rampants droits entre deux piédroits.</desc>
+
+  <!-- Piers -->
+  <g data-part="piedroits" class="part-shape">
+    <rect x="30" y="70" width="10" height="30"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linejoin="round"/>
+    <rect x="80" y="70" width="10" height="30"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Extrados -->
+  <g data-part="extrados" class="part-shape">
+    <path d="M30 70 L60 40 L90 70"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Intrados: mitre (straight sloped sides) -->
+  <g data-part="intrados" class="part-shape">
+    <path d="M40 70 L60 50 L80 70"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Keystone joint -->
+  <g data-part="claveaux" class="part-shape">
+    <path d="M60 50 L60 40"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3"
+          stroke-linecap="round"/>
+  </g>
+</svg>

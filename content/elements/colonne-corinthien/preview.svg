@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Abaque / Tailloir -->
+  <path stroke-width="2" d="M36 16 L84 16 L78 22 L42 22 Z"/>
+  <path stroke-width="1.25" d="M60 16 L60 22"/>
+  
+  <!-- Volutes d'angles -->
+  <path stroke-width="1.5" d="M42 22 C37 22 35 26 39 28 C42 29 45 27 44 25"/>
+  <path stroke-width="1.5" d="M78 22 C83 22 85 26 81 28 C78 29 75 27 76 25"/>
+  
+  <!-- Feuillage d'acanthe (Chapiteau) -->
+  <path stroke-width="1.5" d="M45 36 C41 31 44 27 50 28 C52 32 54 36 54 38"/>
+  <path stroke-width="1.5" d="M75 36 C79 31 76 27 70 28 C68 32 66 36 66 38"/>
+  <path stroke-width="1.5" d="M60 38 C55 29 65 29 60 38"/>
+  <path stroke-width="1.5" d="M47 46 C41 41 45 37 51 38"/>
+  <path stroke-width="1.5" d="M73 46 C79 41 75 37 69 38"/>
+  <path stroke-width="1.5" d="M51 46 C53 40 57 40 60 46 C63 40 67 40 69 46"/>
+  
+  <!-- Astragale -->
+  <path stroke-width="1.5" d="M50 46 L70 46"/>
+
+  <!-- Fût et cannelures -->
+  <path stroke-width="2" d="M50 46 L47 98 M70 46 L73 98"/>
+  <path stroke-width="1.25" d="M51.5 46 L49.5 98 M55.2 46 L54 98 M60 46 L60 98 M64.8 46 L66 98 M68.5 46 L70.5 98"/>
+</svg>

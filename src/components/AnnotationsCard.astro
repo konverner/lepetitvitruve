@@ -1,0 +1,31 @@
+---
+import { getAnnotationGroups, type Element } from '../lib/content';
+
+interface Props {
+  element: Element;
+}
+
+const { element } = Astro.props as Props;
+const groups = await getAnnotationGroups(element);
+---
+
+{
+  groups.length > 0 && (
+    <div class="annotations-card">
+      <dl class="annotations-card__list">
+        {groups.map((group) => (
+          <div class="annotations-card__group">
+            <dt class="annotations-card__title">{group.title}</dt>
+            <dd class="annotations-card__tags">
+              {group.tags.map((tag) => (
+                <span class="chip" style={tag.color ? { '--chip-bg': tag.color } : undefined}>
+                  {tag.label}
+                </span>
+              ))}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  )
+}

@@ -1,0 +1,24 @@
+name:
+  fr: Corniche marcapiano
+  en: String course
+gender:
+  fr: n.f.
+aliases:
+  fr: [bandeau d'étage, corniche d'étage, marcapiano]
+  en: [band course, belt course, marcapiano]
+category: ornament
+parts:
+  - { id: upper-floor, label: { fr: Étage supérieur } }
+  - { id: lower-floor, label: { fr: Étage inférieur } }
+  - { id: band, label: { fr: Bandeau } }
+  - { id: mouldings, label: { fr: Moulures } }
+  - { id: shadow, label: { fr: Ombre portée } }
+  - { id: windows, label: { fr: Fenêtres } }
+slug:
+  fr: corniche-marcapiano
+  en: string-course
+tags:
+  - style/renaissance
+  - style/classical
+  - region/italy
+  - mood/grand

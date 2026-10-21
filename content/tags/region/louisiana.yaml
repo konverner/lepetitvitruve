@@ -1,0 +1,7 @@
+key: region/louisiana
+slug: { fr: louisiana, en: louisiana }
+label: { fr: "Louisiane", en: "Louisiana" }
+description:
+  fr: "Éléments caractéristiques de l'architecture de Louisiane."
+  en: "Elements characteristic of Louisiana architecture."
+color: "#d2e8dd"

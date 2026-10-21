@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" class="lpv"><style>.lpv{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <!-- context: wall, ground, step (not interactive) -->
+  <path class="d" d="M90 0L90 284M0 28H90M0 56H90M0 84H90M0 112H90M0 140H90M0 168H90M0 196H90M0 224H90M0 252H90M0 284H400M90 270L156 270L156 284"/>
+  <g data-part="armature">
+    <path class="s" d="M90 96L310 120L310 134L90 110Z"/>
+    <path class="s" d="M84 92L90 92L90 114L84 114Z"/>
+    <path class="s" d="M314 122L314 100"/>
+    <path class="s" d="M96 87.7L96 96.7M150 93.6L150 102.6M204 99.4L204 108.4M258 105.3L258 114.3M306 110.6L306 119.6"/>
+    <path class="d" d="M90 103L310 127"/>
+  </g>
+  <g data-part="tirants">
+    <path class="s" d="M93.9 41L311.1 99.2"/>
+    <circle class="s" cx="90" cy="40" r="4"/>
+    <circle class="s" cx="314" cy="100" r="3"/>
+    <rect class="s" x="191" y="67" width="22" height="6" rx="2.5" transform="rotate(15 202 70)"/>
+    <path class="s" d="M84 34L90 34L90 46L84 46Z"/>
+    <path d="M93.9 41L311.1 99.2" stroke="transparent" stroke-width="14" pointer-events="stroke"/>
+  </g>
+  <g data-part="console">
+    <path class="s" d="M86 116L90 116L90 192L86 192Z"/>
+    <path class="s" d="M90 118L268 133.4"/>
+    <path class="s" d="M90 192C150 188 220 168 268 133.4"/>
+    <path class="s" d="M96 121C96 143 112 154 128 149C144 144 145 127 132 125C122 123.5 116 131 122 137C126 141 133 137 131 133"/>
+    <path d="M84 118L268 133.4C220 168 150 188 90 192L84 192Z" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="vitrage">
+    <path class="s" d="M96 83.7L306 106.6L306 110.6L96 87.7Z"/>
+    <path d="M94 81.5L308 105L308 113.6L94 90.6Z" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

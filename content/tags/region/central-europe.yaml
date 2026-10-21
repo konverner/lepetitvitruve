@@ -1,0 +1,7 @@
+key: region/central-europe
+slug: { fr: europe-centrale, en: central-europe }
+label: { fr: "Europe centrale", en: "Central Europe" }
+description:
+  fr: "Éléments répandus en Europe centrale."
+  en: "Elements found across Central Europe."
+color: "#d3e6d8"

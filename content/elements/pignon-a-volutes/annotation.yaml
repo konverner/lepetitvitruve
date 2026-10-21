@@ -1,0 +1,32 @@
+name:
+  fr: Pignon à volutes
+  en: Voluted gable
+gender:
+  fr: n.m.
+slug:
+  fr: pignon-a-volutes
+  en: voluted-gable
+aliases:
+  fr:
+    - Pignon baroque
+    - Pignon chantourné
+    - Pignon flamand
+    - Pignon à consoles
+  en:
+    - Scroll gable
+    - Dutch gable
+    - Flemish gable
+category: roof
+tags:
+  - region/northern-europe
+  - region/flanders
+  - region/alsace
+  - style/baroque
+  - style/renaissance
+  - mood/curious
+  - rarity/medium
+parts:
+  - { id: aileron, label: { fr: Aileron, en: Scrollwork / Volute wing } }
+  - { id: volute, label: { fr: Volute, en: Scroll } }
+  - { id: mur-de-pignon, label: { fr: Mur de pignon, en: Gable wall } }
+  - { id: sommet-arrondi, label: { fr: Sommet arrondi, en: Rounded top } }

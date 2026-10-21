@@ -1,0 +1,23 @@
+name:
+  fr: Gargouille
+  en: Gargoyle
+gender:
+  fr: n.f.
+slug:
+  fr: gargouille
+  en: gargoyle
+aliases:
+  fr: []
+  en: []
+category: ornament
+tags:
+  - category/roof
+  - region/europe
+  - style/gothic
+  - mood/curious
+  - mood/dramatic
+  - rarity/medium
+parts:
+  - { id: canal, label: { fr: Canal d'évacuation } }
+  - { id: corps, label: { fr: Corps sculpté } }
+  - { id: gueule, label: { fr: Gueule } }

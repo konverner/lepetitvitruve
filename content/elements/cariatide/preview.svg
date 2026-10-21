@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Architectural Capital / Entablature -->
+  <path stroke-width="2" d="M32 18H88V23H32Z"/>
+  <path stroke-width="2" d="M36 23H84C84 27 81 29 78 29H42C39 29 36 27 36 23Z"/>
+  <path stroke-width="1.25" d="M43 23C43 27 49 27 49 23M57 23C57 27 63 27 63 23M71 23C71 27 77 27 77 23M53 23V27M67 23V27"/>
+  <path stroke-width="2" d="M43 29H77L74 35H46Z"/>
+  <path stroke-width="1.25" d="M52 29L53 35M60 29V35M68 29L67 35"/>
+  <path stroke-width="2" d="M45 35H75C77 35 77 39 75 39H45C43 39 43 35 45 35Z"/>
+
+  <!-- Center-Parted Wavy Hair & Shoulder Braids -->
+  <path stroke-width="2" d="M60 39C55 44 51 44.5 47.3 47.5"/>
+  <path stroke-width="2" d="M60 39C65 44 69 44.5 72.7 47.5"/>
+  <path stroke-width="1.25" d="M55 39C52 42 49 42.5 46 45"/>
+  <path stroke-width="1.25" d="M65 39C68 42 71 42.5 74 45"/>
+  <path stroke-width="2" d="M45 39C41 41 40 46 42 50C39 54 40 59 42 63C39 67 40 72 41 76.5"/>
+  <path stroke-width="2" d="M75 39C79 41 80 46 78 50C81 54 80 59 78 63C81 67 80 72 79 76.5"/>
+  <path stroke-width="1.25" d="M48 55C45 58 45 62 47 65C45 68 45 71 46 75"/>
+  <path stroke-width="1.25" d="M72 55C75 58 75 62 73 65C75 68 75 71 74 75"/>
+  <path stroke-width="1.25" d="M42 50C44 53 46 54 48 55M42 63C44 65 45 65 47 65"/>
+  <path stroke-width="1.25" d="M78 50C76 53 74 54 72 55M78 63C76 65 75 65 73 65"/>
+
+  <!-- Face -->
+  <path stroke-width="2" d="M47.3 46.5C46.8 53 48.2 59 53.28 63.54C55.8 65.64 57.9 66.48 60 66.48C62.1 66.48 64.2 65.64 66.72 63.54C71.8 59 73.2 53 72.7 46.5"/>
+  <path stroke-width="1.25" d="M49.92 48.42C51.6 46.95 54.54 46.95 56.22 48.63C54.33 49.89 51.6 49.89 49.92 48.42Z"/>
+  <path stroke-width="1.25" d="M70.08 48.42C68.4 46.95 65.46 46.95 63.78 48.63C65.67 49.89 68.4 49.89 70.08 48.42Z"/>
+  
+  <path stroke-width="1.25" d="M59.16 48.42C58.74 51.78 58.32 53.88 57.48 55.56C58.32 57.03 59.37 57.03 60 56.4C60.63 57.03 61.68 57.03 62.52 55.56C61.68 53.88 61.26 51.78 60.84 48.42"/>
+  <path stroke-width="1.25" d="M57.27 59.76C58.74 60.39 61.26 60.39 62.73 59.76"/>
+
+  <!-- Neck, Shoulders & Draped Peplos (Column Fluting) -->
+  <path stroke-width="2" d="M54 64.5V71C54 73 50 74.5 45 75.5C39 77 36 81 35 88C34.5 93 34.5 97 35 102"/>
+  <path stroke-width="2" d="M66 64.5V71C66 73 70 74.5 75 75.5C81 77 84 81 85 88C85.5 93 85.5 97 85 102"/>
+  <path stroke-width="2" d="M45 75.5C42 81 42 90 42 102"/>
+  <path stroke-width="2" d="M75 75.5C78 81 78 90 78 102"/>
+  <path stroke-width="1.25" d="M48 75C53 79 67 79 72 75"/>
+  <path stroke-width="1.25" d="M45 77.5C52 85 68 85 75 77.5"/>
+  <path stroke-width="1.25" d="M43.5 82.5C51 92 69 92 76.5 82.5"/>
+  <path stroke-width="1.25" d="M48 86L47.5 102M54 88.5L53.5 102M60 89.5V102M66 88.5L66.5 102M72 86L72.5 102"/>
+</svg>

@@ -1,0 +1,27 @@
+name:
+  fr: Arc-boutant
+  en: Flying buttress
+gender:
+  fr: n.m.
+slug:
+  fr: arc-boutant
+  en: flying-buttress
+aliases:
+  fr: []
+  en: []
+category: support
+parts:
+  - { id: claveaux, label: { fr: Claveaux } }
+  - { id: culee, label: { fr: Culée } }
+  - { id: extrados, label: { fr: Extrados } }
+  - { id: intrados, label: { fr: Intrados } }
+  - { id: mur, label: { fr: Mur } }
+  - { id: pinacle, label: { fr: Pinacle } }
+  - { id: sol, label: { fr: Sol } }
+tags:
+  - region/europe
+  - region/north-america
+  - style/gothic
+  - mood/grand
+  - mood/dramatic
+  - rarity/medium

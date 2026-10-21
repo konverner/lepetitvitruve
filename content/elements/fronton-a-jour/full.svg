@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none"><style>:root{--_a:#8b1a1a}@media (prefers-color-scheme:dark){:root{--_a:#d04a44}}.s,.d,.g,.c,.h{stroke-linecap:round;stroke-linejoin:round}.s,.d,.g{pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}.g{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.5;stroke-width:1;stroke-dasharray:4 4}.h{fill:transparent;stroke:none}.c{fill:none;pointer-events:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.3;stroke-width:.75;stroke-dasharray:3 4}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d,.g),[data-part].is-active :is(.s,.d,.g){stroke:var(--accent-interactive,var(--_a));stroke-opacity:1}[data-part]:hover :is(.s,.h),[data-part].is-active :is(.s,.h){fill:color-mix(in srgb,var(--accent-interactive,var(--_a)) 8%,transparent)}</style>
+  <path class="c" d="M76 215V252M324 215V252"/>
+  <path class="s" d="M40 195H360V207H40Z"/>
+  <path class="s" d="M48 207H352V215H48Z"/>
+  <path class="d" d="M40 201H360"/>
+  <g data-part="corniche-rampante">
+    <path class="s" d="M40 195L200 76L360 195L345.2 195L200 87L54.8 195Z"/>
+    <path class="d" d="M47.4 195L200 81.5L352.6 195"/>
+  </g>
+  <g data-part="tympan-vide">
+    <path class="s" fill-rule="evenodd" d="M54.8 195L200 87L345.2 195ZM152 170A48 48 0 0 1 248 170Z"/>
+  </g>
+  <g data-part="ouverture-centrale">
+    <path class="h" d="M152 170A48 48 0 0 1 248 170Z"/>
+    <path class="g" d="M152 170A48 48 0 0 1 248 170Z"/>
+    <path class="d" d="M157 170A43 43 0 0 1 243 170"/>
+    <path class="d" d="M152 170H157M248 170H243"/>
+  </g>
+  <g data-part="motif-interieur">
+    <path class="s" d="M180 170H220V165H180Z"/>
+    <path class="s" d="M183 165C183 158 188 154 193 153H207C212 154 217 158 217 165Z"/>
+    <circle class="s" cx="200" cy="143" r="7.5"/>
+    <path class="s" d="M196.5 149V153M203.5 149V153"/>
+    <path class="d" d="M193.8 141.5C194 137 197 134.5 200 134.5C203 134.5 206 137 206.2 141.5"/>
+    <path class="d" d="M190 158H210"/>
+  </g>
+</svg>

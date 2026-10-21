@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv" role="img" aria-label="Colombage">
+  <style>.lpv{--a:var(--accent-interactive)}</style>
+  <defs>
+    <clipPath id="lpv-colombage-hd">
+      <polygon points="22,63 57,63 22,96"/>
+      <polygon points="28,96 57,96 57,68.7"/>
+      <polygon points="63,63 98,63 98,96"/>
+      <polygon points="63,68.7 63,96 92,96"/>
+      <polygon points="22,25 57,25 57,58"/>
+      <polygon points="22,30.7 22,58 51,58"/>
+      <polygon points="63,25 98,25 63,58"/>
+      <polygon points="69,58 98,58 98,30.7"/>
+    </clipPath>
+  </defs>
+  <path stroke-width=".75" stroke-opacity=".5" clip-path="url(#lpv-colombage-hd)" d="M22 31H98M22 37H98M22 43H98M22 49H98M22 55H98M22 69H98M22 75H98M22 81H98M22 87H98M22 93H98"/>
+  <path stroke-width="1.75" d="M12 20H108V25H12ZM12 58H108V63H12ZM12 96H108V101H12Z"/>
+  <path stroke-width="1.75" d="M16 25H22V58H16ZM57 25H63V58H57ZM98 25H104V58H98ZM16 63H22V96H16ZM57 63H63V96H57ZM98 63H104V96H98Z"/>
+  <path stroke-width="1.5" style="stroke:var(--a)" d="M57 58H51L22 30.7V25ZM63 58H69L98 30.7V25ZM22 96H28L57 68.7V63ZM98 96H92L63 68.7V63Z"/>
+</svg>

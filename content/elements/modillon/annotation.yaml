@@ -1,0 +1,22 @@
+name:
+  fr: Modillon
+  en: Modillion
+gender:
+  fr: n.m.
+slug:
+  fr: modillon
+  en: modillion
+aliases:
+  fr: []
+  en: []
+category: ornament
+tags:
+  - region/europe
+  - style/romanesque
+  - style/gothic
+  - mood/curious
+  - rarity/common
+parts:
+  - { id: corniche, label: { fr: Corniche } }
+  - { id: motif, label: { fr: Motif sculpté } }
+  - { id: mur, label: { fr: Mur } }

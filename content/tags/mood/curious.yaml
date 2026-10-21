@@ -1,0 +1,7 @@
+key: mood/curious
+slug: { fr: curieux, en: curious }
+label: { fr: Curieux, en: Curious }
+description:
+  fr: "On se sent curieux et intrigué."
+  en: "One feels curious and intrigued."
+color: "#f6efc0"

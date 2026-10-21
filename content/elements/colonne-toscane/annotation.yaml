@@ -1,0 +1,28 @@
+name:
+  fr: Colonne toscane
+  en: Tuscan column
+gender:
+  fr: n.f.
+slug:
+  fr: colonne-toscane
+  en: tuscan-column
+aliases:
+  fr: []
+  en: []
+category: support
+parts:
+  - { id: entablature, label: { fr: Entablement } }
+  - { id: abacus, label: { fr: Abaque } }
+  - { id: echinus, label: { fr: Échine } }
+  - { id: necking, label: { fr: Gorgerin } }
+  - { id: shaft, label: { fr: Fût } }
+  - { id: base, label: { fr: Base } }
+  - { id: stylobate, label: { fr: Stylobate } }
+tags:
+  - style/classical
+  - style/antique
+  - style/renaissance
+  - region/italy
+  - mood/protective
+  - mood/raw
+  - rarity/rare

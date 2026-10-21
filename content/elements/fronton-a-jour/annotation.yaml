@@ -1,0 +1,25 @@
+name:
+  fr: Fronton à jour
+  en: Open pediment
+gender:
+  fr: n.m.
+slug:
+  fr: fronton-a-jour
+  en: open-pediment
+aliases:
+  fr:
+    - Fronton ajouré
+  en: []
+category: ornament
+tags:
+  - category/decor
+  - region/europe
+  - style/baroque
+  - style/renaissance
+  - mood/curious
+  - rarity/rare
+parts:
+  - { id: corniche-rampante, label: { fr: Corniche rampante } }
+  - { id: ouverture-centrale, label: { fr: Ouverture centrale } }
+  - { id: tympan-vide, label: { fr: Tympan évidé } }
+  - { id: motif-interieur, label: { fr: Buste ou vase central } }

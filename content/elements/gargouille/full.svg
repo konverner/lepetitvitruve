@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <path class="s" d="M56 0V138"/>
+  <path class="s" d="M56 228V384"/>
+  <path class="d" d="M-16 22H56M-16 52H56M-16 82H56M-16 112H56"/>
+  <path class="d" d="M-16 168H18M-16 198H18M-16 228H18"/>
+  <path class="d" d="M-16 258H56M-16 288H56M-16 318H56M-16 348H56"/>
+  <path class="d" d="M-16 384H304"/>
+  <path class="d" d="M28 0V22M46 22V52M20 52V82M42 82V112M14 112V138"/>
+  <path class="d" d="M8 168V198"/>
+  <path class="d" d="M34 228V258M14 258V288M42 288V318M22 318V348M46 348V384"/>
+  <g data-part="corps">
+    <path class="d" d="M56 228H18V152" stroke-dasharray="3 3"/>
+    <path class="s" d="M56 228C76 232 96 230 114 228C130 226 140 234 154 232C166 230 172 220 182 214C188 211 194 212 198 213C212 217 230 216 242 211C250 208 252 201 248 197"/>
+    <path class="s" d="M56 164C82 158 112 172 114 198C115 214 104 226 88 230.5"/>
+    <path class="d" d="M70 176C86 176 100 190 100 206"/>
+    <path class="s" d="M90 231C96 240 112 243 124 239C130 237 131 232 127 229.5"/>
+    <path class="s" d="M106 242L105 248M113 241.5L114 247.5M120 240L123 245.5"/>
+    <path class="s" d="M135 230C132 242 136 252 140 262C141 270 140 276 142 282C140 288 146 292 154 292C162 292 168 288 166 281C164 274 162 268 162 262C162 252 164 242 159 233C158 232.5 157.5 232 157 231.5"/>
+    <path class="s" d="M145 291L143 299M152 292.5L152 300.5M160 291L163 298"/>
+    <path class="d" d="M140 240C146 244 154 244 161 240M142 274C147 277 155 277 161 274"/>
+    <path class="d" d="M116 176C124 190 124 208 118 224"/>
+    <path class="d" d="M130 172C138 186 140 202 136 216"/>
+    <path class="s" d="M156 148C156 128 170 114 190 114C204 114 214 122 219 130C223 135 227 138 233 138C241 138 248 142 248 150C248 156 246 160 240 161"/>
+    <path class="s" d="M180 116C174 104 175 90 185 77C189 91 197 105 206 117.5"/>
+    <path class="d" d="M176 104C181 107 186 107 191 104M177 94C181 96 185 96 188 94M181 113C186 115 192 115 198 112"/>
+    <path class="s" d="M160 132C154 124 150 114 150 106C160 108 168 112 171 119"/>
+    <path class="s" d="M192 134C202 128 214 130 222 138"/>
+    <path class="s" d="M196 141C200 135 212 135 216 141C211 145 201 146 196 141Z"/>
+    <circle class="s" cx="206" cy="140.5" r="2.4"/>
+    <path class="s" d="M237 146C239 143 244 144 244.5 148C243 151 238 151 237 146Z"/>
+    <path class="d" d="M222 149C228 151 232 154 234 158"/>
+    <path class="d" d="M208 154C212 160 210 168 202 175"/>
+    <rect x="18" y="76" width="236" height="228" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="canal">
+    <path class="s" d="M-16 138H56C92 136 126 140 156 148"/>
+    <path class="s" d="M-16 152H56C90 152 124 156 156 162"/>
+    <path class="d" d="M-12 145Q-6 142 0 145T12 145T24 145T36 145T48 145T60 146T72 146.5T84 147T96 148T108 149T120 150T132 151.5T144 153"/>
+    <path class="s" d="M248 190C264 190 272 204 274 232C276 262 277 330 277 380"/>
+    <path class="s" d="M248 199C258 200 264 210 265 236C266 264 266 330 266 380"/>
+    <path class="d" d="M252 194C262 195 268 207 269.5 234C271 264 271.5 330 271.5 376"/>
+    <path class="d" d="M256 384C258 377 264 377 266 384M266 384C268 378 275 378 277 384M277 384C279 379 284 379 286 384"/>
+    <circle class="d" cx="281" cy="246" r="1.2"/>
+    <circle class="d" cx="283" cy="272" r="1"/>
+    <circle class="d" cx="258" cy="246" r="1"/>
+    <rect x="-16" y="134" width="176" height="34" fill="transparent" stroke="none" pointer-events="all"/>
+    <rect x="244" y="186" width="44" height="198" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="gueule">
+    <path class="s" d="M240 161C224 161 202 163 182 168"/>
+    <path class="s" d="M156 162C174 164 190 170 208 180C224 189 238 195 248 197"/>
+    <path class="s" d="M238 161L235 177L231 161M222 161.5L220 171L216 162M206 163L205 170L201 164"/>
+    <path class="s" d="M231 192.5L234 181L238 194M217 185L219.5 178L223 187.5"/>
+    <rect x="174" y="150" width="78" height="66" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

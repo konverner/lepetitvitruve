@@ -1,0 +1,27 @@
+name:
+  fr: Vase d'amortissement
+  en: Finial vase
+gender:
+  fr: n.m.
+slug:
+  fr: vase-d-amortissement
+  en: finial-vase
+aliases:
+  fr:
+    - vase d'ornement
+    - urne d'amortissement
+  en:
+    - urn finial
+    - decorative urn
+category: ornament
+tags:
+  - region/europe
+  - style/classical
+  - style/baroque
+  - mood/curious
+  - rarity/common
+parts:
+  - { id: corps, label: { fr: Corps du vase } }
+  - { id: piédouche, label: { fr: Piédouche } }
+  - { id: couvercle, label: { fr: Couvercle ou flamme } }
+  - { id: socle, label: { fr: Socle } }

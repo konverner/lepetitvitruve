@@ -1,0 +1,7 @@
+key: region/flanders
+slug: { fr: flandre, en: flanders }
+label: { fr: "Flandre", en: "Flanders" }
+description:
+  fr: "Éléments caractéristiques de l'architecture régionale flamande."
+  en: "Elements characteristic of regional Flemish architecture."
+color: "#f7e3c4"

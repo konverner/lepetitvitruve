@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><defs><clipPath id="persienne-preview-clip"><path d="M0 0H58V120H0ZM24 98L45.9 101.8L50.8 100.7L50.8 26.7L29 22.9L24 24Z"/></clipPath></defs>
+  <g clip-path="url(#persienne-preview-clip)"><path stroke-width="1.25" d="M26.5 22.8L60.5 22.8L60.5 96.8L26.5 96.8ZM30.5 26.8L60.5 26.8L60.5 92.8L30.5 92.8Z"/></g>
+  <path stroke-width="1.25" d="M58 24L92 24L94.5 22.8L60.5 22.8ZM92 24L94.5 22.8L94.5 96.8L92 98Z"/>
+  <path stroke-width="1.25" d="M63 32.3L87 32.3L87 36.6L63 36.6ZM63 41.2L87 41.2L87 45.4L63 45.4ZM63 50L87 50L87 54.3L63 54.3ZM63 58.9L87 58.9L87 63.1L63 63.1ZM63 67.7L87 67.7L87 72L63 72ZM63 76.6L87 76.6L87 80.8L63 80.8ZM63 85.4L87 85.4L87 89.7L63 89.7ZM63 30L87 30L87 92L63 92Z"/>
+  <path stroke-width="2" d="M58 24L92 24L92 98L58 98Z"/>
+  <path stroke-width="1.25" d="M24 24L45.9 27.8L50.8 26.7L29 22.9ZM45.9 27.8L50.8 26.7L50.8 100.7L45.9 101.8Z"/>
+  <path stroke-width="1.25" d="M27.2 32.9L42.6 35.5L42.6 39.8L27.2 37.1ZM27.2 41.7L42.6 44.4L42.6 48.7L27.2 46ZM27.2 50.6L42.6 53.3L42.6 57.5L27.2 54.8ZM27.2 59.4L42.6 62.1L42.6 66.4L27.2 63.7ZM27.2 68.3L42.6 71L42.6 75.2L27.2 72.5ZM27.2 77.1L42.6 79.8L42.6 84.1L27.2 81.4ZM27.2 86L42.6 88.7L42.6 92.9L27.2 90.3ZM27.2 30.6L42.6 33.2L42.6 95.2L27.2 92.6Z"/>
+  <path stroke-width="2" d="M24 24L45.9 27.8L45.9 101.8L24 98Z"/>
+</svg>

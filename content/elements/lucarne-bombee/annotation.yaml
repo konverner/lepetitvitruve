@@ -1,0 +1,25 @@
+name:
+  fr: Lucarne bombée
+  en: Curved dormer
+gender:
+  fr: n.f.
+slug:
+  fr: lucarne-bombee
+  en: curved-dormer
+aliases:
+  fr: [lucarne cintrée]
+  en: []
+category: opening
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: hood, label: { fr: Couverture bombée } }
+  - { id: edge, label: { fr: Rive } }
+  - { id: cheek, label: { fr: Joue } }
+  - { id: frame, label: { fr: Encadrement } }
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: bars, label: { fr: Petits-bois } }
+  - { id: sill, label: { fr: Appui } }
+tags:
+  - region/france
+  - style/baroque
+  - mood/cozy

@@ -1,0 +1,28 @@
+---
+interface Props {
+  category: 'opening' | 'support' | 'roof' | 'ornament' | 'structure';
+}
+
+const { category } = Astro.props as Props;
+
+// Schematic stand-ins until each element has its own hand-drawn preview.svg (DESIGN_GUIDELINES.md §6).
+const paths: Record<Props['category'], string> = {
+  opening:
+    'M30 96 V58 A30 30 0 0 1 90 58 V96 M30 58 H90',
+  support: 'M40 96 H80 M45 90 V36 M75 90 V36 M36 36 H84 M36 30 H84',
+  roof: 'M20 90 L60 30 L100 90 M60 30 V90',
+  ornament: 'M60 40 A20 20 0 1 1 59.9 40 M60 60 V90 M45 75 L60 90 L75 75',
+  structure: 'M24 96 V36 H96 V96 M24 96 H96 M46 96 V60 H74 V96',
+};
+---
+
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <line x1="15" y1="96" x2="105" y2="96" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" />
+  <path
+    d={paths[category]}
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

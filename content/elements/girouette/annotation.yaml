@@ -1,0 +1,29 @@
+name:
+  fr: Girouette
+  en: Weather vane
+gender:
+  fr: n.f.
+slug:
+  fr: girouette
+  en: weather-vane
+aliases:
+  fr:
+    - flèche des vents
+  en:
+    - wind vane
+category: ornament
+tags:
+  - region/baltic
+  - region/scandinavia
+  - region/france
+  - region/netherlands
+  - region/uk
+  - style/vernacular
+  - style/gothic
+  - mood/curious
+  - rarity/uncommon
+parts:
+  - { id: motif, label: { fr: Motif pivotant } }
+  - { id: fleche, label: { fr: Flèche d'orientation } }
+  - { id: axe, label: { fr: Axe vertical pivot } }
+  - { id: points-cardinaux, label: { fr: Croix des points cardinaux } }

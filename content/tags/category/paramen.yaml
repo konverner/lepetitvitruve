@@ -1,0 +1,7 @@
+key: category/facing
+slug: { fr: parement, en: facing }
+label: { fr: Parement, en: Facing }
+description:
+  fr: "Catégorie regroupant les différents éléments de parement architectural."
+  en: "Category grouping various elements of architectural facing."
+color: "#f8e1c8"

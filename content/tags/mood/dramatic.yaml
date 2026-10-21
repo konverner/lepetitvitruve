@@ -1,0 +1,7 @@
+key: mood/dramatic
+slug: { fr: dramatique, en: dramatic }
+label: { fr: Dramatique, en: Dramatic }
+description:
+  fr: "On se sent théâtral et intense."
+  en: "One feels theatrical and intense."
+color: "#f3d0d0"

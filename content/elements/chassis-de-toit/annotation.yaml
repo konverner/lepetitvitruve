@@ -1,0 +1,29 @@
+name:
+  fr: Châssis de toit
+  en: Skylight
+slug:
+  fr: chassis-de-toit
+  en: skylight
+gender:
+  fr: "n.m."
+aliases:
+  fr:
+    - Velux
+    - Lucarne vitrée
+  en: 
+    - Roof window
+    - Glazed dormer
+category: opening
+tags:
+  - region/baltic
+  - region/france
+  - region/netherlands
+  - region/germany
+  - style/modern
+  - mood/cozy
+  - rarity/common
+parts:
+  - { id: dormant, label: { fr: Dormant } }
+  - { id: ouvrant, label: { fr: Ouvrant } }
+  - { id: vitrage, label: { fr: Vitrage } }
+  - { id: raccord, label: { fr: Raccord d'étanchéité } }

@@ -1,0 +1,25 @@
+name:
+  fr: Corbeau
+  en: Corbel
+gender:
+  fr: n.m.
+slug:
+  fr: corbeau
+  en: corbel
+aliases:
+  fr:
+    - Bouchot
+    - Courge
+  en: []
+category: support
+tags:
+  - category/support
+  - region/europe
+  - style/romanesque
+  - style/gothic
+  - mood/protective
+  - rarity/common
+parts:
+  - { id: corbeau, label: { fr: Corbeau } }
+  - { id: charge, label: { fr: Élément porté } }
+  - { id: mur, label: { fr: Mur } }

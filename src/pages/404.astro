@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import '../styles/index.css';
+---
+
+<BaseLayout
+  title="Page introuvable — Le Petit Vitruve"
+  description="Cette page n'existe pas. Retournez au dictionnaire visuel d'architecture."
+  noindex
+>
+  <div class="shell">
+    <main class="content">
+      <div class="hero">
+        <hr class="hero__rule" />
+        <p class="hero__eyebrow">Erreur 404</p>
+        <p class="hero__lede">
+          Cette page n'existe pas. <a href="/" class="hero__link">Retour à l'index des éléments</a>.
+        </p>
+      </div>
+    </main>
+    <SiteFooter />
+  </div>
+</BaseLayout>

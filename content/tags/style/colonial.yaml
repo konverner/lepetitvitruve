@@ -1,0 +1,7 @@
+key: style/colonial
+slug: { fr: colonial, en: colonial }
+label: { fr: "Colonial", en: "Colonial" }
+description:
+  fr: "Architecture importée par les puissances coloniales et adaptée aux climats et aux matériaux locaux."
+  en: "Architecture brought by colonial powers and adapted to local climates and materials."
+color: "#e3e0f5"

@@ -1,0 +1,7 @@
+key: style/mannerism
+slug: { fr: manierisme, en: mannerism }
+label: { fr: "Maniérisme", en: "Mannerism" }
+description:
+  fr: "Style du XVIe siècle qui joue avec les règles classiques de la Renaissance."
+  en: "16th-century style that plays with the classical rules of the Renaissance."
+color: "#f0dff0"

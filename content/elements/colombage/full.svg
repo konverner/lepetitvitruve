@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" class="lpv" role="img" aria-label="Colombage">
+<style>.lpv{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <defs>
+    <clipPath id="lpv-colombage-hd">
+      <polygon points="32,152 136,152 32,268"/>
+      <polygon points="44,268 136,268 136,165.4"/>
+      <polygon points="148,152 252,152 252,268"/>
+      <polygon points="148,165.4 148,268 240,268"/>
+      <polygon points="264,152 368,152 264,268"/>
+      <polygon points="276,268 368,268 368,165.4"/>
+      <polygon points="32,32 136,32 136,140"/>
+      <polygon points="32,44.5 32,140 124,140"/>
+      <polygon points="148,32 252,32 148,140"/>
+      <polygon points="160,140 252,140 252,44.5"/>
+      <polygon points="264,32 368,32 368,140"/>
+      <polygon points="264,44.5 264,140 356,140"/>
+    </clipPath>
+  </defs>
+  <path class="d" d="M0 292H400"/>
+  <g data-part="hourdage" clip-path="url(#lpv-colombage-hd)">
+    <path class="d" d="M32 44H368M32 56H368M32 68H368M32 80H368M32 92H368M32 104H368M32 116H368M32 128H368M32 164H368M32 176H368M32 188H368M32 200H368M32 212H368M32 224H368M32 236H368M32 248H368M32 260H368"/>
+    <rect x="32" y="32" width="336" height="236" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="sabliere">
+    <path class="s" d="M8 20H392V32H8Z"/>
+    <path class="s" d="M8 140H392V152H8Z"/>
+    <path class="s" d="M8 268H392V280H8Z"/>
+    <path class="d" d="M26 24.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M142 24.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M258 24.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M374 24.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M26 144.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M142 144.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M258 144.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M374 144.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M26 272.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M142 272.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M258 272.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2M374 272.4a1.6 1.6 0 1 0 0 3.2a1.6 1.6 0 1 0 0-3.2"/>
+  </g>
+  <g data-part="poteau">
+    <path class="s" d="M20 32H32V140H20Z"/>
+    <path class="s" d="M136 32H148V140H136Z"/>
+    <path class="s" d="M252 32H264V140H252Z"/>
+    <path class="s" d="M368 32H380V140H368Z"/>
+    <path class="s" d="M20 152H32V268H20Z"/>
+    <path class="s" d="M136 152H148V268H136Z"/>
+    <path class="s" d="M252 152H264V268H252Z"/>
+    <path class="s" d="M368 152H380V268H368Z"/>
+  </g>
+  <g data-part="decharge">
+    <path class="s" d="M136 140H124L32 44.5V32Z"/>
+    <path class="s" d="M148 140H160L252 44.5V32Z"/>
+    <path class="s" d="M368 140H356L264 44.5V32Z"/>
+    <path class="s" d="M32 268H44L136 165.4V152Z"/>
+    <path class="s" d="M252 268H240L148 165.4V152Z"/>
+    <path class="s" d="M264 268H276L368 165.4V152Z"/>
+  </g>
+</svg>

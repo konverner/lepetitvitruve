@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Ligne de sol -->
+  <path stroke-width="1.5" d="M12 108H108"/>
+  
+  <!-- Niveau inférieur -->
+  <path stroke-width="1.5" d="M20 68V108M100 68V108"/>
+  <path stroke-width="1.5" d="M14 68H106M14 63H106"/>
+  
+
+  <!-- Niveau supérieur -->
+  <path stroke-width="1.5" d="M42 26V63M78 26V63"/>
+  <path stroke-width="1.5" d="M38 26H82"/>
+  
+  <!-- Fronton sommital -->
+  <path stroke-width="1.5" d="M38 26L60 11L82 26"/>
+  <path stroke-width="1" d="M44 26L60 15L76 26"/>
+
+
+  <!-- AILERON GAUCHE (Profil en S) -->
+  <path stroke-width="2" d="M38 28C28 28 20 38 22 51C23 58 18 63 15 63H42"/>
+  <path stroke-width="1.25" d="M36 33C30 33 25 41 26 51C27 56 24 61 21 63"/>
+  <path stroke-width="1.25" d="M38 28C41 28 43 31 42 34C41 37 37 37 36 34C35 32 37 30 39 31"/>
+
+  <!-- AILERON DROIT (Profil en S) -->
+  <path stroke-width="2" d="M82 28C92 28 100 38 98 51C97 58 102 63 105 63H78"/>
+  <path stroke-width="1.25" d="M84 33C90 33 95 41 94 51C93 56 96 61 99 63"/>
+  <path stroke-width="1.25" d="M82 28C79 28 77 31 78 34C79 37 83 37 84 34C85 32 83 30 81 31"/>
+</svg>

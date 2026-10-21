@@ -1,0 +1,30 @@
+name:
+  fr: Pignon à gradins
+  en: Crow-stepped gable
+gender:
+  fr: n.m.
+slug:
+  fr: pignon-a-gradins
+  en: crow-stepped-gable
+aliases:
+  fr:
+    - Pignon à échelons
+    - Pas de moineau
+  en:
+    - Step gable
+    - Corbie step
+category: roof
+tags:
+  - region/northern-europe
+  - region/central-europe
+  - region/baltic
+  - style/flemish
+  - style/brick-gothic
+  - style/renaissance
+  - mood/curious
+  - rarity/medium
+parts:
+  - { id: marche, label: { fr: Marche, en: Step } }
+  - { id: mur-de-pignon, label: { fr: Mur de pignon, en: Gable wall } }
+  - { id: rampant, label: { fr: Rampant, en: Rake } }
+  - { id: sommet, label: { fr: Sommet, en: Top } }

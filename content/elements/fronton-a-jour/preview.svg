@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <style>:root{--_a:transparent}.a{stroke:var(--accent-interactive,var(--_a))}</style>
+  <path class="hit" d="M44.25 87L90 63L135.75 87Z" stroke="none" fill="transparent"/>
+  <path class="hit" d="M78 82A12 12 0 0 1 102 82Z" stroke="none" fill="transparent"/>
+  <path stroke-width="3" d="M45 100.5L135 100.5L135 114L45 114Z"/>
+  <path stroke-width="3" d="M36 94.5L144 94.5L144 100.5L36 100.5Z"/>
+  <path stroke-width="3" d="M27 87L153 87L153 94.5L27 94.5Z"/>
+  <path stroke-width="3" d="M27 87L90 54L153 87L135.75 87L90 63L44.25 87Z"/>
+  <path stroke-width="1.875" d="M44.25 87L90 63L135.75 87"/>
+  <path stroke-width="1.875" d="M78 82A12 12 0 0 1 102 82Z"/>
+  <g stroke-width="1.5">
+    <circle cx="90" cy="75" r="2.5"/>
+    <path d="M84.5 80.4C84.5 78.2 86.3 77.2 88.5 76.9H91.5C93.7 77.2 95.5 78.2 95.5 80.4Z"/>
+    <path d="M83 80.4H97V82H83Z"/>
+  </g>
+</svg>

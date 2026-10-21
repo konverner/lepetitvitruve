@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
+  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
+  <g >
+    <circle stroke-width="2" cx="60" cy="29" r="19"/>
+    <path stroke-width="1.25" d="M41 29A19 5 0 0 0 79 29"/>
+    <path stroke-width="1.25" d="M60 10A8 19 0 0 1 60 48A8 19 0 0 1 60 10Z"/>
+  </g>
+  <path stroke-width="2" d="M56 48L64 48L64 51L56 51Z"/>
+  <path stroke-width="2" d="M56 51C56.3 53.5 54 55 51 56L69 56C66 55 63.7 53.5 64 51Z"/>
+  <path stroke-width="2" d="M51 56L69 56L69 62L51 62Z"/>
+  <path stroke-width="2" d="M47 62L73 62L73 65L47 65Z"/>
+  <path stroke-width="2" d="M37 65L83 65L83 70L37 70Z"/>
+  <path stroke-width="2" d="M41 70L79 70L79 76L41 76Z"/>
+  <path stroke-width="2" d="M43 76L77 76L77 79L43 79Z"/>
+  <path stroke-width="2" d="M45 79L45 102M75 79L75 102"/>
+  <path stroke-width="1.25" d="M45 90.5L75 90.5M60 79L60 90.5"/>
+  <path stroke-width="2" d="M43 102L77 102L77 106L43 106Z"/>
+  <path stroke-width="2" d="M39 106L81 106L81 110L39 110Z"/>
+</svg>

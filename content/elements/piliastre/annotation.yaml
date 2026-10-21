@@ -1,0 +1,26 @@
+name:
+  fr: Pilastre
+  en: Pilaster
+gender:
+  fr: n.m.
+slug:
+  fr: pilastre
+  en: pilaster
+aliases:
+  fr: [Fausse colonne]
+  en: [False column]
+category: ornament
+tags:
+  - style/classical
+  - style/renaissance
+  - style/baroque
+  - region/europe
+parts:
+  - { id: entablature, label: { fr: Entablement, en: Entablature } }
+  - { id: abacus, label: { fr: Abaque, en: Abacus } }
+  - { id: volutes, label: { fr: Volutes, en: Volutes } }
+  - { id: echinus, label: { fr: Échine, en: Echinus } }
+  - { id: shaft, label: { fr: Fût, en: Shaft } }
+  - { id: base, label: { fr: Base, en: Base } }
+  - { id: stylobate, label: { fr: Stylobate, en: Stylobate } }
+  

@@ -1,0 +1,7 @@
+key: region/italy
+slug: { fr: italie, en: italy }
+label: { fr: "Italie", en: "Italy" }
+description:
+  fr: "Éléments que l'on rencontre dans l'architecture italienne."
+  en: "Elements found in Italian architecture."
+color: "#d8ecdc"

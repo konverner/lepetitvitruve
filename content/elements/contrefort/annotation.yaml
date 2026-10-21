@@ -1,0 +1,24 @@
+name:
+  fr: Contrefort
+  en: Buttress
+gender:
+  fr: n.m.
+aliases:
+  fr: []
+  en: []
+slug:
+  fr: contrefort
+  en: buttress
+category: support
+parts:
+  - { id: mur, label: { fr: Mur } }
+  - { id: contrefort, label: { fr: Contrefort } }
+  - { id: assises, label: { fr: Assises } }
+  - { id: retraits, label: { fr: Retraits } }
+  - { id: chaperon, label: { fr: Chaperon } }
+  - { id: sol, label: { fr: Sol } }
+tags:
+  - style/romanesque
+  - style/gothic
+  - mood/protective
+  - mood/grand

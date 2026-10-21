@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
+  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
+  <path stroke-width="2" d="M6 18H114V23H6ZM6 23H114V37H6ZM6 37H114V42H6Z"/>
+  <path stroke-width="1.25" d="M6 33H114"/>
+  <g stroke-width="1" stroke-opacity=".55">
+    <path d="M10 42V104M110 42V104M10 84H110M10 94H110M10 104H110"/>
+    <path d="M43 84V94M77 84V94M26 94V104M60 94V104M94 94V104"/>
+  </g>
+  <path stroke-width="2" style="stroke:var(--a)" d="M14 42H38V46H14ZM48 42H72V46H48ZM82 42H106V46H82Z"/>
+  <path stroke-width="1.5" style="stroke:var(--a)" d="M21.5 46V64A4.4 4.4 0 0 1 17.1 68.4A3.6 3.6 0 0 1 13.5 64.8A2.4 2.4 0 0 1 15.9 62.4M30.5 46V64A4.4 4.4 0 0 0 34.9 68.4A3.6 3.6 0 0 0 38.5 64.8A2.4 2.4 0 0 0 36.1 62.4"/>
+  <path stroke-width="1.5" style="stroke:var(--a)" d="M51 46V62C51 69 55 74 60 74C65 74 69 69 69 62V46M84 46V60C84 68 88 73 94 74C100 73 104 68 104 60V46"/>
+  <g stroke-width="1.25" style="stroke:var(--a)">
+    <path d="M26 52V74"/>
+    <path d="M53.5 53L58.5 55M66.5 53L61.5 55M60 56V61M55.5 66C57.5 64.5 62.5 64.5 64.5 66C63 69 57 69 55.5 66Z"/>
+    <circle cx="56" cy="58.5" r="1.1"/>
+    <circle cx="64" cy="58.5" r="1.1"/>
+    <path d="M94 50V72M94 56C90.5 56 87.8 53 87 49C90.5 49 94 52 94 56ZM94 66C90.5 66 87.8 63 87 59C90.5 59 94 62 94 66ZM94 56C97.5 56 100.2 53 101 49C97.5 49 94 52 94 56ZM94 66C97.5 66 100.2 63 101 59C97.5 59 94 62 94 66Z"/>
+  </g>
+</svg>

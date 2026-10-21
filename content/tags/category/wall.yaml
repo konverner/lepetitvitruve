@@ -1,0 +1,7 @@
+key: category/wall
+slug: { fr: mur, en: wall }
+label: { fr: Mur, en: Wall }
+description:
+  fr: "Catégorie regroupant les différents types de murs architecturaux."
+  en: "Category grouping various types of architectural walls."
+color: "#f8e1c8"

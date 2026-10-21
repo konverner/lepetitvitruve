@@ -1,0 +1,7 @@
+key: region/baltic
+slug: { fr: baltique, en: baltic }
+label: { fr: "Baltique", en: "Baltic" }
+description:
+  fr: "Éléments répandus autour de la mer Baltique."
+  en: "Elements found around the Baltic Sea."
+color: "#c9dce8"

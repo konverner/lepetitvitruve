@@ -1,0 +1,48 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Frise</title>
+  <desc id="desc">Élévation schématique d'une frise : bande horizontale à motif répété, entre la corniche et l'architrave.</desc>
+  <!-- Cornice -->
+  <g data-part="corniche" class="part-shape">
+    <rect x="10" y="26" width="100" height="10"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Frieze band -->
+  <g data-part="frise" class="part-shape">
+    <rect x="15" y="36" width="90" height="34"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Repeating motif -->
+  <g data-part="motifs" class="part-shape">
+    <path d="M23 53 L30 43 L37 53 L30 63 Z M43 53 L50 43 L57 53 L50 63 Z M63 53 L70 43 L77 53 L70 63 Z M83 53 L90 43 L97 53 L90 63 Z"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" opacity="0.9"/>
+    <path d="M40 48 L40 58 M60 48 L60 58 M80 48 L80 58"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3"
+          stroke-linecap="round" opacity="0.9"/>
+    <circle cx="30" cy="53" r="2.2"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="50" cy="53" r="2.2"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="70" cy="53" r="2.2"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+    <circle cx="90" cy="53" r="2.2"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3" opacity="0.9"/>
+  </g>
+
+  <!-- Architrave -->
+  <g data-part="architrave" class="part-shape">
+    <rect x="15" y="70" width="90" height="14"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Column shafts -->
+  <g data-part="colonnes" class="part-shape">
+    <path d="M20 100 L20 84 M40 84 L40 100 M80 100 L80 84 M100 84 L100 100"
+          stroke="var(--text-primary, currentColor)" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

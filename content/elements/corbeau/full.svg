@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g data-part="mur">
+    <path class="s" d="M140 0V92M140 200V300"/>
+    <path class="d" d="M0 20H140M0 56H140M0 92H140M0 128H70M0 200H70M0 236H140M0 272H140"/>
+    <path class="d" d="M70 0V20M35 20V56M105 20V56M70 56V92M35 92V128M105 92V128M70 200V236M35 236V272M105 236V272M70 272V300"/>
+    <rect x="0" y="0" width="140" height="300" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="corbeau">
+    <path class="s" d="M140 128H270V152H235V176H200V200H140Z"/>
+    <path class="d" style="stroke-dasharray:4 4" d="M140 128H70V200H140"/>
+  </g>
+  <g data-part="charge">
+    <path class="s" d="M140 92H350V128H140Z"/>
+    <path class="d" d="M152 110H338"/>
+    <path class="d" d="M176 36H324"/>
+    <path class="s" d="M190 36V82M183 73L190 82L197 73"/>
+    <path class="s" d="M250 36V82M243 73L250 82L257 73"/>
+    <path class="s" d="M310 36V82M303 73L310 82L317 73"/>
+    <rect x="140" y="30" width="210" height="62" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

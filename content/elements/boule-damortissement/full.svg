@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g data-part="boule">
+    <circle class="s" cx="180" cy="100" r="62"/>
+    <path class="d" d="M118 100A62 16 0 0 0 242 100"/>
+    <ellipse class="d" cx="180" cy="100" rx="24" ry="62"/>
+    <path class="d" d="M142 68A50 50 0 0 1 163 53"/>
+  </g>
+  <g data-part="socle">
+    <path class="s" d="M164 162L196 162L196 172L164 172Z"/>
+    <path class="s" d="M164 172C165 181 157 185 148 187L212 187C203 185 195 181 196 172Z"/>
+    <path class="s" d="M148 187L212 187L212 209L148 209Z"/>
+    <path class="s" d="M138 209L222 209L222 219L138 219Z"/>
+    <path class="d" d="M148 198L212 198"/>
+    <rect x="134" y="162" width="92" height="57" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="pilier">
+    <path class="s" d="M98 219L262 219L262 233L98 233Z"/>
+    <path class="s" d="M108 233L252 233L252 251L108 251Z"/>
+    <path class="s" d="M114 251L246 251L246 260L114 260Z"/>
+    <path class="s" d="M122 260L122 416L238 416L238 260"/>
+    <path class="s" d="M114 416L246 416L246 430L114 430Z"/>
+    <path class="s" d="M106 430L254 430L254 444L106 444Z"/>
+    <path class="d" d="M108 242L252 242"/>
+    <path class="d" d="M122 312L238 312M122 364L238 364M180 260L180 312M151 312L151 364M209 312L209 364M180 364L180 416"/>
+    <path class="d" d="M30 444L106 444M254 444L330 444"/>
+    <rect x="94" y="219" width="172" height="227" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

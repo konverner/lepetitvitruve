@@ -1,0 +1,24 @@
+name:
+  fr: Lambrequin
+  en: Lambrequin
+gender:
+  fr: n.m.
+slug:
+  fr: lambrequin
+  en: lambrequin
+aliases:
+  fr: []
+  en: []
+category: ornament
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: lambrequin, label: { fr: Lambrequin } }
+  - { id: motif, label: { fr: Motif } }
+  - { id: support, label: { fr: Support } }
+  - { id: window, label: { fr: Fenêtre } }
+tags:
+  - region/reunion
+  - region/louisiana
+  - style/colonial
+  - mood/curious
+  - rarity/rare

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 500 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Contrefort</title>
+  <desc id="desc">Élévation détaillée d'un contrefort : un massif de maçonnerie adossé au mur, dont la saillie diminue par retraits successifs jusqu'à un chaperon en pente.</desc>
+  <!-- Ground / stone floor reference -->
+  <g data-part="sol" class="part-shape">
+    <line x1="40" y1="650" x2="440" y2="650"
+          stroke="var(--text-muted, currentColor)" stroke-width="1.5"
+          stroke-linecap="round" opacity="0.55"/>
+    <line x1="70" y1="656" x2="415" y2="656"
+          stroke="var(--text-muted, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- Wall receiving the buttress -->
+  <g data-part="mur" class="part-shape">
+    <path d="M200 170 L200 110 L160 110 L160 650"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="154" y1="110" x2="206" y2="110"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Buttress body: base and vertical faces of each stage -->
+  <g data-part="contrefort" class="part-shape">
+    <path d="M160 650 L360 650 L360 500 M320 470 L320 340 M280 310 L280 215"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Setbacks (retraits): sloped weatherings between stages -->
+  <g data-part="retraits" class="part-shape">
+    <path d="M360 500 L320 470 M320 340 L280 310"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Coping (chaperon): sloped top shedding water off the wall -->
+  <g data-part="chaperon" class="part-shape">
+    <path d="M280 215 L200 170"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Masonry courses -->
+  <g data-part="assises" class="part-shape">
+    <line x1="200" y1="600" x2="360" y2="600"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+    <line x1="200" y1="550" x2="360" y2="550"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+    <line x1="200" y1="430" x2="320" y2="430"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+    <line x1="200" y1="385" x2="320" y2="385"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+    <line x1="200" y1="265" x2="280" y2="265"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+  </g>
+</svg>

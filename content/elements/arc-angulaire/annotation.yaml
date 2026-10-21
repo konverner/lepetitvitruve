@@ -1,0 +1,27 @@
+name:
+  fr: Arc angulaire
+  en: Triangular arch
+gender:
+  fr: n.m.
+aliases:
+  fr: 
+    - Arc en mitre
+  en:
+    - mitred arch
+category: structure
+parts:
+  - { id: claveaux, label: { fr: Claveaux } }
+  - { id: extrados, label: { fr: Extrados } }
+  - { id: intrados, label: { fr: Intrados } }
+  - { id: piedroits, label: { fr: Piédroits } }
+  - { id: sol, label: { fr: Sol } }
+slug: 
+  fr: arc-angulaire
+  en: triangular-arch
+tags:
+  - category/openings-niches
+  - style/romanesque
+  - style/art-deco
+  - region/europe
+  - mood/raw
+  - rarity/rare

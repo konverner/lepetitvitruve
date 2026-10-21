@@ -1,0 +1,41 @@
+export interface TagDefinition {
+  label: string;
+  color?: string;
+}
+
+export interface AnnotationGroup {
+  title: string;
+  tags: TagDefinition[];
+}
+
+// Tag groups (the folders of content/tags/) in display order.
+export const GROUP_TITLES: Readonly<Record<string, string>> = {
+  style: 'Style',
+  period: 'Période',
+  region: 'Région',
+  mood: 'Sentiment',
+  rarity: 'Rarité',
+  part: 'Partie',
+};
+
+/**
+ * Groups tag keys ("style/baroque") for display.
+ * `definitions` is keyed by tag key; an unknown key is a content error and throws.
+ */
+export function buildAnnotationGroups(
+  tagKeys: readonly string[],
+  definitions: ReadonlyMap<string, TagDefinition>,
+): AnnotationGroup[] {
+  const byGroup = new Map<string, TagDefinition[]>();
+
+  for (const key of tagKeys) {
+    const definition = definitions.get(key);
+    if (!definition) throw new Error(`Unknown tag "${key}": no matching file in content/tags/`);
+    const group = key.split('/')[0]!;
+    byGroup.set(group, [...(byGroup.get(group) ?? []), definition]);
+  }
+
+  return Object.entries(GROUP_TITLES)
+    .filter(([group]) => byGroup.has(group))
+    .map(([group, title]) => ({ title, tags: byGroup.get(group)! }));
+}

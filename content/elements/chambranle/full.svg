@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+<style>.s,.d,.w{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}.w{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.3;stroke-width:.75;pointer-events:none}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <path class="w" d="M0 30H86M314 30H400M0 78H86M314 78H400M0 126H86M314 126H400M0 174H86M314 174H400M0 222H86M314 222H400M54 30V78M346 30V78M28 78V126M372 78V126M54 126V174M346 126V174M28 174V222M372 174V222M54 222V266M346 222V266"/>
+  <path class="s" d="M0 266L400 266"/>
+  <path class="d" d="M144 260L144 112L256 112L256 260Z"/>
+  <path class="d" d="M200 112L200 260M144 164L256 164"/>
+  <g data-part="montant">
+    <path class="s" d="M110 88L128 88L128 266L110 266Z"/>
+    <path class="s" d="M272 88L290 88L290 266L272 266Z"/>
+  </g>
+  <g data-part="traverse">
+    <path class="s" d="M110 70L185 70L188 88L110 88Z"/>
+    <path class="s" d="M215 70L290 70L290 88L212 88Z"/>
+  </g>
+  <g data-part="moulure">
+    <path class="s" d="M128 266L128 88L188 88L189.7 98L138 98L138 266Z"/>
+    <path class="s" d="M272 266L272 88L212 88L210.3 98L262 98L262 266Z"/>
+    <path class="d" d="M133 266L133 93L188.8 93M267 266L267 93L211.2 93"/>
+  </g>
+  <g data-part="cle-de-linteau">
+    <path class="s" d="M182 52L218 52L208.7 108L191.3 108Z"/>
+    <path class="d" d="M183 58L217 58M191.5 58L195.3 104M200 58L200 104M208.5 58L204.7 104"/>
+  </g>
+</svg>

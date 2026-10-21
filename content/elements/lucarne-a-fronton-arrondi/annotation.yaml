@@ -1,0 +1,28 @@
+name:
+  fr: Lucarne à fronton arrondi
+  en: Rounded pedimented dormer
+gender:
+  fr: n.f.
+slug:
+  fr: lucarne-a-fronton-arrondi
+  en: rounded-pedimented-dormer
+aliases:
+  fr: []
+  en: []
+category: opening
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: dormer-roof, label: { fr: Toit de la lucarne } }
+  - { id: cheek, label: { fr: Joue } }
+  - { id: pediment, label: { fr: Fronton } }
+  - { id: tympan, label: { fr: Tympan } }
+  - { id: cornice, label: { fr: Corniche } }
+  - { id: frame, label: { fr: Encadrement } }
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: bars, label: { fr: Petits-bois } }
+  - { id: sill, label: { fr: Appui } }
+tags:
+  - style/baroque
+  - region/france
+  - mood/grand
+  - rarity/medium

@@ -1,0 +1,22 @@
+name:
+  fr: Chaîne d'angle
+  en: Quoin
+gender:
+  fr: n.f.
+slug:
+  fr: chaine-d-angle
+  en: quoin
+aliases:
+  fr: [Chaînage d'angle]
+  en: []
+category: structure
+parts:
+  - { id: wall, label: { fr: Mur } }
+  - { id: long-stone, label: { fr: Pierre longue } }
+  - { id: short-stone, label: { fr: Pierre courte } }
+  - { id: plinth, label: { fr: Socle } }
+tags:
+  - region/europe
+  - style/classical
+  - style/renaissance
+  - mood/protective

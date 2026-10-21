@@ -1,0 +1,23 @@
+name:
+  fr: Baie aveugle
+  en: Blind opening
+gender:
+  fr: n.f.
+slug:
+  fr: baie-aveugle
+  en: blind-opening
+aliases:
+  fr: []
+  en: []
+category: opening
+tags:
+  - region/europe
+  - style/romanesque
+  - style/gothic
+  - style/classical
+  - mood/curious
+  - rarity/uncommon
+parts:
+  - { id: encadrement, label: { fr: Encadrement } }
+  - { id: fond-plein, label: { fr: Fond plein en maçonnerie } }
+  - { id: mur, label: { fr: Mur } }

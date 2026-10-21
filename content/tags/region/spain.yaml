@@ -1,0 +1,7 @@
+key: region/spain
+slug: { fr: espagne, en: spain }
+label: { fr: "Espagne", en: "Spain" }
+description:
+  fr: "Éléments que l'on rencontre dans l'architecture espagnole."
+  en: "Elements found in Spanish architecture."
+color: "#e0ecd0"

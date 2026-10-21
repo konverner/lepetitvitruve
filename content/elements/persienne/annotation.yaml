@@ -1,0 +1,24 @@
+name:
+  fr: Persienne
+  en: Louvered shutter
+gender:
+  fr: n.f.
+slug:
+  fr: persienne
+  en: louvered-shutter
+aliases:
+  fr:
+    - volet à lames
+  en:
+    - louvre shutter
+category: opening
+parts:
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: frame, label: { fr: Cadre } }
+  - { id: slats, label: { fr: Lames } }
+  - { id: hinges, label: { fr: Charnières } }
+tags:
+  - region/france
+  - style/haussmannian
+  - mood/cozy
+  - mood/protective

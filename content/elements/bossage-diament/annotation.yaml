@@ -1,0 +1,22 @@
+name:
+  fr: Bossage en pointe de diamant
+  en: Diamond-pointed rustication
+gender:
+  fr: n.m.
+slug:
+  fr: bossage-en-pointe-de-diamant
+  en: diamond-pointed-rustication
+aliases:
+  fr: []
+  en: []
+category: ornament
+parts:
+  - { id: wall, label: { fr: Mur } }
+  - { id: pyramid, label: { fr: Pyramide } }
+  - { id: apex, label: { fr: Pointe } }
+tags:
+  - region/italy
+  - style/renaissance
+  - mood/protective
+  - mood/curious
+  - rarity/rare

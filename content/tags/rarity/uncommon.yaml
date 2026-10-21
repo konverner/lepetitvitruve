@@ -1,0 +1,11 @@
+key: rarity/uncommon
+slug:
+  fr: peu-courant
+  en: uncommon
+label:
+  fr: Peu courant
+  en: Uncommon
+description:
+  fr: "Élément spécifique nécessitant un œil attentif ou un style particulier."
+  en: "Specific element requiring an observant eye or a particular architectural style."
+color: "#f4efc4"

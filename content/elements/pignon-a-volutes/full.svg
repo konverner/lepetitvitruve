@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <path class="s" d="M60 270L340 270"/>
+  <g data-part="mur-de-pignon">
+    <path class="s" d="M110 270V170H160V112H240V170H290V270Z"/>
+    <path class="d" d="M110 258H290M110 184H290"/>
+    <path class="s" d="M126 196H154V250H126ZM186 196H214V250H186ZM246 196H274V250H246Z"/>
+    <path class="d" d="M140 196V250M126 223H154M200 196V250M186 223H214M260 196V250M246 223H274"/>
+    <path class="s" d="M186 162V140A14 14 0 0 1 214 140V162Z"/>
+    <path class="d" d="M200 126V162"/>
+  </g>
+  <g data-part="aileron">
+    <path class="s" d="M110 170C110 140 160 140 160 112V170Z"/>
+    <path class="s" d="M290 170C290 140 240 140 240 112V170Z"/>
+    <path class="d" d="M149 158C149 146 160 144 160 126M251 158C251 146 240 144 240 126"/>
+  </g>
+  <g data-part="volute">
+    <path class="s" d="M149 158A11 11 0 0 1 138 169A8 8 0 0 1 130 161A5.5 5.5 0 0 1 135.5 155.5A3 3 0 0 1 138.5 158.5"/>
+    <path class="s" d="M251 158A11 11 0 0 0 262 169A8 8 0 0 0 270 161A5.5 5.5 0 0 0 264.5 155.5A3 3 0 0 0 261.5 158.5"/>
+    <circle cx="138" cy="158" r="12" fill="transparent" pointer-events="fill"/>
+    <circle cx="262" cy="158" r="12" fill="transparent" pointer-events="fill"/>
+  </g>
+  <g data-part="sommet-arrondi">
+    <path class="s" d="M154 112V104H246V112Z"/>
+    <path class="s" d="M160 104A40 40 0 0 1 240 104Z"/>
+    <path class="d" d="M170 104A30 30 0 0 1 230 104"/>
+    <path class="s" d="M200 64V58"/>
+    <circle class="s" cx="200" cy="53" r="5"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none"><style>svg{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g data-part="roof">
+    <path class="d" d="M0 30H80M320 30H400M0 60H80M320 60H400M0 90H80M320 90H400M0 120H80M320 120H400M0 150H80M320 150H400M0 180H80M320 180H400M0 210H80M320 210H400M0 240H80M320 240H400M0 270H80M320 270H400M10 30L18 0M50 30L58 0M330 30L338 0M370 30L378 0M30 60L38 30M70 60L78 30M350 60L358 30M390 60L398 30M10 90L18 60M50 90L58 60M330 90L338 60M370 90L378 60M30 120L38 90M70 120L78 90M350 120L358 90M390 120L398 90M10 150L18 120M50 150L58 120M330 150L338 120M370 150L378 120M30 180L38 150M70 180L78 150M350 180L358 150M390 180L398 150M10 210L18 180M50 210L58 180M330 210L338 180M370 210L378 180M30 240L38 210M70 240L78 210M350 240L358 210M390 240L398 210M10 270L18 240M50 270L58 240M330 270L338 240M370 270L378 240M30 300L38 270M70 300L78 270M350 300L358 270M390 300L398 270"/>
+  </g>
+  <path class="s" d="M0 300L400 300"/>
+  <g data-part="cheek">
+    <path class="s" d="M235 281.3L235 175L292.9 63.8Z"/>
+  </g>
+  <g data-part="dormer-roof">
+    <path class="s" d="M131 175L235 175L292.9 63.8L188.9 63.8Z"/>
+    <path class="d" d="M145.5 147.2L249.5 147.2M160 119.4L264 119.4M174.5 91.6L278.5 91.6M148.3 175L162.8 147.2M183 175L197.5 147.2M217.7 175L232.2 147.2M180.2 147.2L194.6 119.4M214.8 147.2L229.3 119.4M177.3 119.4L191.8 91.6M212 119.4L226.5 91.6M246.6 119.4L261.1 91.6M209.1 91.6L223.6 63.8M243.8 91.6L258.3 63.8"/>
+  </g>
+  <g data-part="frame">
+    <path class="s" d="M131 175L235 175L235 281.3L131 281.3Z"/>
+  </g>
+  <g data-part="window">
+    <path class="s" d="M142.6 186.5L223.4 186.5L223.4 269.8L142.6 269.8Z"/>
+  </g>
+  <g data-part="bars">
+    <path class="s" d="M180.8 186.5L180.8 269.8M185.2 186.5L185.2 269.8"/>
+    <path class="s" d="M142.6 226L223.4 226M142.6 230.3L223.4 230.3"/>
+  </g>
+  <g data-part="sill">
+    <path class="s" d="M123.8 281.3L242.2 281.3L224.2 291L105.8 291Z"/>
+    <path class="s" d="M105.8 291L224.2 291L224.2 300L105.8 300Z"/>
+    <path class="s" d="M242.2 281.3L224.2 291L224.2 300L242.2 289.9Z"/>
+  </g>
+</svg>

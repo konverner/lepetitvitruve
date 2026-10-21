@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  
+  <!-- Toiture et égout de toit -->
+  <g data-part="roof">
+    <path class="s" d="M20 40L380 40L360 15L40 15Z"/>
+    <path class="d" d="M70 40L66 15M110 40L106 15M150 40L146 15M190 40L186 15M230 40L226 15M270 40L266 15M310 40L306 15M350 40L346 15"/>
+    <path class="s" d="M10 40L390 40L390 52L10 52Z"/>
+    <path class="d" d="M10 46L390 46"/>
+  </g>
+
+  <!-- Bandeau support / Planche de rive -->
+  <g data-part="support">
+    <path class="s" d="M20 52L380 52L380 68L20 68Z"/>
+    <path class="d" d="M35 60L365 60"/>
+    <circle class="d" cx="40" cy="60" r="1.5"/>
+    <circle class="d" cx="120" cy="60" r="1.5"/>
+    <circle class="d" cx="200" cy="60" r="1.5"/>
+    <circle class="d" cx="280" cy="60" r="1.5"/>
+    <circle class="d" cx="360" cy="60" r="1.5"/>
+  </g>
+
+  <!-- Baie de fenêtre et maçonnerie de fond -->
+  <g data-part="window">
+    <path class="d" d="M0 100H60M340 100H400M0 160H60M340 160H400M0 220H60M340 220H400M0 280H60M340 280H400"/>
+    <path class="s" d="M70 115H330V280H70Z"/>
+    <path class="s" d="M85 130H315V270H85Z"/>
+    <path class="s" d="M197 130V270M203 130V270"/>
+    <path class="d" d="M85 180H315M85 225H315"/>
+    <path class="s" d="M60 280H340V292H60Z"/>
+    <path class="s" d="M50 292H350V300H50Z"/>
+  </g>
+
+  <!-- Corps du lambrequin -->
+  <g data-part="lambrequin">
+    <path class="s" d="M20 68H380V82H20Z"/>
+    <path class="s" d="M20 82V115C20 115 28 115 32 125C36 135 44 165 56 165C68 165 76 135 80 125C84 115 92 115 92 115C92 115 100 115 104 125C108 135 116 165 128 165C140 165 148 135 152 125C156 115 164 115 164 115C164 115 172 115 176 125C180 135 188 165 200 165C212 165 220 135 224 125C228 115 236 115 236 115C236 115 244 115 248 125C252 135 260 165 272 165C284 165 292 135 296 125C300 115 308 115 308 115C308 115 316 115 320 125C324 135 332 165 344 165C356 165 364 135 368 125C372 115 380 115 380 115V82Z"/>
+    <path class="d" d="M20 92H380"/>
+  </g>
+
+  <!-- Motifs & ajours -->
+  <g data-part="motif">
+    <circle class="s" cx="56" cy="102" r="5"/>
+    <circle class="s" cx="128" cy="102" r="5"/>
+    <circle class="s" cx="200" cy="102" r="5"/>
+    <circle class="s" cx="272" cy="102" r="5"/>
+    <circle class="s" cx="344" cy="102" r="5"/>
+
+    <path class="s" d="M52 128C52 122 60 122 60 128C60 134 56 148 56 148C56 148 52 134 52 128Z"/>
+    <path class="s" d="M124 128C124 122 132 122 132 128C132 134 128 148 128 148C128 148 124 134 124 128Z"/>
+    <path class="s" d="M196 128C196 122 204 122 204 128C204 134 200 148 200 148C200 148 196 134 196 128Z"/>
+    <path class="s" d="M268 128C268 122 276 122 276 128C276 134 272 148 272 148C272 148 268 134 268 128Z"/>
+    <path class="s" d="M340 128C340 122 348 122 348 128C348 134 344 148 344 148C344 148 340 134 340 128Z"/>
+
+    <circle class="s" cx="56" cy="171" r="2.5"/>
+    <circle class="s" cx="128" cy="171" r="2.5"/>
+    <circle class="s" cx="200" cy="171" r="2.5"/>
+    <circle class="s" cx="272" cy="171" r="2.5"/>
+    <circle class="s" cx="344" cy="171" r="2.5"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+key: style/classical
+slug: { fr: classique, en: classical }
+label: { fr: Classique, en: Classical }
+description:
+  fr: "Les formes issues des ordres gréco-romains : colonnes, entablements et frontons."
+  en: "Forms derived from the Greco-Roman orders: columns, entablatures and pediments."
+color: "#d9e4f5"

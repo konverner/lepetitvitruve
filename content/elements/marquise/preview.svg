@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv"><style>.lpv{--a:var(--accent-interactive)}</style>
+  <path stroke-width="1.25" d="M22 8L22 106M8 106L112 106"/>
+  <path stroke-width=".75" stroke-opacity=".55" d="M8 20H22M8 36H22M8 52H22M8 68H22M8 84H22M8 100H22"/>
+  <g transform="translate(0 10)">
+    <path stroke-width="2" d="M22 44L96 52L96 57L22 49ZM98 52.2L98 41"/>
+    <path stroke-width="1.25" d="M30 40.9L30 44.9M52 43.2L52 47.2M74 45.6L74 49.6M92 47.6L92 51.6"/>
+    <path stroke-width="2" d="M28 37.7L94 44.8L94 47.8L28 40.7Z"/>
+    <path stroke-width="1.25" d="M24 22.5L96.4 40.6"/>
+    <circle stroke-width="1.25" cx="22" cy="22" r="2"/>
+    <circle stroke-width="1.25" cx="98" cy="41" r="1.6"/>
+    <rect stroke-width="1.25" x="56" y="30.3" width="8" height="2.4" rx="1.1" transform="rotate(14 60 31.5)"/>
+    <path stroke-width="2" d="M20 52L22 52L22 82L20 82ZM22 52L88 59.1M22 82C44 80 70 74 88 59.1"/>
+    <path stroke-width="1.25" d="M26 54C26 64 33 68 39 66C44 64 43 57 38 56C34 55 32 59 35 61"/>
+  </g>
+</svg>

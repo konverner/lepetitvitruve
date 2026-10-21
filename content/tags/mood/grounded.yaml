@@ -1,0 +1,7 @@
+key: mood/grounded
+slug: { fr: ancre, en: grounded }
+label: { fr: Ancré, en: Grounded }
+description:
+  fr: "On se sent ancré et stable."
+  en: "One feels grounded and stable."
+color: "#d8e8e0"

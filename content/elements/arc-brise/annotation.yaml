@@ -1,0 +1,25 @@
+name:
+  fr: Arc brisé
+  en: Pointed arch
+gender:
+  fr: n.m.
+slug:
+  fr: arc-brise
+  en: pointed-arch
+aliases:
+  fr: [Arc ogival, Ogive]
+  en: []
+category: structure
+parts:
+  - { id: claveaux, label: { fr: Claveaux } }
+  - { id: clef, label: { fr: Clef } }
+  - { id: extrados, label: { fr: Extrados } }
+  - { id: intrados, label: { fr: Intrados } }
+  - { id: piedroits, label: { fr: Piédroits } }
+  - { id: sol, label: { fr: Sol } }
+tags:
+  - style/gothic
+  - mood/grand
+  - mood/dramatic
+  - region/europe
+  - rarity/common

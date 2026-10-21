@@ -1,0 +1,7 @@
+key: style/brick-gothic
+slug: { fr: gothique-de-brique, en: brick-gothic }
+label: { fr: "Gothique de brique", en: "Brick Gothic" }
+description:
+  fr: "Architecture médiévale marquée par l'arc brisé, la voûte d'ogives et l'élancement des formes."
+  en: "Medieval architecture marked by the pointed arch, the rib vault and soaring forms."
+color: "#dca49a" # pastel red, brick like

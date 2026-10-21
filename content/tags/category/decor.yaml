@@ -1,0 +1,7 @@
+key: category/decor
+slug: { fr: decor, en: decor }
+label: { fr: Décor, en: Decor }
+description:
+  fr: "Catégorie regroupant les différents éléments décoratifs architecturaux."
+  en: "Category grouping various architectural decorative elements."
+color: "#f8e1c8"

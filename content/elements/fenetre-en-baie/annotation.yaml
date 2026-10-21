@@ -1,0 +1,26 @@
+name:
+  fr: Fenêtre en baie
+  en: Bay window
+gender:
+  fr: n.f.
+slug:
+  fr: fenetre-en-baie
+  en: bay-window
+aliases:
+  fr: [Oriel, Bow-window, Fenêtre saillante, Fenêtre arquée]
+  en: []
+category: opening
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: cornice, label: { fr: Corniche } }
+  - { id: front-window, label: { fr: Fenêtre frontale } }
+  - { id: side-windows, label: { fr: Fenêtres latérales } }
+  - { id: corner-posts, label: { fr: Poteaux d'angle } }
+  - { id: sill, label: { fr: Appui } }
+  - { id: base, label: { fr: Soubassement } }
+tags:
+  - style/victorian
+  - style/art-nouveau
+  - mood/cozy
+  - region/uk
+  - region/north-america

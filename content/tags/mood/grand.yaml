@@ -1,0 +1,7 @@
+key: mood/grand
+slug: { fr: grand, en: grand }
+label: { fr: Grand, en: Grand }
+description:
+  fr: "On se sent majestueux et imposant."
+  en: "One feels majestic and imposing."
+color: "#e6d9f2"

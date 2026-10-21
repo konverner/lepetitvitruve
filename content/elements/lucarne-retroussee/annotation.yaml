@@ -1,0 +1,26 @@
+name:
+  fr: Lucarne retroussée
+  en: Hipped dormer
+gender:
+  fr: n.f.
+slug:
+  fr: lucarne-retroussee
+  en: hipped-dormer
+aliases:
+  fr: [Lucarne à chien-assis]
+  en: [Upswept dormer]
+category: opening
+parts:
+  - { id: roof, label: { fr: Toit } }
+  - { id: dormer-roof, label: { fr: Toit de la lucarne } }
+  - { id: cheek, label: { fr: Joue } }
+  - { id: pediment, label: { fr: Fronton } }
+  - { id: frame, label: { fr: Encadrement } }
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: bars, label: { fr: Petits-bois } }
+  - { id: sill, label: { fr: Appui } }
+tags:
+  - region/france
+  - style/baroque
+  - style/classical
+  - mood/cozy

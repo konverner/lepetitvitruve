@@ -1,0 +1,32 @@
+name:
+  fr: Balconnet
+  en: Juliet balcony
+gender:
+  fr: n.m.
+slug:
+  fr: balconnet
+  en: juliet-balcony
+aliases:
+  fr:
+    - faux balcon
+  en:
+    - false balcony
+    - balconette
+category: opening
+parts:
+  - { id: wall, label: { fr: Mur } }
+  - { id: window, label: { fr: Fenêtre } }
+  - { id: frame, label: { fr: Encadrement } }
+  - { id: bars, label: { fr: Barreaux } }
+  - { id: handrail, label: { fr: Main courante } }
+  - { id: scrolls, label: { fr: Enroulements } }
+  - { id: ledge, label: { fr: Tablette } }
+  - { id: planter, label: { fr: Jardinière } }
+tags:
+  - region/france
+  - region/italy
+  - style/haussmannian
+  - style/baroque
+  - mood/cozy
+  - mood/protective
+  - rarity/medium

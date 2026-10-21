@@ -1,0 +1,26 @@
+name:
+  fr: Voûte sur croisée d'ogives
+  en: Rib vault
+gender:
+  fr: n.f.
+slug:
+  fr: voute-sur-croisee-dogives
+  en: rib-vault
+aliases:
+  fr:
+    - Voûte gothique
+  en:
+    - Gothic vault
+category: structure
+tags:
+  - region/europe
+  - style/gothic
+  - mood/grand
+  - mood/curious
+  - rarity/common
+parts:
+  - { id: ogive, label: { fr: Ogive } }
+  - { id: cle-de-voute, label: { fr: Clé de voûte } }
+  - { id: voutain, label: { fr: Voûtain } }
+  - { id: arc-doubleau, label: { fr: Arc doubleau } }
+  - { id: arc-formeret, label: { fr: Arc formeret } }

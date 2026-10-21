@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none"><style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <g data-part="roof">
+    <path class="d" d="M-100 300L-10 0M-44 300L46 0M12 300L102 0M68 300L105.5 175M139 63.5L158 0M124 300L132.7 271.2M204.8 30.8L214 0M180 300L188.7 271.2M257.9 40.4L270 0M236 300L244.7 271.2M254.5 238.5L276.4 165.4M298.3 92.3L326 0M292 300L382 0M348 300L438 0M404 300L494 0"/>
+  </g>
+  <g data-part="hood">
+    <path class="s" d="M149.6 64.6L185.6 44.6A82 106 0 0 1 300 142L264 162"/>
+    <path class="d" d="M161.9 59.2L197.9 39.2M178.7 56.1L214.7 36.1M195.7 57.5L231.7 37.5M212 63.4L248 43.4M227.1 73.5L263.1 53.5M240.2 87.4L276.2 67.4M250.9 104.5L286.9 84.5M258.6 124.1L294.6 104.1M263 145.3L299 125.3"/>
+  </g>
+  <g data-part="hood-edge">
+    <path class="s" d="M100 162A82 106 0 0 1 264 162L259 162A77 101 0 0 0 105 162Z"/>
+  </g>
+  <g data-part="sill">
+    <path class="s" d="M122 254L242 254L242 264L122 264Z"/>
+    <path class="s" d="M242 254L256 246L256 256L242 264"/>
+    <path class="s" d="M256 246L212 246M152 246L136 246L122 254"/>
+  </g>
+  <g data-part="keystone">
+    <path class="s" d="M169 61L195 61L191 95L173 95Z"/>
+    <path class="d" d="M170.5 67L193.5 67"/>
+  </g>
+  <g data-part="molding">
+    <path class="s" d="M193.8 71.3A70 92 0 1 1 170.2 71.3"/>
+    <path class="d" d="M193.3 75.8A66.5 87.5 0 1 1 170.7 75.8"/>
+  </g>
+  <g data-part="surround">
+    <path class="s" d="M192.7 80.3A62 83 0 1 1 171.3 80.3"/>
+    <path class="d" d="M152.9 88.7L159.5 102M211.1 88.7L204.5 102M130.6 115.6L142.2 124M233.4 115.6L221.8 124M120.3 153.3L134.3 154.9M243.7 153.3L229.7 154.9M124.5 193.1L137.5 187.5M239.5 193.1L226.5 187.5M142.1 225.6L151.1 214.1M221.9 225.6L212.9 214.1M169.1 243.2L172 228.5M194.9 243.2L192 228.5"/>
+  </g>
+  <g data-part="frame">
+    <path class="s" d="M134 162A48 68 0 1 1 230 162A48 68 0 1 1 134 162Z"/>
+  </g>
+  <g data-part="window">
+    <path class="s" d="M139 162A43 63 0 1 1 225 162A43 63 0 1 1 139 162Z"/>
+  </g>
+  <g data-part="bars">
+    <path class="s" d="M180 99.1L180 224.9M184 99.1L184 224.9M142 139L222 139M141 143L223 143M141 181L223 181M142 185L222 185"/>
+  </g>
+</svg>

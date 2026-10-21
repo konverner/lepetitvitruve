@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none" class="lpv"><style>.lpv{--a:var(--accent-interactive)}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <defs>
+    <clipPath id="lpv-marcapiano-shadow"><path d="M0 198.75H376V216H0Z"/></clipPath>
+  </defs>
+  <g data-part="upper-floor">
+    <path class="d" d="M0 10H62M158 10H242M338 10H376M0 34H62M158 34H242M338 34H376M0 58H62M158 58H242M338 58H376M0 82H62M158 82H242M338 82H376M0 106H62M158 106H242M338 106H376M0 130H376"/>
+    <path class="s" d="M376 0L376 150"/>
+    <rect x="0" y="0" width="376" height="150" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="lower-floor">
+    <path class="d" d="M0 224H376M0 248H70M150 248H250M330 248H376M0 272H70M150 272H250M330 272H376M0 296H70M150 296H250M330 296H376"/>
+    <path class="s" d="M376 196L376 320"/>
+    <rect x="0" y="216" width="376" height="104" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="windows">
+    <path class="s" d="M70 112L70 22L150 22L150 112Z"/>
+    <path class="s" d="M62 112L158 112L158 119L62 119Z"/>
+    <path class="d" d="M77 29L143 29L143 105L77 105ZM110 29L110 105M77 62L143 62"/>
+    <path class="s" d="M70 320L70 240L150 240L150 320"/>
+    <path class="d" d="M77 320L77 247L143 247L143 320M110 247L110 320M77 282L143 282"/>
+    <path class="s" d="M250 112L250 22L330 22L330 112Z"/>
+    <path class="s" d="M242 112L338 112L338 119L242 119Z"/>
+    <path class="d" d="M257 29L323 29L323 105L257 105ZM290 29L290 105M257 62L323 62"/>
+    <path class="s" d="M250 320L250 240L330 240L330 320"/>
+    <path class="d" d="M257 320L257 247L323 247L323 320M290 247L290 320M257 282L323 282"/>
+  </g>
+  <g data-part="shadow">
+    <path class="d" clip-path="url(#lpv-marcapiano-shadow)" d="M-20 216L-2.75 198.75M-12 216L5.25 198.75M-4 216L13.25 198.75M4 216L21.25 198.75M12 216L29.25 198.75M20 216L37.25 198.75M28 216L45.25 198.75M36 216L53.25 198.75M44 216L61.25 198.75M52 216L69.25 198.75M60 216L77.25 198.75M68 216L85.25 198.75M76 216L93.25 198.75M84 216L101.25 198.75M92 216L109.25 198.75M100 216L117.25 198.75M108 216L125.25 198.75M116 216L133.25 198.75M124 216L141.25 198.75M132 216L149.25 198.75M140 216L157.25 198.75M148 216L165.25 198.75M156 216L173.25 198.75M164 216L181.25 198.75M172 216L189.25 198.75M180 216L197.25 198.75M188 216L205.25 198.75M196 216L213.25 198.75M204 216L221.25 198.75M212 216L229.25 198.75M220 216L237.25 198.75M228 216L245.25 198.75M236 216L253.25 198.75M244 216L261.25 198.75M252 216L269.25 198.75M260 216L277.25 198.75M268 216L285.25 198.75M276 216L293.25 198.75M284 216L301.25 198.75M292 216L309.25 198.75M300 216L317.25 198.75M308 216L325.25 198.75M316 216L333.25 198.75M324 216L341.25 198.75M332 216L349.25 198.75M340 216L357.25 198.75M348 216L365.25 198.75M356 216L373.25 198.75M364 216L381.25 198.75M372 216L389.25 198.75"/>
+    <rect x="0" y="198.75" width="376" height="17.25" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="band">
+    <path class="s" d="M0 166.8L360 166.8L366 163.5L366 191.5L0 191.5Z"/>
+    <path class="s" d="M376 158L366 163.5L366 191.5L376 186Z"/>
+    <path class="d" d="M0 179L366 179"/>
+  </g>
+  <g data-part="mouldings">
+    <path class="s" d="M0 150L376 150L360 158.8L0 158.8Z"/>
+    <path class="s" d="M0 158.8L360 158.8L360 166.8L0 166.8Z"/>
+    <path class="s" d="M376 150L360 158.8L360 166.8L376 158Z"/>
+    <path class="s" d="M0 191.5L366 191.5L371 188.75L371 198.75L0 198.75Z"/>
+    <path class="s" d="M376 186L371 188.75L371 198.75L376 196Z"/>
+  </g>
+</svg>

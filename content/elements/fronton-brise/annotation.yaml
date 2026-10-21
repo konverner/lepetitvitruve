@@ -1,0 +1,28 @@
+name:
+  fr: Fronton brisé
+  en: Broken pediment
+gender:
+  fr: n.m.
+slug:
+  fr: fronton-brise
+  en: broken-pediment
+aliases:
+  fr:
+    - Fronton interrompu
+    - Fronton ouvert
+  en:
+    - Split pediment
+category: ornament
+tags:
+  - category/decor
+  - region/europe
+  - style/baroque
+  - style/renaissance
+  - mood/dramatic
+  - rarity/medium
+parts:
+  - { id: rampant-gauche, label: { fr: Rampant gauche } }
+  - { id: rampant-droit, label: { fr: Rampant droit } }
+  - { id: interruption, label: { fr: Interruption centrale } }
+  - { id: tympan, label: { fr: Tympan } }
+  - { id: corniche-inferieure, label: { fr: Corniche inférieure } }

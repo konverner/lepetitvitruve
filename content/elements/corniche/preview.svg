@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
+  <style>.lpv{--a:var(--accent-interactive)}</style>
+  <path stroke-width="1.25" d="M78 15.3L78 100M98 12.9L98 100M 40L98 20M78 62L98 42M78 84L98 64M84 100L98 86"/>
+  <path stroke-width="2" d="M20.4 22.2L98 12.9L98 7.9L20.4 17.2Z"/>
+  <path stroke-width="2" style="stroke:var(--a)" d="M78 22L22.4 22C22.4 25.8 26.7 32.9 38.1 35L39.4 41.3L42.1 42.8L49.9 47.3L49.9 61.9L56.6 61.9A16.8 20.2 0 0 1 73.5 82.1L78 82.1L78 100"/>
+  <path stroke-width="1.25" d="M49.9 47.3L78 47.3M49.9 61.9L78 61.9M27.1 30.1L78 30.1"/>
+</svg>

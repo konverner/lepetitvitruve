@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <style>:root{--_a:transparent}.a{stroke:var(--accent-interactive,var(--_a))}</style>
+  <path class="hit" d="M38.4 87L74 59V87Z" stroke="none" fill="transparent"/>
+  <path class="hit" d="M141.6 87L106 59V87Z" stroke="none" fill="transparent"/>
+  <path stroke-width="3" d="M45 100.5L135 100.5L135 114L45 114Z"/>
+  <path stroke-width="3" d="M36 94.5L144 94.5L144 100.5L36 100.5Z"/>
+  <path stroke-width="3" d="M27 87L153 87L153 94.5L27 94.5Z"/>
+  <path stroke-width="3" d="M27 87L74 50L74 59L38.4 87Z"/>
+  <path stroke-width="3" d="M153 87L106 50L106 59L141.6 87Z"/>
+  <path stroke-width="1.875" d="M33 87L74 53.5M147 87L106 53.5"/>
+  <g stroke-width="1.875">
+    <path d="M81 87H99L97 81H83Z"/>
+    <path d="M84 81C80 75 80 68 85 62L87 60H93L95 62C100 68 100 75 96 81Z"/>
+    <path d="M87 60L90 54L93 60"/>
+    <circle cx="90" cy="51" r="2.2"/>
+  </g>
+</svg>

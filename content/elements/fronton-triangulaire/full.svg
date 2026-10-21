@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none"><style>:root{--_a:var(--accent-interactive)}.s,.d,.c{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}.c{fill:none;pointer-events:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.3;stroke-width:.75;stroke-dasharray:3 4}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--_a));stroke-opacity:1}</style>
+  <path class="c" d="M76 224L76 276M324 224L324 276"/>
+  <g data-part="entablature">
+    <path class="s" d="M56 186L344 186L344 224L56 224Z"/>
+  </g>
+  <g data-part="cornice">
+    <path class="s" d="M36 165L364 165L364 177L36 177Z"/>
+    <path class="s" d="M44 177L356 177L356 186L44 186Z"/>
+  </g>
+  <g data-part="tympanum">
+    <path class="s" d="M64.7 165L200 99L335.3 165Z"/>
+  </g>
+  <g data-part="raking-cornice">
+    <path class="s" d="M36 165L200 85L364 165L335.3 165L200 99L64.7 165Z"/>
+    <path class="d" d="M48.3 165L200 91L351.7 165"/>
+  </g>
+  <g data-part="relief">
+    <path class="s" d="M188 128L212 128L212 142Q212 152 200 158Q188 152 188 142Z"/>
+    <path class="d" d="M188 135L212 135M200 128L200 154"/>
+  </g>
+</svg>

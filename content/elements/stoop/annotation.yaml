@@ -1,0 +1,26 @@
+name:
+  fr: Stoop
+  en: Stoop
+gender:
+  fr: n.m.
+slug:
+  fr: stoop
+  en: stoop
+aliases:
+  fr:
+    - perron américain
+    - perron néerlandais
+  en: []
+category: opening
+tags:
+  - region/north-america
+  - region/netherlands
+  - region/uk
+  - style/victorian
+  - style/colonial
+  - mood/cozy
+  - rarity/common
+parts:
+  - { id: garde-corps, label: { fr: Garde-corps } }
+  - { id: marches, label: { fr: Marches } }
+  - { id: palier, label: { fr: Palier } }

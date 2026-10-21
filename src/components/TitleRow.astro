@@ -1,0 +1,18 @@
+---
+import type { Element } from '../lib/content';
+
+interface Props {
+  element: Element;
+}
+
+const { element } = Astro.props as Props;
+const aliasesText = element.aliases.fr.length ? `aussi appelée ${element.aliases.fr.join(', ')}` : null;
+---
+
+<div class="title-row">
+  <h1 class="title-row__title">
+    {element.name.fr}
+    <span class="title-row__gender">{element.gender.fr}</span>
+  </h1>
+  {aliasesText && <p class="title-row__aliases">{aliasesText}</p>}
+</div>

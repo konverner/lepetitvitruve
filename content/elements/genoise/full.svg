@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <path class="d" d="M40 0V72M80 0V72M120 0V72M160 0V72M200 0V72M240 0V72M280 0V72M320 0V72M360 0V72"/>
+  <g data-part="mur-de-façade">
+    <path class="d" d="M0 216H400M0 264H400"/>
+    <path class="d" d="M110 168V216M290 168V216M40 216V264M200 216V264M340 216V264M120 264V300M270 264V300"/>
+    <rect x="0" y="168" width="400" height="132" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="rangée-de-tuiles">
+    <path class="s" d="M0 72H400M0 104H400M0 136H400M0 168H400"/>
+    <rect x="0" y="72" width="400" height="32" fill="transparent" stroke="none" pointer-events="all"/>
+    <rect x="0" y="104" width="400" height="32" fill="transparent" stroke="none" pointer-events="all"/>
+    <rect x="0" y="136" width="400" height="32" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="tuile-canal">
+    <path class="s" d="M0 104a40 32 0 0 1 80 0a40 32 0 0 1 80 0a40 32 0 0 1 80 0a40 32 0 0 1 80 0a40 32 0 0 1 80 0"/>
+    <path class="s" d="M4 104a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0"/>
+    <path class="d" d="M8 104a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0"/>
+    <path d="M0 104a40 32 0 0 1 80 0ZM80 104a40 32 0 0 1 80 0ZM160 104a40 32 0 0 1 80 0ZM240 104a40 32 0 0 1 80 0ZM320 104a40 32 0 0 1 80 0Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path class="s" d="M0 104A40 32 0 0 1 40 136a40 32 0 0 1 80 0a40 32 0 0 1 80 0a40 32 0 0 1 80 0a40 32 0 0 1 80 0A40 32 0 0 1 400 104"/>
+    <path class="s" d="M0 108A36 28 0 0 1 36 136M44 136a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0M364 136A36 28 0 0 1 400 108"/>
+    <path class="d" d="M0 112A32 24 0 0 1 32 136M48 136a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0M368 136A32 24 0 0 1 400 112"/>
+    <path d="M0 104A40 32 0 0 1 40 136H0ZM40 136a40 32 0 0 1 80 0ZM120 136a40 32 0 0 1 80 0ZM200 136a40 32 0 0 1 80 0ZM280 136a40 32 0 0 1 80 0ZM360 136A40 32 0 0 1 400 104V136Z" fill="transparent" stroke="none" pointer-events="all"/>
+    <path class="s" d="M0 168a40 32 0 0 1 80 0a40 32 0 0 1 80 0a40 32 0 0 1 80 0a40 32 0 0 1 80 0a40 32 0 0 1 80 0"/>
+    <path class="s" d="M4 168a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0m8 0a36 28 0 0 1 72 0"/>
+    <path class="d" d="M8 168a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0m16 0a32 24 0 0 1 64 0"/>
+    <path d="M0 168a40 32 0 0 1 80 0ZM80 168a40 32 0 0 1 80 0ZM160 168a40 32 0 0 1 80 0ZM240 168a40 32 0 0 1 80 0ZM320 168a40 32 0 0 1 80 0Z" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

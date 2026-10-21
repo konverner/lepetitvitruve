@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
+  <g>
+    <path class="d" d="M0 252H120M280 252H400M0 222H120M280 222H400M0 192H120M280 192H400M0 162H120M280 162H400M0 132H120M280 132H400M0 102H122.05M277.95 102H400M0 72H136M264 72H400M0 42H182.22M217.78 42H400M0 12H400"/>
+    <path class="d" d="M30 252V282M90 252V282M310 252V282M370 252V282M60 222V252M340 222V252M30 192V222M90 192V222M310 192V222M370 192V222M60 162V192M340 162V192M30 132V162M90 132V162M310 132V162M370 132V162M60 102V132M340 102V132M30 72V102M90 72V102M310 72V102M370 72V102M60 42V72M340 42V72M30 12V42M90 12V42M150 12V42M250 12V42M310 12V42M370 12V42M60 0V12M200 0V12M340 0V12"/>
+  </g>
+  <path class="s" d="M0 282L400 282"/>
+  <g data-part="encadrement">
+    <path class="s" fill-rule="evenodd" d="M120 282L120 120A80 80 0 0 1 280 120L280 282ZM144 262L144 120A56 56 0 0 1 256 120L256 262Z"/>
+    <path class="d" d="M148.26 98.57L126.09 89.39M160.4 80.4L143.43 63.43M178.57 68.26L169.39 46.09M192.69 64.48L189.56 40.68M207.31 64.48L210.44 40.68M221.43 68.26L230.61 46.09M239.6 80.4L256.57 63.43M251.74 98.57L273.91 89.39"/>
+  </g>
+  <g data-part="fond">
+    <path class="s" d="M144 120L256 120L256 262L144 262Z"/>
+    <path class="d" d="M152 126V258M166 126V258M234 126V258M248 126V258"/>
+  </g>
+  <g data-part="cul-de-four">
+    <path class="s" d="M144 120A56 56 0 0 1 256 120Z"/>
+    <path class="d" d="M200 120L148.26 98.57M200 120L160.4 80.4M200 120L178.57 68.26M200 120L200 64M200 120L221.43 68.26M200 120L239.6 80.4M200 120L251.74 98.57"/>
+    <path class="d" d="M164 120A36 36 0 0 1 236 120"/>
+  </g>
+  <g data-part="socle">
+    <path class="s" d="M168 250L232 250L232 262L168 262Z"/>
+    <path class="s" d="M178 216L222 216L222 250L178 250Z"/>
+    <path class="s" d="M170 204L230 204L230 216L170 216Z"/>
+    <path class="d" d="M186 224L214 224L214 242L186 242Z"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+key: region/reunion
+slug: { fr: reunion, en: reunion }
+label: { fr: "La Réunion", en: "Réunion" }
+description:
+  fr: "Éléments caractéristiques de l'architecture créole de l'île de La Réunion."
+  en: "Elements characteristic of the Creole architecture of Réunion island."
+color: "#d0e8e0"

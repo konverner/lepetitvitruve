@@ -1,0 +1,11 @@
+key: rarity/ubiquitous
+slug:
+  fr: omnipresent
+  en: ubiquitous
+label:
+  fr: Omniprésent
+  en: Ubiquitous
+description:
+  fr: "Élément architectural fondamental présent sur quasi toutes les constructions."
+  en: "Fundamental architectural element found on almost every building."
+color: "#d8ecd8"

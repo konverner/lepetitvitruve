@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
+  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
+  <g stroke-width="1" stroke-opacity=".55">
+    <path d="M8 8V112M8 20H44M8 32H44M8 44H44M8 56H24M8 80H24M8 92H44M8 104H44"/>
+    <path d="M26 8V20M17 20V32M35 20V32M26 32V44M17 44V56M35 44V56M26 80V92M17 92V104M35 92V104M26 104V112"/>
+  </g>
+  <path stroke-width="2" d="M44 8V44M44 80V112"/>
+  <path stroke-width="2" d="M44 44H112V56H44Z"/>
+  <path stroke-width="1.25" stroke-dasharray="2.5 2.5" style="stroke:var(--a)" d="M44 56H24V80H44"/>
+  <path stroke-width="2" style="stroke:var(--a)" d="M44 56H96V64H84V72H72V80H44Z"/>
+</svg>

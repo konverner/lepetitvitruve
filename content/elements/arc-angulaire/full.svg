@@ -1,0 +1,54 @@
+<svg viewBox="0 200 500 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">Arc en mitre</title>
+  <desc id="desc">Élévation détaillée d'un arc en mitre : deux piédroits verticaux portant une voussure triangulaire à deux rampants droits se joignant en pointe, appareillée de claveaux perpendiculaires aux rampants.</desc>
+
+  <!-- Ground / stone floor reference -->
+  <g data-part="sol" class="part-shape">
+    <line x1="65" y1="650" x2="435" y2="650"
+          stroke="var(--text-muted, currentColor)" stroke-width="1.5"
+          stroke-linecap="round" opacity="0.55"/>
+    <line x1="90" y1="656" x2="410" y2="656"
+          stroke="var(--text-muted, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- Piers -->
+  <g data-part="piedroits" class="part-shape">
+    <rect x="145" y="400" width="35" height="250"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linejoin="round"/>
+    <rect x="320" y="400" width="35" height="250"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linejoin="round"/>
+    <!-- impost course, springing line -->
+    <line x1="140" y1="400" x2="360" y2="400"
+          stroke="var(--text-primary, currentColor)" stroke-width="0.9"
+          stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Extrados: outer arch line, two straight sloped sides -->
+  <g data-part="extrados" class="part-shape">
+    <path d="M145 400 L250 295 L355 400"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Intrados: inner opening, two straight sloped sides meeting at a mitre -->
+  <g data-part="intrados" class="part-shape">
+    <path d="M180 400 L250 330 L320 400"
+          stroke="var(--text-primary, currentColor)" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Claveaux: voussoir joints, perpendicular to the sloped sides -->
+  <g data-part="claveaux" class="part-shape">
+    <path d="M197.5 382.5 L180 365
+             M215 365 L197.5 347.5
+             M232.5 347.5 L215 330
+             M250 330 L250 295
+             M267.5 347.5 L285 330
+             M285 365 L302.5 347.5
+             M302.5 382.5 L320 365"
+          stroke="var(--text-primary, currentColor)" stroke-width="1.3"
+          stroke-linecap="round" opacity="0.9"/>
+  </g>
+</svg>

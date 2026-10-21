@@ -1,0 +1,24 @@
+name:
+  fr: Fronton triangulaire
+  en: Triangular pediment
+gender:
+  fr: n.m.
+slug:
+  fr: fronton-triangulaire
+  en: triangular-pediment
+aliases:
+  fr: []
+  en: []
+category: ornament
+parts:
+  - { id: raking-cornice, label: { fr: Corniche rampante } }
+  - { id: tympanum, label: { fr: Tympan } }
+  - { id: relief, label: { fr: Relief } }
+  - { id: cornice, label: { fr: Corniche } }
+  - { id: entablature, label: { fr: Entablement } }
+tags:
+  - region/europe
+  - style/classical
+  - style/neoclassical
+  - mood/grand
+  - rarity/common

@@ -1,0 +1,7 @@
+key: region/north-america
+slug: { fr: amerique-du-nord, en: north-america }
+label: { fr: "Amérique du Nord", en: "North America" }
+description:
+  fr: "Éléments que l'on rencontre dans l'architecture nord-américaine."
+  en: "Elements found in North American architecture."
+color: "#d6e8d4"

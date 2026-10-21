@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g data-part="socle">
+    <path class="d" d="M0 276H62M238 276H300M0 386H300"/>
+    <path class="d" d="M80 330H220M150 297V330M115 330V364M185 330V364"/>
+    <path class="s" d="M62 276H238V290H62Z"/>
+    <path class="s" d="M72 290H228V297H72Z"/>
+    <path class="s" d="M80 297H220V364H80Z"/>
+    <path class="s" d="M72 364H228V372H72Z"/>
+    <path class="s" d="M64 372H236V386H64Z"/>
+    <rect x="0" y="274" width="300" height="114" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="corps">
+    <path class="s" d="M114 172C92 139 62 100 44 70Q59 96 46 122Q68 140 64 168Q84 182 80 206Q96 218 92 236"/>
+    <path class="s" d="M186 172C208 139 238 100 256 70Q241 96 254 122Q232 140 236 168Q216 182 220 206Q204 218 208 236"/>
+    <path class="d" d="M70 109L46 122M70 109L64 168M70 109L80 206"/>
+    <path class="d" d="M230 109L254 122M230 109L236 168M230 109L220 206"/>
+    <path class="s" d="M128 150C112 178 94 216 86 256C84 266 88 275 97 275C104 275 108 271 110 262C117 230 128 192 140 158"/>
+    <path class="s" d="M172 150C188 178 206 216 214 256C216 266 212 275 203 275C196 275 192 271 190 262C183 230 172 192 160 158"/>
+    <path class="s" d="M150 133C141 128 129 132 127 144C126 153 132 159 140 159C146 159 150 156 150 151Z"/>
+    <path class="s" d="M150 133C159 128 171 132 173 144C174 153 168 159 160 159C154 159 150 156 150 151Z"/>
+    <path class="d" d="M133 140C136 143 137 150 135 155M141 137C144 141 144 150 142 156M167 140C164 143 163 150 165 155M159 137C156 141 156 150 158 156"/>
+    <path class="d" d="M150 160V265M134 190C142 196 158 196 166 190M128 216C140 224 160 224 172 216"/>
+    <path class="s" d="M117 240C119 254 124 262 131 266M183 240C181 254 176 262 169 266"/>
+    <path class="s" d="M126 276C126 268 132 264 140 265C147 266 150 270 150 276"/>
+    <path class="s" d="M174 276C174 268 168 264 160 265C153 266 150 270 150 276"/>
+    <path class="d" d="M133 265V276M141 265.5V276M167 265V276M159 265.5V276"/>
+    <rect x="40" y="66" width="220" height="210" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="tete">
+    <path class="s" d="M127 76C114 67 108 48 110 28C116 46 128 56 142 65"/>
+    <path class="s" d="M173 76C186 67 192 48 190 28C184 46 172 56 158 65"/>
+    <path class="d" d="M117 64L130 57M113 55.5L123 50M110 45L117 42M183 64L170 57M187 55.5L177 50M190 45L183 42"/>
+    <path class="s" d="M126 82Q112 72 98 66Q98 84 104 98Q114 104 124 106"/>
+    <path class="s" d="M174 82Q188 72 202 66Q202 84 196 98Q186 104 176 106"/>
+    <path class="d" d="M112 80Q106 86 106 92M188 80Q194 86 194 92"/>
+    <path class="s" d="M134 131C129 127 125 121 124 114C120 100 121 86 127 76C133 67 142 63 150 63C158 63 167 67 173 76C179 86 180 100 176 114C175 121 171 127 166 131"/>
+    <path class="s" d="M128 88C136 88 143 91 147 96M172 88C164 88 157 91 153 96"/>
+    <path class="s" d="M133 102C137 98 143 99 146 103C142 106 136 106 133 102Z"/>
+    <path class="s" d="M167 102C163 98 157 99 154 103C158 106 164 106 167 102Z"/>
+    <circle class="s" cx="140" cy="102" r="1.8"/>
+    <circle class="s" cx="160" cy="102" r="1.8"/>
+    <path class="s" d="M147 109C147 113 148 115 150 117C152 115 153 113 153 109"/>
+    <path class="s" d="M135 121C142 127 158 127 165 121"/>
+    <path class="s" d="M139 123.5L141 128.5L144 125M161 123.5L159 128.5L156 125"/>
+    <path class="d" d="M130 108C134 112 136 116 138 119M170 108C166 112 164 116 162 119M142 72C146 70 154 70 158 72"/>
+    <rect x="96" y="24" width="108" height="108" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

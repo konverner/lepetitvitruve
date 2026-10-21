@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke-width="2" d="M34 100L34 48A26 26 0 0 1 86 48L86 100Z"/>
+  <path stroke-width="2" d="M43 90L43 48A17 17 0 0 1 77 48L77 90Z"/>
+  <path stroke-width="1.25" d="M57.78 31.14L56.61 22.22M62.22 31.14L63.39 22.22"/>
+  <path stroke-width="1.25" d="M43 48L77 48"/>
+  <path stroke-width="1.25" d="M60 48L44.29 41.49M60 48L47.98 35.98M60 48L53.49 32.29M60 48L60 31M60 48L66.51 32.29M60 48L72.02 35.98M60 48L75.71 41.49"/>
+  <path stroke-width="2" d="M51 84L69 84L69 90L51 90ZM52 70L68 70L68 74L52 74Z"/>
+  <path stroke-width="1.25" d="M54 74L54 84M66 74L66 84"/>
+</svg>
