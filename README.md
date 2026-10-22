@@ -12,36 +12,23 @@ The site is **fully static and framework-free on the client**: content is valida
 
 ## 1. Architecture at a glance
 
+```mermaid
+flowchart TD
+    Content["content/ <br/>(YAML + Markdown + SVG, versioned in Git)<br/><b>Source of truth</b>"]
+    
+    Content --> Collections["Astro content collections<br/>(Zod validation)"]
+    Content --> Checks["scripts/check-content.ts<br/>(extra cross-checks)"]
+    
+    Collections --> Astro["Astro (static output)"]
+    Checks --> Astro
+    
+    Astro --> Dist["dist/ <br/>(plain HTML + CSS + tiny scripts)"]
+    Dist --> Host["Static host <br/>(Cloudflare Pages, Netlify or GitHub Pages)"]
+
+    style Content fill:#f9f,stroke:#333,stroke-width:2px
+    style Dist fill:#bbf,stroke:#333,stroke-width:2px
+    style Host fill:#bfb,stroke:#333,stroke-width:2px
 ```
-content/ (YAML + Markdown + SVG, versioned in Git)      <- source of truth
-        |  Astro content collections (Zod validation)
-        |  scripts/check-content.ts (extra cross-checks)
-        v
-Astro (static output)  -->  dist/ (plain HTML + CSS + tiny scripts)
-        |
-        v
-Static host (Cloudflare Pages, Netlify or GitHub Pages)
-```
-
-**Key decisions for V1**
-
-| Topic | Decision |
-|---|---|
-| Framework | **Astro** (static output). Pages are HTML; interactivity is limited to small vanilla TypeScript scripts. |
-| Content | Files in `content/`, reviewed through PRs. |
-| Language | **French only.** No locale routing, no `/en`, no language switcher. |
-| Prose format | **Plain Markdown, rendered as-is.** No front matter, no section markers. Each entry's file is one ordinary article, `# Title` then `##` sections. |
-| Page layout | Four rows: site header; title with gender and aliases; a diagram card and a Markdown card side by side; site footer. |
-| Navigation | A single, unfiltered index page listing every entry. Tags are metadata only; there are no tag pages, filters, or search. |
-| Connections | None. Entries do not link to each other; there is no "related elements" section. Exemples lists real buildings with external links; these are not links between entries. |
-| Type safety | Zod schemas in `src/content.config.ts` validate `annotation.yaml` and give TS types. |
-| Diagrams | Original hand-authored SVGs, styled with CSS variables. Hovering or focusing a part highlights it as a labeling aid; it does not change the text shown. |
-| Photos | **None stored and none embedded**, now or later. |
-| Progressive enhancement | Pages are fully readable without JavaScript; scripts only add interactivity. |
-| Mobile | Mobile-first layout, touch-sized targets (24px minimum for markers, 44px for legend rows), light pages. |
-| Backend | None. See section 11. |
-
----
 
 ## 2. Repository layout (V1)
 
@@ -236,50 +223,3 @@ npm run typecheck       # astro check
 npm run lint
 npm run test
 ```
-
-### Adding a new element
-
-1. Create `content/elements/<id>/` with `annotation.yaml` and `fr.md`, writing `fr.md` according to `EDITORIAL_GUIDELINES_fr.md`; add `preview.svg` and/or `full.svg` when an illustration is available.
-2. Run `npm run check:content`, then `npm run dev` to review the page.
-3. Open a PR. CI validates content and builds the site.
-
-Docker is optional and not used in production. For dev parity, one Node service is enough:
-
-```yaml
-services:
-  web:
-    image: node:lts
-    working_dir: /app
-    volumes: [".:/app"]
-    command: sh -c "npm ci && npm run dev -- --host"
-    ports: ["4321:4321"]
-```
-
----
-
-## 9. Deployment
-
-The site is served at `https://lepetitvitruve.fr` from GitHub Pages.
-
-- Build command: `npm run build`; output directory: `dist`.
-- `.github/workflows/ci.yml` runs lint, tests, typecheck, content checks and build on every push and PR.
-- `.github/workflows/deploy.yml` builds and deploys `dist/` to GitHub Pages on every push to `main`. In the repository settings, set Pages > Source to "GitHub Actions" and the custom domain to `lepetitvitruve.fr`.
-- `public/CNAME` keeps the custom domain across deployments.
-- DNS: an `A`/`AAAA` (or `ALIAS`) record set for the apex pointing to GitHub Pages, and a `CNAME` for `www` if wanted.
-
----
-
-## 10. Content and media policy
-
-- Diagrams are original work.
-- No photographs are stored, embedded or hotlinked, in any version.
-- Prose is written in your own words. If text is adapted from a source under a share-alike licence (for example Wikipedia, CC BY-SA), show the attribution and licence on the page.
-- French prose follows `EDITORIAL_GUIDELINES_fr.md`. Its rules (nominal definitions, the section list, no emphasis in body text, bullets and external links only in Exemples) are checked in review, not by `check:content`.
-
----
-
-## 11. Out of scope
-
-See `ROADMAP.md` for what V2 and V3 add. Indefinitely out of scope, unless explicitly requested: quizzes, maps, study paths, photo storage or image pipelines, MDX, user accounts, captures, gamification, and any mobile app.
-
-A backend would only become useful for user-generated data, per-user sync, comments, or an admin UI that writes content — none of which this project needs.
