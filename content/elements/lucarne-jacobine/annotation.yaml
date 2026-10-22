@@ -20,4 +20,10 @@ parts:
   - { id: window, label: { fr: Fenêtre } }
   - { id: bars, label: { fr: Petits-bois } }
   - { id: sill, label: { fr: Appui } }
-tags: []
+tags:
+  - region/france
+  - mood/cozy
+  - style/baroque
+  - style/neoclassical
+  - style/renaissance
+  - rarity/common
