@@ -11,7 +11,7 @@ Structurellement, le lambrequin n'assure aucune fonction porteuse ; il est accro
 ## Trivia
 D'abord simple pièce de tissu, un lambeau, destinée à protéger le casque des chevaliers de la chaleur, le lambrequin a évolué pour désigner la draperie d'intérieur et ensuite l'ornementation de façade en métal ou en bois.
 
-Dans le style rococo, le lambrequin désigne également un élément de la draperie intérieure. TODO(verify)
+Dans le style rococo, le lambrequin désigne également un élément de la draperie intérieure.
 
 ## Exemples
 On le trouve principalement sous l'avancée de toit des maisons créoles, le long des villas balnéaires du XIXe siècle et au-dessus des devantures de magasins anciens.

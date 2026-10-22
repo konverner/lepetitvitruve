@@ -13,5 +13,7 @@ Le contrefort joue un rôle structurel essentiel en contrebalançant les forces 
 On le rencontre très fréquemment le long des murs extérieurs des églises romanes et des résidences médiévales.
 
 - Église Saint-Germain-des-Prés, Paris, France
+
 - Cathédrale Saint-Jean de Varsovie, Varsovie, Pologne
-- Église de Beenz, Brandebourg, Allemagne TODO(verify)
+
+- Église de Beenz, Brandebourg, Allemagne

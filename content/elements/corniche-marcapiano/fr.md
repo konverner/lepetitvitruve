@@ -9,7 +9,7 @@ Ne pas la confondre avec la corniche de toit, qui se trouve tout en haut du bât
 Structurellement, la corniche marcapiano ne porte pas de charge notable : son léger débord participe surtout à la mise en forme de la façade et à la division des niveaux. Pratiquement, elle permet de repérer de l'extérieur la limite entre deux étages et d'organiser la lecture du bâtiment. Esthétiquement, elle impose une horizontalité au mur et souligne la proportion des étages, caractéristique des palais urbains de la Renaissance italienne, dont les façades sont entièrement rythmées par ces bandeaux.
 
 ## Trivia
-Le terme « marcapiano » vient de l'italien « marca-piano » et signifie littéralement « marque d'étage ». TODO(verify)
+Le terme « marcapiano » vient de l'italien « marca-piano » et signifie littéralement « marque d'étage ».
 
 ## Exemples
 On la trouve principalement sur les grands palais urbains et les immeubles classiques, tout particulièrement en Italie et dans les villes d'inspiration italienne.
