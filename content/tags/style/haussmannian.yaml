@@ -4,4 +4,5 @@ label: { fr: "Haussmannien", en: "Haussmannian" }
 description:
   fr: "Style des immeubles parisiens issus des transformations de Paris au XIXe siècle sous Haussmann."
   en: "Style of the Parisian buildings that came out of the 19th-century transformation of Paris under Haussmann."
-color: "#dfe6f2"
+color: "#f5f5dc"  # beige
+ 
