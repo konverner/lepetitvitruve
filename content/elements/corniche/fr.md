@@ -12,5 +12,7 @@ Structurellement, la corniche couronne le mur et protège la maçonnerie de l'hu
 On la trouve sur presque tous les bâtiments classiques, les immeubles haussmanniens et les palais anciens.
 
 - Palais Farnèse, Rome, Italie
-- Cour carrée du Louvre, Paris, France
-- Château de Versailles, Versailles, France
+
+- [Cour carrée du Louvre, Paris, France](https://maps.app.goo.gl/et8YoDAAfY8pMKDV8)
+
+- [Flatiron Building, New York, USA](https://maps.app.goo.gl/BrBM2gK75pHNqDb67)
