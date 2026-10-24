@@ -1,0 +1,7 @@
+key: style/neorenaissance
+slug: { fr: neorenaissance, en: neorenaissance }
+label: { fr: "Néorenaissance", en: "Neo-Renaissance" }
+description:
+  fr: "Style architectural inspiré de la Renaissance italienne, apparu au XIXe siècle."
+  en: "Architectural style inspired by the Italian Renaissance, appearing in the 19th century."
+color: "#e6e6fa"  # light purple
