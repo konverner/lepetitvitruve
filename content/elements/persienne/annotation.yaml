@@ -19,6 +19,10 @@ parts:
   - { id: hinges, label: { fr: Charnières } }
 tags:
   - region/france
+  - region/italy
   - style/haussmannian
+  - style/neoclassical
+  - style/neorenaissance
   - mood/cozy
   - mood/protective
+  - rarity/common

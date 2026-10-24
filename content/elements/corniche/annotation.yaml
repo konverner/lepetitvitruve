@@ -18,6 +18,11 @@ parts:
   - { id: roof, label: { fr: Toit } }
   - { id: water, label: { fr: Eau de pluie } }
 tags:
+  - region/europe
+  - region/north-america
   - style/antique
   - style/classical
   - style/renaissance
+  - style/haussmannian
+  - rarity/common
+  - mood/protective

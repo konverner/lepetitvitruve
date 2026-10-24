@@ -21,6 +21,8 @@ parts:
   - { id: sill, label: { fr: Appui } }
 tags:
   - region/france
-  - style/baroque
-  - style/classical
+  - region/germany
+  - style/vernacular
+  - style/medieval
   - mood/cozy
+  - rarity/rare
