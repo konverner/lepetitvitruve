@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" class="lpv">
+<style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive,var(--a));stroke-opacity:1}</style>
+  <g data-part="fleche">
+    <path class="s" d="M108 240L150 92L192 240Z"/>
+    <path class="d" d="M150 92L150 240M119.4 200L180.6 200M130.7 160L169.3 160M142 120L158 120"/>
+    <path class="s" d="M115.1 215c-7 0-11-6-9-12c3 4 6 5 9 5M124.5 182c-7 0-11-6-9-12c3 4 6 5 9 5M133.8 149c-7 0-11-6-9-12c3 4 6 5 9 5M143.1 116c-7 0-11-6-9-12c3 4 6 5 9 5"/>
+    <path class="s" d="M184.9 215c7 0 11-6 9-12c-3 4-6 5-9 5M175.5 182c7 0 11-6 9-12c-3 4-6 5-9 5M166.2 149c7 0 11-6 9-12c-3 4-6 5-9 5M156.9 116c7 0 11-6 9-12c-3 4-6 5-9 5"/>
+    <path class="s" d="M150 92L150 78M150 78C140 78 138 66 144 62C146 68 150 70 150 78ZM150 78C160 78 162 66 156 62C154 68 150 70 150 78ZM150 64C146 58 147 52 150 46C153 52 154 58 150 64Z"/>
+    <rect x="96" y="40" width="108" height="200" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+  <g data-part="base">
+    <path class="s" d="M102 240L198 240L198 250L102 250Z"/>
+    <path class="s" d="M108 250L192 250L192 258L108 258Z"/>
+    <path class="s" d="M112 258L188 258L188 346L112 346Z"/>
+    <path class="s" d="M126 340L126 294Q126 276 150 266Q174 276 174 294L174 340"/>
+    <path class="d" d="M134 340L134 296Q134 284 150 276Q166 284 166 296L166 340"/>
+    <path class="s" d="M100 346L200 346L200 358L100 358Z"/>
+    <path class="s" d="M94 358L206 358L206 372L94 372Z"/>
+    <path class="d" d="M20 372L94 372M206 372L280 372"/>
+    <rect x="94" y="240" width="112" height="132" fill="transparent" stroke="none" pointer-events="all"/>
+  </g>
+</svg>

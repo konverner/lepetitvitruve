@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
+  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
+  <g transform="translate(60 10) scale(.3) translate(-150 -40)">
+    <g>
+      <path vector-effect="non-scaling-stroke" stroke-width="2" d="M108 240L150 92L192 240Z"/>
+      <path vector-effect="non-scaling-stroke" stroke-width="1.25" d="M115.1 215c-7 0-11-6-9-12c3 4 6 5 9 5M124.5 182c-7 0-11-6-9-12c3 4 6 5 9 5M133.8 149c-7 0-11-6-9-12c3 4 6 5 9 5M143.1 116c-7 0-11-6-9-12c3 4 6 5 9 5"/>
+      <path vector-effect="non-scaling-stroke" stroke-width="1.25" d="M184.9 215c7 0 11-6 9-12c-3 4-6 5-9 5M175.5 182c7 0 11-6 9-12c-3 4-6 5-9 5M166.2 149c7 0 11-6 9-12c-3 4-6 5-9 5M156.9 116c7 0 11-6 9-12c-3 4-6 5-9 5"/>
+      <path vector-effect="non-scaling-stroke" stroke-width="1.25" d="M150 92L150 78M150 78C140 78 138 66 144 62C146 68 150 70 150 78ZM150 78C160 78 162 66 156 62C154 68 150 70 150 78ZM150 64C146 58 147 52 150 46C153 52 154 58 150 64Z"/>
+    </g>
+    <path vector-effect="non-scaling-stroke" stroke-width="2" d="M102 240L198 240L198 250L102 250ZM108 250L192 250L192 258L108 258ZM112 258L188 258L188 346L112 346ZM100 346L200 346L200 358L100 358ZM94 358L206 358L206 372L94 372Z"/>
+    <path vector-effect="non-scaling-stroke" stroke-width="1.25" d="M126 340L126 294Q126 276 150 266Q174 276 174 294L174 340"/>
+  </g>
+</svg>

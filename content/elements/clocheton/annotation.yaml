@@ -1,0 +1,20 @@
+name:
+  fr: Clocheton
+  en: ridge turret
+gender:
+  fr: n.m.
+slug:
+  fr: clocheton
+  en: ridge-turret
+aliases:
+  fr: []
+  en: []
+category: ornament
+tags:
+  - region/europe
+  - style/gothic
+  - mood/grand
+  - rarity/medium
+parts:
+  - { id: fleche, label: { fr: Flèche, en: Spire } }
+  - { id: base, label: { fr: Base, en: Base } }
