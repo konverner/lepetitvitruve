@@ -41,6 +41,7 @@ O----O
 - Keep source labels and marker circles out of the SVG; the component supplies accessible labels and interaction controls.
 - Use CSS custom properties for colors. Static geometry uses the neutral tokens; interactive hover and active states use `var(--accent-interactive)`.
 - Keep external references, scripts, and `<text>` elements out of the source SVG.
+- An SVG must not carry its own theme rules: no `prefers-color-scheme` media queries and no `<style>` that sets theme colors. Theming lives in `src/styles/tokens.css`; SVGs only reference the CSS variables.
 - Shared hatch patterns may be used for material identity; do not define unnecessary local copies.
 - Draw context first, then the structure, then detail on top.
 

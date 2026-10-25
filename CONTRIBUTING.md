@@ -82,7 +82,8 @@ Follow `EDITORIAL_GUIDELINES_fr.md`. In short:
 
 - Preview icons use the fixed `0 0 120 120` viewBox, stroke-only with `currentColor`.
 - Colors come from CSS custom properties. Do not use hex colors, including as `var()` fallbacks.
-- No `<text>`, scripts, external references, or `prefers-color-scheme` rules inside SVG files.
+- No `<text>`, scripts, or external references inside SVG files.
+- An SVG must not carry its own theme rules: no `prefers-color-scheme` media queries and no `<style>` that sets theme colors. Theming lives in `src/styles/tokens.css`; SVGs only reference the CSS variables.
 - Keep markers at least twice the touch-target radius apart.
 
 ## Commit messages

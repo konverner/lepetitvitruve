@@ -378,7 +378,7 @@ Secondary strokes (masonry courses, facet lines): `var(--text-primary)`, width `
 Same family of conventions as the index icon (§6), extended for a larger, more informative plate:
 
 - `viewBox` required, sized per entry (not the fixed square used for index icons); no fixed width/height on the element.
-- Colors only through CSS custom properties (`var(--text-primary)`, `var(--bg-page)`, `var(--bg-surface)`, `var(--accent-interactive)`) — never a hardcoded hex, so the drawing stays themeable.
+- Colors only through CSS custom properties (`var(--text-primary)`, `var(--bg-page)`, `var(--bg-surface)`, `var(--accent-interactive)`) — never a hardcoded hex, so the drawing stays themeable. The SVG must not carry its own theme rules (no `prefers-color-scheme`, no theme colors in a `<style>`); light and dark values come only from `src/styles/tokens.css`.
 - Every interactive part is `<g data-part="kebab-id">`, matching one entry in the entry's part list, and vice versa.
 - Outline shapes carry `part-shape`; hatched or filled areas carry `part-fill`.
 - Reuse the shared hatch pattern ids (`stoneHatch`, `slateHatch`) — never redefine a pattern per file.
