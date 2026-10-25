@@ -1,5 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
-  <style>.lpv{--a:var(--accent-interactive,#8c1c1c)}@media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}</style>
   <g transform="translate(60 10) scale(.3) translate(-150 -40)">
     <g>
       <path vector-effect="non-scaling-stroke" stroke-width="2" d="M108 240L150 92L192 240Z"/>
