@@ -14,7 +14,7 @@ Elle joue également un rôle esthétique en encadrant visuellement les angles e
 ## Exemples
 On la trouve très fréquemment sur les maisons traditionnelles en pierre, les châteaux classiques et les façades associant la brique et la pierre.
 
-- Hôtel de Ville de Rennes, Rennes, France
+- [Anciennes écuries du Kaiser, Strasbourg, France](https://maps.app.goo.gl/4ntTdGLKyUPApBbg9)
 
 - Maison Bowe, Strasbourg, France
 

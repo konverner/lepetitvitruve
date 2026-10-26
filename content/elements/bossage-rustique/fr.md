@@ -10,6 +10,10 @@ Le bossage rustique donne au bas d'un bâtiment l'allure d'une falaise ou d'une 
 
 ## Exemples
 
-On le trouve couramment au rez-de-chaussée des palais de la Renaissance, sur les fontaines monumentales et sur les portes d'entrée d'édifices anciens.
+On le trouve couramment au rez-de-chaussée des édifices de la Renaissance et néo-classiques seculaires.
 
 - Palazzo Medici-Riccardi, Florence, Italie
+
+- [Anciennes écuries du Kaiser, Strasbourg, France](https://maps.app.goo.gl/4ntTdGLKyUPApBbg9)
+
+- [Château de Fontainebleau, France](https://maps.app.goo.gl/aVAYhRF68WxBgjuV9)

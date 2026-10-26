@@ -13,6 +13,6 @@ Le bossage carré sert à donner de la profondeur et du relief à une façade, e
 
 On l'observe très fréquemment sur la partie basse des palais italiens et des grands immeubles français construits entre la Renaissance et le dix-neuvième siècle.
 
-- Prison Regina Coeli, Rome, Italie
+- [Prison Regina Coeli, Rome, Italie](https://maps.app.goo.gl/TfLMeVsikirPTKhCA)
 
 - Hôtel de la Marine, Paris, France
