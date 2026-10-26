@@ -21,7 +21,10 @@ parts:
   - { id: projection, label: { fr: Saillie } }
 tags:
   - region/france
+  - region/italy
   - style/renaissance
   - style/classical
+  - style/palladian
   - mood/protective
   - mood/grand
+  - rarity/common

@@ -19,5 +19,7 @@ parts:
 tags:
   - region/europe
   - style/renaissance
+  - style/neoclassical
   - mood/raw
-  - rarity/common
+  - mood/protective
+  - rarity/medium
