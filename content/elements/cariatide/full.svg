@@ -1,131 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none"><style>:root{--_a:var(--accent-interactive)}.s,.o,.d,.dots,.c,.pt{stroke-linecap:round;stroke-linejoin:round}.s,.o,.d,.dots{pointer-events:all}.s{fill:var(--bg-surface);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.o{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.5;stroke-width:.75}.dots{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.4;stroke-width:.9;stroke-dasharray:.1 4}.c{fill:none;pointer-events:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.26;stroke-width:.75;stroke-dasharray:3 4}.pt{fill:var(--graphic-stroke,currentColor);fill-opacity:.45;stroke:none}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.o,.d,.dots),[data-part].is-active :is(.s,.o,.d,.dots){stroke:var(--accent-interactive,var(--_a));stroke-opacity:1}[data-part]:hover .s,[data-part].is-active .s{fill:color-mix(in srgb,var(--accent-interactive,var(--_a)) 13%,var(--bg-surface))}[data-part]:hover .o,[data-part].is-active .o{fill:color-mix(in srgb,var(--accent-interactive,var(--_a)) 8%,transparent)}[data-part]:hover .pt,[data-part].is-active .pt{fill:var(--accent-interactive,var(--_a));fill-opacity:1}</style>
-  <path class="c" d="M150 92V366M52 386V396M248 386V396"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 340 450" fill="none" class="lpv">
+  <title>Cariatide</title>
+  <g transform="translate(105 0) scale(0.5)">
+    <!-- Ground lines -->
+    <path d="M24 913.5H276" style="stroke:var(--text-muted);stroke-width:1.4;opacity:.5"/>
+    <path d="M48 921H252" style="stroke:var(--text-muted);stroke-width:1;opacity:.25"/>
 
-  <!-- ================================================ entablature -->
-  <g data-part="entablature">
-    <path class="s" d="M8 8H292V19H8Z"/>
-    <path class="s" d="M17 19H283V29H17Z"/>
-    <path class="s" d="M25 29H275V40H25Z"/>
-    <path class="s" d="M32 40H268V60H32Z"/>
-    <path class="d" d="M17 24H283M25 34.5H275"/>
-    <path class="d" d="M44 40V55M56 40V55M68 40V55M80 40V55M92 40V55M104 40V55M116 40V55M128 40V55M140 40V55M152 40V55M164 40V55M176 40V55M188 40V55M200 40V55M212 40V55M224 40V55M236 40V55M248 40V55"/>
-  </g>
+    <!-- Plinth -->
+    <g data-part="plinth">
+      <path class="part-fill" fill="url(#stoneHatch)" stroke="none" d="M48 913.5V901.5H60V885H240V901.5H252V913.5Z"/>
+      <path class="part-shape" d="M60 901.5V885H240V901.5Z"/>
+      <path class="part-shape" d="M48 913.5V901.5H252V913.5Z"/>
+      <path d="M48 907.5H252" style="stroke:var(--text-primary);stroke-width:.6;opacity:.35"/>
+    </g>
 
-  <!-- ====================================================== plinth -->
-  <g data-part="plinth">
-    <path class="s" d="M118 372H182V380H118Z"/>
-    <path class="s" d="M102 380H198V387H102Z"/>
-    <path class="s" d="M88 387H212V398H88Z"/>
-    <path class="d" d="M118 376H182M102 383.5H198"/>
-  </g>
+    <!-- Feet -->
+    <g data-part="feet">
+      <path class="part-shape" d="M105 852C102 867 103.5 879 111 883.2C120 885 132 885 138 883.2C142.5 877.5 141 864 138 852"/>
+      <path class="part-shape" d="M195 852C198 867 196.5 879 189 883.2C180 885 168 885 162 883.2C157.5 877.5 159 864 162 852"/>
+      <path d="M117 876L117.6 884.1M124.5 877.2V884.7M132 876L131.4 884.1M183 876L182.4 884.1M175.5 877.2V884.7M168 876L168.6 884.1" style="stroke:var(--text-primary);stroke-width:1;opacity:.7"/>
+    </g>
 
-  <!-- ======================================================== feet -->
-  <g data-part="feet">
-    <path class="s" d="M134 358H152C155 358 156.5 360 156 362C155.5 364.5 153 366 150 366H134C131.5 366 130.5 364 131 361.5C131.5 359 132.5 358 134 358Z"/>
-    <path class="d" d="M135.5 366V362M140.5 366V362M145.5 366V362M150.5 366V362"/>
-    <path class="s" d="M163 361H177C179.5 361 180.5 362.5 180 364.5C179.5 366.5 177.5 367.5 175 367.5H163C161.5 367.5 160.5 366 161 364.5C161.5 362.5 162 361 163 361Z"/>
-    <path class="d" d="M164.5 367.5V364.5M169.5 367.5V364.5M174.5 367.5V364.5"/>
-  </g>
+    <!-- Lower drapery: fluted skirt -->
+    <g data-part="lower-drapery">
+      <path fill="var(--bg-surface)" stroke="none" d="M81 492C105 528 195 528 219 492C220.5 624 223.5 759 225 856.5C198 865.5 174 855 150 861C126 855 102 865.5 75 856.5C76.5 759 79.5 624 81 492Z"/>
+      <path class="part-fill" fill="url(#stoneHatch)" stroke="none" d="M81 492C105 528 195 528 219 492C220.5 624 223.5 759 225 856.5C198 865.5 174 855 150 861C126 855 102 865.5 75 856.5C76.5 759 79.5 624 81 492Z"/>
+      <path class="part-shape" d="M81 492C105 528 195 528 219 492C220.5 624 223.5 759 225 856.5C198 865.5 174 855 150 861C126 855 102 865.5 75 856.5C76.5 759 79.5 624 81 492Z"/>
+      <path class="part-shape" d="M150 528C150 648 150 667.5 150 847.5"/>
+      <path class="part-shape" d="M132 525.9C132 645.9 130.7 667.5 130.7 847.5"/>
+      <path class="part-shape" d="M168 525.9C168 645.9 169.3 667.5 169.3 847.5"/>
+      <path class="part-shape" d="M114 520.5C114 640.5 111.5 667.5 111.5 847.5"/>
+      <path class="part-shape" d="M186 520.5C186 640.5 188.5 667.5 188.5 847.5"/>
+      <path class="part-shape" d="M96 511.5C96 631.5 92.2 667.5 92.2 847.5"/>
+      <path class="part-shape" d="M204 511.5C204 631.5 207.8 667.5 207.8 847.5"/>
+      <path d="M141 696C141 762 140.4 774 140.4 840M159 696C159 762 159.6 774 159.6 840M123 732C123 798 121.1 774 121.1 840M177 732C177 798 178.9 774 178.9 840M105 678C105 744 101.9 774 101.9 840M195 678C195 744 198.1 774 198.1 840" style="stroke:var(--text-primary);stroke-width:.6;opacity:.35"/>
+    </g>
 
-  <!-- =============================================== lower drapery -->
-  <g data-part="lower-drapery">
-    <!-- sheath spreading onto the plinth -->
-    <path class="s" d="M131.5 210C127 237 121 273 116 307C112 333 109.5 353 108.5 363H191.5C190.5 353 188 333 184 307C179 273 173 237 168.5 210Z"/>
-    <!-- outer folds pressed out by the arms -->
-    <path class="d" d="M127 221C121 261 115 315 111.5 359"/>
-    <path class="d" d="M173 221C179 261 185 315 188.5 359"/>
-    <!-- catenary folds gathering under the overfold -->
-    <path class="d" d="M133 217C140 229 160 229 167 217"/>
-    <path class="d" d="M129.5 227C139 241 161 241 170.5 227"/>
-    <!-- columnar flutes, waist to hem -->
-    <path class="d" d="M138 215C135.5 263 133.5 313 132.5 359"/>
-    <path class="d" d="M144.5 216C143 263 142 313 141.5 359"/>
-    <path class="d" d="M150 216.5V359"/>
-    <path class="d" d="M155.5 216C157 263 158 313 158.5 359"/>
-    <path class="d" d="M162 215C164.5 263 166.5 313 167.5 359"/>
-    <!-- the bearing knee pressing through the cloth -->
-    <path class="d" d="M161 287C165.5 296 167 307 165.5 317"/>
-    <!-- hem courses -->
-    <path class="d" d="M109 349C136.5 358 163.5 358 191 349"/>
-    <path class="d dots" d="M108.8 355C136.5 364 163.5 364 191.2 355"/>
-  </g>
+    <!-- Upper drapery: belt and overfold -->
+    <g data-part="upper-drapery">
+      <path fill="var(--bg-surface)" stroke="none" d="M102 387C126 399 174 399 198 387C199.5 426 208.5 462 219 492C195 528 105 528 81 492C91.5 462 100.5 426 102 387Z"/>
+      <path class="part-fill" fill="url(#stoneHatch)" stroke="none" d="M102 387C126 399 174 399 198 387C199.5 426 208.5 462 219 492C195 528 105 528 81 492C91.5 462 100.5 426 102 387Z"/>
+      <path class="part-shape" d="M102 387C126 399 174 399 198 387"/>
+      <path class="part-shape" d="M102 387C126 399 174 399 198 387C199.5 426 208.5 462 219 492C195 528 105 528 81 492C91.5 462 100.5 426 102 387Z"/>
+      <path class="part-shape" d="M96.9 432C120 471 180 471 203.1 432"/>
+      <path d="M114 395.7C114 425.7 103.2 458.7 103.2 494.7M132 405.3C132 435.3 126.6 468 126.6 504M150 408.6C150 438.6 150 471 150 507M168 405.3C168 435.3 173.4 468 173.4 504M186 395.7C186 425.7 196.8 458.7 196.8 494.7" style="stroke:var(--text-primary);stroke-width:1;opacity:.7"/>
+      <path d="M102.3 399C126 411 174 411 197.7 399" style="stroke:var(--text-primary);stroke-width:1;opacity:.7"/>
+    </g>
 
-  <!-- ======================================================== arms -->
-  <g data-part="arms">
-    <!-- left arm and hand as one silhouette, hanging against the body -->
-    <path class="s" d="M135.5 139.5C128 143 123 151.5 121.3 163C119.6 176 120.2 195 122 212C122.6 217.5 123.1 221.5 123.5 225C122.4 230 122 237 122.6 243C123.2 249.5 125 253.5 127 253.5C129 253.5 130.4 249.5 130.7 243C131 237 130.5 230 129.6 225C130.5 220 131.2 214 131.6 208C132.8 190 132.6 169 131.2 157C130.2 148 132.4 144 135.5 139.5Z"/>
-    <path class="d" d="M124.6 231C123.9 236 124 242 124.7 247M128.2 232C127.6 237 127.7 243 128.3 247.5"/>
-    <!-- right arm and hand -->
-    <path class="s" d="M164.5 139.5C172 143 177 151.5 178.7 163C180.4 176 179.8 195 178 212C177.4 217.5 176.9 221.5 176.5 225C177.6 230 178 237 177.4 243C176.8 249.5 175 253.5 173 253.5C171 253.5 169.6 249.5 169.3 243C169 237 169.5 230 170.4 225C169.5 220 168.8 214 168.4 208C167.2 190 167.4 169 168.8 157C169.8 148 167.6 144 164.5 139.5Z"/>
-    <path class="d" d="M175.4 231C176.1 236 176 242 175.3 247M171.8 232C172.4 237 172.3 243 171.7 247.5"/>
-  </g>
+    <!-- Torso: neck, shoulders, chest folds -->
+    <g data-part="torso">
+      <path class="part-shape" d="M135 247.5V267"/>
+      <path class="part-shape" d="M165 247.5V267"/>
+      <path class="part-shape" d="M135 267C135 273 123 277.5 108 280.5"/>
+      <path class="part-shape" d="M165 267C165 273 177 277.5 192 280.5"/>
+      <path class="part-shape" d="M96.9 342C97.8 360 100.2 375 102 387"/>
+      <path class="part-shape" d="M203.1 342C202.2 360 199.8 375 198 387"/>
+      <path d="M114 279C129 291 171 291 186 279M105 286.5C126 309 174 309 195 286.5M100.5 301.5C123 330 177 330 199.5 301.5" style="stroke:var(--text-primary);stroke-width:1;opacity:.7"/>
+      <path d="M114 318.9C114 342.9 114 360.9 114 384.9M132 328.5C132 352.5 132 364.8 132 388.8M150 331.8C150 355.8 150 366 150 390M168 328.5C168 352.5 168 364.8 168 388.8M186 318.9C186 342.9 186 360.9 186 384.9" style="stroke:var(--text-primary);stroke-width:1;opacity:.7"/>
+    </g>
 
-  <!-- ======================================================= torso -->
-  <g data-part="torso">
-    <!-- neck -->
-    <path class="s" d="M143.8 117L143.5 132C146.2 136.2 153.8 136.2 156.5 132L156.2 117"/>
-    <!-- sloping shoulders, chest and ribs -->
-    <path class="s" d="M144.5 132C137.5 134 131 138.5 128.5 143.5C126 155 126.5 168 130 180C131.5 188 132.7 195 133 202H167C167.3 195 168.5 188 170 180C173.5 168 174 155 171.5 143.5C169 138.5 162.5 134 155.5 132C153 135.2 147 135.2 144.5 132Z"/>
-    <!-- clavicles and hollow of the throat -->
-    <path class="d" d="M142.5 141.5C145.5 138.5 148 137.2 150 137.2C152 137.2 154.5 138.5 157.5 141.5"/>
-    <path class="d" d="M150 139V149"/>
-  </g>
+    <!-- Arms -->
+    <g data-part="arms">
+      <path fill="var(--bg-surface)" stroke="none" d="M108 280.5C91.5 283.5 78 292.5 72.6 313.5C69.6 325.5 69 339 70.2 357C69.9 384 67.8 411 67.2 435C67.5 462 71.4 489 75 510C72 528 71.4 555 75 576C78 588 84 594 90 594C96 594 99 586.5 98.4 574.5C97.5 552 94.5 528 91.2 510C92.4 489 93.6 465 95.4 444C96.9 420 99 390 99 360C99 327 99 300 108 280.5Z"/>
+      <path fill="var(--bg-surface)" stroke="none" d="M192 280.5C208.5 283.5 222 292.5 227.4 313.5C230.4 325.5 231 339 229.8 357C230.1 384 232.2 411 232.8 435C232.5 462 228.6 489 225 510C228 528 228.6 555 225 576C222 588 216 594 210 594C204 594 201 586.5 201.6 574.5C202.5 552 205.5 528 208.8 510C207.6 489 206.4 465 204.6 444C203.1 420 201 390 201 360C201 327 201 300 192 280.5Z"/>
+      <path class="part-shape" d="M108 280.5C91.5 283.5 78 292.5 72.6 313.5C69.6 325.5 69 339 70.2 357C69.9 384 67.8 411 67.2 435C67.5 462 71.4 489 75 510C72 528 71.4 555 75 576C78 588 84 594 90 594C96 594 99 586.5 98.4 574.5C97.5 552 94.5 528 91.2 510C92.4 489 93.6 465 95.4 444C96.9 420 99 390 99 360C99 327 99 300 108 280.5Z"/>
+      <path class="part-shape" d="M192 280.5C208.5 283.5 222 292.5 227.4 313.5C230.4 325.5 231 339 229.8 357C230.1 384 232.2 411 232.8 435C232.5 462 228.6 489 225 510C228 528 228.6 555 225 576C222 588 216 594 210 594C204 594 201 586.5 201.6 574.5C202.5 552 205.5 528 208.8 510C207.6 489 206.4 465 204.6 444C203.1 420 201 390 201 360C201 327 201 300 192 280.5Z"/>
+      <path d="M67.8 432C75 439.5 85.5 439.5 94.8 435M232.2 432C225 439.5 214.5 439.5 205.2 435" style="stroke:var(--text-primary);stroke-width:.6;opacity:.35"/>
+      <path d="M92.4 522C94.2 534 93.6 546 90 555M79.5 564V591M87 565.5V592.8M207.6 522C205.8 534 206.4 546 210 555M220.5 564V591M213 565.5V592.8" style="stroke:var(--text-primary);stroke-width:.6;opacity:.35"/>
+    </g>
 
-  <!-- =============================================== upper drapery -->
-  <g data-part="upper-drapery">
-    <!-- overfold, apoptygma, pinned on both shoulders -->
-    <path class="s" d="M130 144C133 159 137 175 141.5 189C144.5 198 146 205 146.5 213H153.5C154 205 155.5 198 158.5 189C163 175 167 159 170 144C166.5 146.5 163 148.5 159.5 154.5C156 160.5 153 164.5 150 164.5C147 164.5 144 160.5 140.5 154.5C137 148.5 133.5 146.5 130 144Z"/>
-    <!-- folds from the pins to the belt -->
-    <path class="d" d="M136 150C138.5 164 142 179 145.5 193"/>
-    <path class="d" d="M164 150C161.5 164 158 179 154.5 193"/>
-    <!-- swag of the overfold across the chest -->
-    <path class="d" d="M134.5 155C141 164 146.5 168 150 168C153.5 168 159 164 165.5 155"/>
-    <!-- kolpos blousing over the belt -->
-    <path class="d" d="M144.5 205C147.5 209 149.5 210.5 150 210.5C150.5 210.5 152.5 209 155.5 205"/>
-    <!-- belt -->
-    <path class="s" d="M131.5 202H168.5V211H131.5Z"/>
-    <path class="d" d="M131.5 206.5H168.5"/>
-    <circle class="s" cx="150" cy="206.5" r="3.6"/>
-    <circle class="pt" cx="150" cy="206.5" r="1.2"/>
-    <!-- shoulder brooches -->
-    <circle class="s" cx="132.5" cy="144" r="3"/>
-    <circle class="pt" cx="132.5" cy="144" r="1"/>
-    <circle class="s" cx="167.5" cy="144" r="3"/>
-    <circle class="pt" cx="167.5" cy="144" r="1"/>
-  </g>
+    <!-- Head: reduced to more natural human proportions -->
+    <g data-part="head">
+      <path fill="var(--bg-surface)" stroke="none" d="M150 180C138 192 128.4 193.2 119.5 200.4L119.5 198C118.3 213.6 121.7 228 133.8 238.9C139.9 243.9 145 246 150 246C155 246 160.1 243.9 166.2 238.9C178.3 228 181.7 213.6 180.5 198L180.5 200.4C171.6 193.2 162 192 150 180Z"/>
+      <path class="part-shape" d="M119.5 198C118.3 213.6 121.7 228 133.8 238.9C139.9 243.9 145 246 150 246C155 246 160.1 243.9 166.2 238.9C178.3 228 181.7 213.6 180.5 198"/>
+      <path d="M125.8 202.6C129.8 199.1 136.9 199.1 141 203.1C136.4 206.2 129.8 206.2 125.8 202.6ZM174.2 202.6C170.2 199.1 163.1 199.1 159 203.1C163.6 206.2 170.2 206.2 174.2 202.6ZM148 202.6C147 210.6 146 215.7 143.9 219.8C146 223.3 148.5 223.3 150 221.8C151.5 223.3 154 223.3 156.1 219.8C154 215.7 153 210.6 152 202.6M143.4 230C147 231.5 153 231.5 156.6 230" style="stroke:var(--text-primary);stroke-width:1;opacity:.7"/>
+    </g>
 
-  <!-- ======================================================== hair -->
-  <g data-part="hair">
-    <!-- cap of hair, parted and swept back, clearing the cheeks -->
-    <path class="s" d="M150 84C138.5 84 132.5 92.5 132.5 103C132.5 108 133.5 112 135.5 115.5C138.2 114 140.2 110.5 141.2 106L142.8 94.5C144.9 90.5 147.6 89 150 89C152.4 89 155.1 90.5 157.2 94.5L158.8 106C159.8 110.5 161.8 114 164.5 115.5C166.5 112 167.5 108 167.5 103C167.5 92.5 161.5 84 150 84Z"/>
-    <!-- locks falling from behind the ear onto the shoulders -->
-    <path class="s" d="M140.8 96C137.8 100 136.2 105.5 136 111.5C135.9 115.8 136.4 118.8 137.6 120C138.9 121.2 140.2 120 140.5 117.5C140.9 113.8 140.5 108.5 140.3 104C140.2 101.2 140.5 98.2 140.8 96Z"/>
-    <path class="s" d="M159.2 96C162.2 100 163.8 105.5 164 111.5C164.1 115.8 163.6 118.8 162.4 120C161.1 121.2 159.8 120 159.5 117.5C159.1 113.8 159.5 108.5 159.7 104C159.8 101.2 159.5 98.2 159.2 96Z"/>
-    <path class="d" d="M138.2 102C137.7 106.5 137.8 111.5 138.5 115.5M140.6 103C140.3 107.5 140.4 112.5 140.7 116"/>
-    <path class="d" d="M161.8 102C162.3 106.5 162.2 111.5 161.5 115.5M159.4 103C159.7 107.5 159.6 112.5 159.3 116"/>
-    <!-- stephane, the diadem band -->
-    <path class="d" d="M144.5 91C147 87.5 148.8 86.5 150 86.5C151.2 86.5 153 87.5 155.5 91"/>
-  </g>
+    <!-- Hair: parted waves and braids -->
+    <g data-part="hair">
+      <path fill="var(--bg-surface)" stroke="none" d="M150 180C138 192 128.4 193.2 119.5 200.4C118.6 213.6 121.7 228 133.8 238.9L135 241.2L135 257C131.4 263 126.6 269 125.4 278.6C124.2 287 128.3 293 127.8 300.2C127.3 308.6 122.5 312.2 121.6 319.4C120.6 326.6 118.2 333.8 116.3 344.6C114.6 341 112.7 336.2 109.8 331.4C102.6 321.8 100.2 311 105 301.4C100.2 290.6 97.8 278.6 103.8 270.2C101.4 259.4 99 247.4 106.2 237.8C101.4 228.2 99 216.2 106.2 206.6C101.4 197 103.8 185 113.4 180Z"/>
+      <path fill="var(--bg-surface)" stroke="none" d="M150 180C162 192 171.6 193.2 180.5 200.4C181.4 213.6 178.3 228 166.2 238.9L165 241.2L165 257C168.6 263 173.4 269 174.6 278.6C175.8 287 171.7 293 172.2 300.2C172.7 308.6 177.5 312.2 178.4 319.4C179.4 326.6 181.8 333.8 183.7 344.6C185.4 341 187.3 336.2 190.2 331.4C197.4 321.8 199.8 311 195 301.4C199.8 290.6 202.2 278.6 196.2 270.2C198.6 259.4 201 247.4 193.8 237.8C198.6 228.2 201 216.2 193.8 206.6C198.6 197 196.2 185 186.6 180Z"/>
+      <path class="part-shape" d="M150 180C138 192 128.4 193.2 119.5 200.4"/>
+      <path class="part-shape" d="M150 180C162 192 171.6 193.2 180.5 200.4"/>
+      <path class="part-shape" d="M113.4 180C103.8 185 101.4 197 106.2 206.6C99 216.2 101.4 228.2 106.2 237.8C99 247.4 101.4 259.4 103.8 270.2C97.8 278.6 100.2 290.6 105 301.4C100.2 311 102.6 321.8 109.8 331.4C112.7 336.2 114.6 341 116.3 344.6C118.2 333.8 120.6 326.6 121.6 319.4C122.5 312.2 127.3 308.6 127.8 300.2C128.3 293 124.2 287 125.4 278.6C126.6 269 131.4 263 135 257"/>
+      <path class="part-shape" d="M186.6 180C196.2 185 198.6 197 193.8 206.6C201 216.2 198.6 228.2 193.8 237.8C201 247.4 198.6 259.4 196.2 270.2C202.2 278.6 199.8 290.6 195 301.4C199.8 311 197.4 321.8 190.2 331.4C187.3 336.2 185.4 341 183.7 344.6C181.8 333.8 179.4 326.6 178.4 319.4C177.5 312.2 172.7 308.6 172.2 300.2C171.7 293 175.8 287 174.6 278.6C173.4 269 168.6 263 165 257"/>
+      <path d="M138 180C130.8 187.2 123.6 188.4 116.4 194.4M162 180C169.2 187.2 176.4 188.4 183.6 194.4" style="stroke:var(--text-primary);stroke-width:.6;opacity:.35"/>
+      <path d="M121.2 218.4C114 225.6 114 235.2 118.8 242.4C114 249.6 114 256.8 116.4 266.4C120 276 120.7 285.6 117.6 295.2C115.2 304.8 117.6 314.4 116.4 324M178.8 218.4C186 225.6 186 235.2 181.2 242.4C186 249.6 186 256.8 183.6 266.4C180 276 179.3 285.6 182.4 295.2C184.8 304.8 182.4 314.4 183.6 324" style="stroke:var(--text-primary);stroke-width:.6;opacity:.35"/>
+      <path d="M106.2 206.6C111 213.8 115.8 216.2 120.6 218.6M106.2 237.8C111 242.6 113.4 242.6 118.8 242.6M103.8 270.2C108.6 275 112.2 275 117.5 276.2M105 301.4C109.8 306.2 113.4 306.2 115.8 305M110.3 332L121.1 335.4M193.8 206.6C189 213.8 184.2 216.2 179.4 218.6M193.8 237.8C189 242.6 186.6 242.6 181.2 242.6M196.2 270.2C191.4 275 187.8 275 182.5 276.2M195 301.4C190.2 306.2 186.6 306.2 184.2 305M189.7 332L178.9 335.4" style="stroke:var(--text-primary);stroke-width:.6;opacity:.35"/>
+    </g>
 
-  <!-- ======================================================== head -->
-  <g data-part="head">
-    <path class="s" d="M150 87.5C142.8 87.5 139.2 93.5 139.2 102.5C139.2 112.8 143.2 120.5 150 121.5C156.8 120.5 160.8 112.8 160.8 102.5C160.8 93.5 157.2 87.5 150 87.5Z"/>
-    <path class="d" d="M144.6 105C146.1 103.6 148.1 103.6 149.6 105M150.4 105C151.9 103.6 153.9 103.6 155.4 105"/>
-    <path class="d" d="M150 105.5V114M148.4 114.5C149.2 115.3 150.8 115.3 151.6 114.5"/>
-    <path class="d" d="M147.5 119C149.2 120.3 150.8 120.3 152.5 119"/>
-  </g>
+    <!-- Capital: as in preview.svg -->
+    <g data-part="capital">
+      <path class="part-fill" fill="url(#stoneHatch)" stroke="none" d="M66 108H234V123H222C222 135 213 141 204 141H201L192 159H195C201 159 201 171 195 171H105C99 171 99 159 105 159H108L99 141H96C87 141 78 135 78 123H66Z"/>
+      <path class="part-shape" d="M66 108H234V123H66Z"/>
+      <path class="part-shape" d="M78 123H222C222 135 213 141 204 141H96C87 141 78 135 78 123Z"/>
+      <path class="part-shape" d="M99 141H201L192 159H108Z"/>
+      <path class="part-shape" d="M105 159H195C201 159 201 171 195 171H105C99 171 99 159 105 159Z"/>
+      <path d="M99 123C99 135 117 135 117 123M141 123C141 135 159 135 159 123M183 123C183 135 201 135 201 123M129 123V135M171 123V135M126 141L129 159M150 141V159M174 141L171 159" style="stroke:var(--text-primary);stroke-width:1;opacity:.7"/>
+    </g>
 
-  <!-- ===================================================== capital -->
-  <g data-part="capital">
-    <!-- abacus -->
-    <path class="s" d="M114 60H186V67H114Z"/>
-    <!-- echinus with egg and dart -->
-    <path class="s" d="M118 67H182L178.5 76H121.5Z"/>
-    <path class="d" d="M128 68.5C128 74 135 74 135 68.5M139 68.5C139 74 146 74 146 68.5M150 68.5C150 74 157 74 157 68.5M161 68.5C161 74 168 74 168 68.5M172 68.5C172 74 179 74 179 68.5"/>
-    <path class="d" d="M137 68.5L136 75M148 68.5L147 75M159 68.5L158 75M170 68.5L169 75"/>
-    <!-- kalathos: the basket bearing directly on the crown of the head -->
-    <path class="s" d="M121 76H179L176.5 85.5C174 91.5 164 94.5 150 94.5C136 94.5 126 91.5 123.5 85.5Z"/>
-    <path class="d" d="M130.5 77C129.5 81 128 84.5 126 87.5M140.5 77C140 81 139 85 138 88M150 77V94M159.5 77C160 81 161 85 162 88M169.5 77C170.5 81 172 84.5 174 87.5"/>
-    <path class="d dots" d="M124.5 80C138 84 162 84 175.5 80"/>
+    <!-- Entablature: cornice, dentils, architrave -->
+    <g data-part="entablature">
+      <path class="part-fill" fill="url(#stoneHatch)" stroke="none" d="M30 24H270V45H258C258 54 252 60 246 60V108H54V60C48 60 42 54 42 45H30Z"/>
+      <path class="part-shape" d="M30 24H270V45H30Z"/>
+      <path class="part-shape" d="M42 45H258C258 54 252 60 246 60H54C48 60 42 54 42 45Z"/>
+      <path class="part-shape" d="M54 60H246V73.5H54Z"/>
+      <path class="part-shape" d="M54 73.5H246V108H54Z"/>
+      <path d="M66 60V73.5M78 60V73.5M90 60V73.5M102 60V73.5M114 60V73.5M126 60V73.5M138 60V73.5M150 60V73.5M162 60V73.5M174 60V73.5M186 60V73.5M198 60V73.5M210 60V73.5M222 60V73.5M234 60V73.5M54 90.6H246" style="stroke:var(--text-primary);stroke-width:.6;opacity:.35"/>
+    </g>
   </g>
 </svg>
