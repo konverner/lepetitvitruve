@@ -14,7 +14,7 @@ describe('buildAnnotationGroups', () => {
       ['rarity/rare', 'mood/grand', 'region/europe', 'style/classical'],
       definitions,
     );
-    expect(groups.map((g) => g.title)).toEqual(['Style', 'Région', 'Sentiment', 'Rarité']);
+    expect(groups.map((g) => g.title)).toEqual(['Style', 'Région', 'Sentiment', 'Rareté']);
     expect(buildAnnotationGroups(['style/classical'], definitions)).toHaveLength(1);
   });
 
