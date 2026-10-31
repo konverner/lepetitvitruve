@@ -15,7 +15,7 @@ export const GROUP_TITLES: Readonly<Record<string, string>> = {
   period: 'Période',
   region: 'Région',
   mood: 'Sentiment',
-  rarity: 'Rarité',
+  rarity: 'Rareté',
   part: 'Partie',
 };
 
