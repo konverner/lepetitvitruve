@@ -11,6 +11,8 @@ Structurellement, la niche est un creux ménagé dans l'épaisseur du mur ; elle
 ## Exemples
 On la trouve couramment sur les façades des églises, des hôtels particuliers et des bâtiments publics construits de l'Antiquité jusqu'au début du XXe siècle.
 
-- Temple de Diane, Nîmes, France
+- [Temple de Diane, Nîmes, France](https://maps.app.goo.gl/5Xmm9KAPPjzp7A5eA)
+
 - Fontaine de Trevi, Rome, Italie
+
 - [Hôtel de ville de Paris, Paris, France](https://maps.app.goo.gl/89Pn4MFjfGAmVVLKA)

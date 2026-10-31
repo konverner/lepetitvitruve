@@ -15,5 +15,7 @@ Le terme « marcapiano » vient de l'italien « marca-piano » et signifie litt�
 On la trouve principalement sur les grands palais urbains et les immeubles classiques, tout particulièrement en Italie et dans les villes d'inspiration italienne.
 
 - Palais Farnèse, Rome, Italie
+
 - Palais Strozzi, Florence, Italie
-- Musée des Beaux-Arts, Bordeaux, France
+
+- [Musée des Beaux-Arts, Bordeaux, France](https://maps.app.goo.gl/LmQxuYPLpTCUryJ28)

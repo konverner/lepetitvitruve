@@ -16,4 +16,4 @@ On le retrouve sur les églises romanes, les aqueducs romains et de nombreux bâ
 
 - Le Pont du Gard, Vers-Pont-du-Gard, France
 
-- L'église d'Abbaye aux Dames, Saintes, France
+- [L'église d'Abbaye aux Dames, Saintes, France](https://maps.app.goo.gl/aNhDjcYvLL5XgWBX8)

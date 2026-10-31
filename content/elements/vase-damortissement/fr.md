@@ -11,6 +11,8 @@ Structurellement, le vase d'amortissement est un élément décoratif posé sur 
 ## Exemples
 On le rencontre fréquemment au sommet des grilles d'honneur, le long des balustrades de terrasses et sur les toitures des demeures classiques ou baroques. On en observe une grande série alignée sur les balustrades en pierre des terrasses du château de Versailles. Au palais du Luxembourg, ils couronnent les piliers du portail et les terrasses, tandis qu'au palais de Sanssouci, ils ornent la balustrade supérieure encadrant la façade.
 
-- Château de Versailles, Versailles, France
-- Palais du Luxembourg, Paris, France
-- Palais de Sanssouci, Potsdam, Allemagne
+- [Château de Versailles, Versailles, France](https://maps.app.goo.gl/MRYdmMqt39k7kv1J9)
+
+- [Jardin du Luxembourg, Paris, France](https://maps.app.goo.gl/KjzqXXqUUhAFHaYN9)
+
+- [Palais de Sanssouci, Potsdam, Allemagne](https://maps.app.goo.gl/rTJmKqU3qLhME49Y7)

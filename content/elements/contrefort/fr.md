@@ -14,6 +14,6 @@ On le rencontre très fréquemment le long des murs extérieurs des églises rom
 
 - Église Saint-Germain-des-Prés, Paris, France
 
-- Cathédrale Saint-Jean de Varsovie, Varsovie, Pologne
+- [Cathédrale Saint-Jean de Varsovie, Varsovie, Pologne](https://maps.app.goo.gl/8xJtJ159wcgZB9uo9)
 
 - Église de Beenz, Brandebourg, Allemagne
