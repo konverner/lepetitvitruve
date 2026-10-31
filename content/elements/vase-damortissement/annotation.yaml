@@ -19,7 +19,7 @@ tags:
   - style/classical
   - style/baroque
   - mood/curious
-  - rarity/moyen
+  - rarity/medium
 parts:
   - { id: corps, label: { fr: Corps du vase } }
   - { id: piédouche, label: { fr: Piédouche } }
