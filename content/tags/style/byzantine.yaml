@@ -1,0 +1,7 @@
+key: style/byzantine
+slug: { fr: byzantin, en: byzantine }
+label: { fr: "Byzantin", en: "Byzantine" }
+description:
+  fr: "Architecture caractérisée par des dômes, des mosaïques et des arcs en plein cintre."
+  en: "Architecture characterized by domes, mosaics, and round arches."
+color: "#c099ff" # pastel Tyrian purple

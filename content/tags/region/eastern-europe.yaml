@@ -1,0 +1,7 @@
+key: region/eastern-europe
+slug: { fr: europe-de-l-est, en: eastern-europe }
+label: { fr: "Europe de l'Est", en: "Eastern Europe" }
+description:
+  fr: "Éléments répandus en Europe de l'Est."
+  en: "Elements found across Eastern Europe."
+color: "#d3e6d8"

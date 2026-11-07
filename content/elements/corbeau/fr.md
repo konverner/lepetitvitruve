@@ -13,6 +13,6 @@ On le trouve aussi bien sur les fortifications médiévales et les églises roma
 
 - Église Saint-Trophime, Arles, France
 
-- Château de Langeais, Langeais, France
+- [Église Saint Vincent de Paul, Niort, France](https://maps.app.goo.gl/HmeLpu5atzAg64rY7)
 
 - Cathédrale Saint-Pierre, Angoulême, France

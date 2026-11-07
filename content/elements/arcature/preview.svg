@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke-width="2" d="M12 24H108V28H12Z"/>
+  <path stroke-width="1.25" d="M12 36H108"/>
+  <path stroke-width="2" d="M18 58A14 14 0 0 1 46 58L43 58A11 11 0 0 0 21 58Z"/>
+  <path stroke-width="2" d="M46 58A14 14 0 0 1 74 58L71 58A11 11 0 0 0 49 58Z"/>
+  <path stroke-width="2" d="M74 58A14 14 0 0 1 102 58L99 58A11 11 0 0 0 77 58Z"/>
+  <path stroke-width="1.25" d="M13.5 58H22.5V60.5H13.5ZM14.5 60.5H21.5L20.5 66H15.5Z"/>
+  <path stroke-width="1.25" d="M41.5 58H50.5V60.5H41.5ZM42.5 60.5H49.5L48.5 66H43.5Z"/>
+  <path stroke-width="1.25" d="M69.5 58H78.5V60.5H69.5ZM70.5 60.5H77.5L76.5 66H71.5Z"/>
+  <path stroke-width="1.25" d="M97.5 58H106.5V60.5H97.5ZM98.5 60.5H105.5L104.5 66H99.5Z"/>
+  <path stroke-width="1.25" d="M16.5 66H19.5V92H16.5ZM14.5 92H21.5V95H14.5Z"/>
+  <path stroke-width="1.25" d="M44.5 66H47.5V92H44.5ZM42.5 92H49.5V95H42.5Z"/>
+  <path stroke-width="1.25" d="M72.5 66H75.5V92H72.5ZM70.5 92H77.5V95H70.5Z"/>
+  <path stroke-width="1.25" d="M100.5 66H103.5V92H100.5ZM98.5 92H105.5V95H98.5Z"/>
+  <path stroke-width="2" d="M12 95H108V99H12Z"/>
+</svg>

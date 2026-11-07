@@ -1,0 +1,30 @@
+name:
+  fr: Arcature
+  en: Arcature
+slug:
+  fr: arcature
+  en: arcature
+aliases:
+  fr:
+    - bande lombarde
+  en:
+    - lombard band
+gender:
+  fr: n.f.
+category: ornament
+tags:
+  - category/openings-niches
+  - mood/curious
+  - style/romanesque
+  - style/byzantine
+  - style/renaissance
+  - region/italy
+  - region/france
+  - region/germany
+  - region/eastern-europe
+  - rarity/medium
+parts:
+  - { id: arcs, label: { fr: Arcs, en: Arches } }
+  - { id: colonnette, label: { fr: Colonnette, en: Colonnette } }
+  - { id: chapiteau, label: { fr: Chapiteau, en: Capital } }
+  - { id: mur, label: { fr: Mur d'appui, en: Supporting wall } }
