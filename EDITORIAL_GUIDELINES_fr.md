@@ -84,7 +84,7 @@ Chaque exemple de localisation doit respecter strictement la hiérarchie suivant
 
 ## Modèle d'entrée (Template)
 
-Les contributeurs doivent copier et remplir le modèle Markdown suivant pour toute nouvelle entrée :
+Les contributeurs doivent copier et remplir le modèle Markdown suivant pour toute nouvelle entrée. La section `Caractéristiques` est facultative ; supprimer la section entière si elle ne s'applique pas. `Exemples` est obligatoire.
 
 ```markdown
 # {Nom du terme}
@@ -100,14 +100,12 @@ Les contributeurs doivent copier et remplir le modèle Markdown suivant pour tou
 ## Rôle
 {Fonctions structurelles, pratiques ou caractéristiques esthétiques de l'élément.}
 
-## Exemples <!-- Optionnel -->
+## Exemples
 
 {Contexte général d'implantation : époques, courants architecturaux ou aires géographiques de prédilection.}
 
 - [{Nom du bâtiment}, {Ville}, {Pays}](https://maps.app.goo.gl/...)
 - [{Nom du bâtiment}, {Ville}, {Pays}](https://maps.app.goo.gl/...)
 - {Nom du bâtiment}, {Ville}, {Pays}
-
-```
 
 ```

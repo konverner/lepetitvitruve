@@ -1,31 +1,66 @@
 # Contributing to Le Petit Vitruve
 
-Before you start, read:
+You do not need to know TypeScript to contribute. You can correct a fact, improve
+French text, suggest an example, or draw an illustration. If you cannot make the
+change yourself, [report a problem](#reporting-problems) instead.
 
-- `README.md` for the architecture
-- `ROADMAP.md` for the current version
-- `EDITORIAL_GUIDELINES_fr.md` before writing French prose
-- `GRAPHICS_GUIDELINES.md` and `DESIGN_GUIDELINES.md` before touching SVGs or styles
+This guide covers the steps for a content contribution. For the project's
+architecture, see the [README](README.md); for French writing, see the
+[editorial guidelines](EDITORIAL_GUIDELINES_fr.md). For drawings and styles,
+also consult the [graphics](GRAPHICS_GUIDELINES.md) and
+[design](DESIGN_GUIDELINES.md) guidelines.
 
 ## Scope
 
-We are building **Version 1** only. Do not add locale routing, a language switcher, tag pages or filters, relations between entries, a buildings section, or search. If a change seems to need one of these, open an issue or ask first. See `ROADMAP.md` for the full list.
+We are building **Version 1** only. Do not add locale routing, a language switcher, tag pages or filters, relations between entries, a buildings section, or search. If a change seems to need one of these, open an issue or ask first. See the [roadmap](ROADMAP.md) for the full list.
 
 Do not add photographs, third-party scripts, fonts, or images at runtime.
 
-## Setup
+## Setup for local contributions
+
+1. Install Git and a current LTS version of [Node.js](https://nodejs.org/),
+   which includes npm. CI uses Node.js LTS. Check the installation with
+   `git --version`, `node --version` and `npm --version`.
+2. Clone the repository or your fork, then open a terminal in its root folder:
 
 ```bash
-npm install
+git clone https://github.com/konverner/le-petit-vitruve.git
+cd le-petit-vitruve
+npm ci
 npm run dev
 ```
 
-## Making a change
+If you forked the repository, use the clone URL of your fork instead. `npm ci`
+installs the versions recorded in the lockfile. `npm run dev` starts a local
+preview: open the address printed in the terminal. Stop it with `Ctrl+C`.
 
-1. Create a branch from `main`.
-2. Keep each change small and focused on one concern.
-3. Update tests and documentation in the same change.
-4. Run the checks below before opening a pull request.
+## Your first content change
+
+1. Start from an up-to-date `main` and create a branch, for example
+   `git switch -c content/fix-example`.
+2. Find the entry in [`content/elements/`](content/elements/). Edit its `fr.md`
+   for French prose, or `annotation.yaml` for its name, aliases, tags and other
+   metadata. A text editor is enough. See [Adding an element](#adding-an-element)
+   for the file formats; you do not need to edit `.ts` files.
+3. Keep the change focused, use reliable sources for facts, and follow the
+   [French writing rules](#writing-french-prose). Update related documentation
+   or tests if your change affects them.
+4. Preview the page locally. Its address is the local preview URL followed by
+   the entry's `slug.fr` and a trailing slash, for example
+   `http://localhost:4321/fenetre-serlienne/` if the server uses port 4321.
+5. Run the [checks](#checks). If a check fails, read its message, fix the
+   reported file and run the check again. Ask for help in the pull request if
+   you cannot resolve it; include the command and error message.
+6. Review your changes with `git diff` and `git status`, then stage the intended
+   files with `git add <file>`, commit them, and push your branch to your fork
+   or repository. See [commit messages](#commit-messages).
+7. Open a pull request on GitHub against `main` and describe the change,
+   sources and checks. See [pull requests](#pull-requests). Automated checks
+   also run there; maintainers can help with review.
+
+You can also propose a small correction using GitHub's file editor and its
+pull request flow. You will not have a local preview or local checks in that
+workflow; CI runs the automated checks on the pull request.
 
 ### Checks
 
@@ -37,7 +72,16 @@ npm run test
 npm run build           # run when routing or the index page changes
 ```
 
-All checks run in CI on every push. A content error also blocks deployment, because `npm run build` includes `check:content`.
+Run these commands from the repository root. `check:content` checks metadata,
+file references and some SVG rules; `lint` checks code style; `typecheck`
+checks Astro and TypeScript; `test` runs automated tests; and `build` generates
+the static site. You do not need to understand TypeScript to run them.
+All checks run in CI on pushes and pull requests. A content error also blocks
+deployment, because `npm run build` includes `check:content`.
+
+Automated checks do not verify every editorial rule or fact. Review the prose,
+sources and page yourself as well. If you cannot run a check or perform a
+visual or accessibility check, say so in the pull request.
 
 ### Definition of done
 
@@ -50,24 +94,94 @@ All checks run in CI on every push. A content error also blocks deployment, beca
 
 ## Adding an element
 
-Each element lives in its own folder, `content/elements/<id>/`, and contains:
+Create a new folder under `content/elements/` for the element. Do not rename an
+existing folder: its name is a stable identifier. Each folder contains:
 
 ```
-annotation.yaml   # localized name, slug, aliases, gender, category, tags, optional parts
-fr.md             # French prose: # title, ## Définition, ## Rôle, ## Exemples (and optional sections)
+annotation.yaml   # required metadata
+fr.md             # required French prose
 preview.svg       # optional, compact index drawing
-full.svg          # optional, annotated detail drawing
+full.svg          # optional detail drawing
 ```
 
-Rules to keep in mind:
+For a new entry, choose a unique, language-neutral lowercase kebab-case folder
+name, such as `example-element` (letters and numbers separated by hyphens).
+The folder is the technical ID; do not put an `id` field in the YAML. Existing
+folder names must stay unchanged, even if they do not follow this convention.
 
-- The folder name is the technical `id`. It is lowercase kebab-case, language-neutral, and **never renamed**.
-- `gender.fr` is required and must be `n.m.` or `n.f.`.
-- `slug.fr` must be lowercase ASCII kebab-case, unique, and must not be `index`, `about`, `404` or `sitemap`.
-- Every key in `tags` must match a file under `content/tags/`. Add the tag file rather than inventing a key.
-- If `parts` is present, every part `id` must match a `<g data-part>` group in `full.svg`, and vice versa.
-- `fr.md` is plain Markdown. Do not add front matter, HTML comments as markers, components or custom syntax.
-- Write original prose. Do not paste text from Wikipedia or other sources. If you adapt share-alike content, add visible attribution and the licence. If you are unsure of a fact, add a `TODO(verify)` note rather than guessing.
+Create `annotation.yaml`. YAML uses indentation to express structure: use spaces,
+not tabs, and keep fields at the same indentation as in this example. Replace
+the values with the new element's details:
+
+```yaml
+name:
+  fr: Fenêtre serlienne
+  en: Serlian window
+gender:
+  fr: n.f.
+slug:
+  fr: fenetre-serlienne
+  en: serlian-window
+aliases:
+  fr: []
+  en: []
+category: opening
+tags:
+  - style/classical
+```
+
+This illustrates the required fields, not a new entry to submit: the example
+already exists. Both `fr` and `en` values are required for `name`, `slug` and
+`aliases`, even though the site currently displays French only. `aliases`
+lists alternative names; `[]` means no known aliases. If a translation is
+uncertain, ask for help rather than guessing.
+
+- `gender.fr` is `n.m.` for a masculine noun or `n.f.` for a feminine noun.
+- `slug.fr` is the French page's URL segment: use lowercase unaccented ASCII
+  letters, numbers and hyphens. It must be unique and cannot be `index`,
+  `about`, `404` or `sitemap`.
+- `category` must be one of `opening`, `support`, `roof`, `ornament` or
+  `structure`; it selects the page's header icon.
+- `tags` is a list of existing keys. For example, `style/classical` refers to
+  [`content/tags/style/classical.yaml`](content/tags/style/classical.yaml).
+  Browse [`content/tags/`](content/tags/) for others; use `tags: []` if none
+  apply. To add a tag, create a matching tag file in an existing group, with
+  French and English slug, label and description; use an existing file as a
+  model. Its `key` must match its path, and slugs must be unique within the
+  group for each language.
+- Omit `parts` unless describing annotated regions of a `full.svg`. Each part
+  ID must match a `<g data-part>` group in that drawing, and vice versa. See
+  the [graphics guidelines](GRAPHICS_GUIDELINES.md).
+
+Create `fr.md` with the title and required sections in plain Markdown. A `#`
+introduces the title, `##` a section heading, and `-` a list item:
+
+```md
+# Nom du terme
+
+## Définition
+Définition en français.
+
+Précision sur les confusions avec des termes proches.
+
+## Rôle
+Description de la fonction de l'élément.
+
+## Exemples
+- Nom du bâtiment, Ville, Pays
+```
+
+Replace the placeholder text with original, verified prose and real examples.
+`## Caractéristiques` and `## Trivia` are optional; do not add front matter,
+HTML comments as markers, components or custom syntax. An example can be plain
+text when no link is known. See the full
+[editorial guidelines](EDITORIAL_GUIDELINES_fr.md) before submitting.
+Do not paste text from Wikipedia or other sources. If you adapt share-alike
+content, add visible attribution and the licence. If unsure of a fact, add a
+`TODO(verify)` note rather than guessing.
+
+Diagrams are optional; a contribution can contain only the metadata and prose.
+Run `npm run check:content` and preview the page as described above.
 
 ## Writing French prose
 
