@@ -7,7 +7,7 @@ Want to help with content, corrections or illustrations? Start with the
 
 Example page: [Fenêtre serlienne](../content/elements/fenetre-serlienne) shows the name, tags, aliases (*fenêtre vénitienne*), and an annotated SVG diagram next to a description of what the element looks like and how to recognize it. Also, it has examples linked to Google Streets View.
 
-![Annotated diagram of a serlian window](image.png)
+![Annotated diagram of a serlian window](.github/image.png)
 
 
 
