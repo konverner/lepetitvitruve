@@ -4,11 +4,15 @@
 Ensemble de trois ouvertures accolées dont l'arche centrale, plus haute, domine deux petites ouvertures rectangulaires sur les côtés.
 
 ## Rôle
-Structurellement, l'arche centrale repose sur les piédroits et sur les colonnes ou pilastres qui séparent les trois ouvertures, et ces supports transmettent la charge de l'arc et du linteau jusqu'aux fondations. Pratiquement, la fenêtre serlienne éclaire et aère la pièce par trois baies, tout en offrant une vue large sur l'extérieur. Esthétiquement, son organisation tripartite et sa symétrie rigoureuse apportent un caractère solennel et monumental aux façades, et elle est devenue l'un des motifs favoris de l'architecture palladienne.
+Structurellement, l'arche centrale repose sur les piédroits et sur les colonnes ou pilastres qui séparent les trois ouvertures, et ces supports transmettent la charge de l'arc et du linteau jusqu'aux fondations. Pratiquement, la fenêtre serlienne éclaire et aère la pièce par trois baies, tout en offrant une vue large sur l'extérieur. 
+
+Esthétiquement, son organisation tripartite et sa symétrie rigoureuse apportent un caractère solennel et monumental aux façades, et elle est devenue l'un des motifs favoris de l'architecture palladienne.
 
 ## Exemples
 On la trouve principalement sur les façades des palais, des châteaux et des édifices palladiens.
 
-- Villa Médicis, Rome, Italie
+- [Villa Médicis, Rome, Italie](https://maps.app.goo.gl/UvZq6XmKj3gGoJm18)
+
 - Basilique palladienne, Vicence, Italie
-- Croome Court, Worcestershire, Royaume-Uni
+
+- [Croome Court, Worcestershire, Royaume-Uni](https://maps.app.goo.gl/4kayHDsYF4bnScwC6)
