@@ -12,8 +12,8 @@ Dans le style roman, on y observe souvent des motifs répétés, comme des dente
 
 On la croise très fréquemment sur le portail d'entrée des grands édifices religieux romans et gothiques.
 
-- Monastère Sainte-Marie de Sigena, Aragon, Espagne
+- [Monastère Sainte-Marie de Sigena, Aragon, Espagne](https://maps.app.goo.gl/xxAAcasd8zkpDFAw7)
 
-- La basilique Sainte-Marie-Madeleine, Vézelay, France
+- [Notre-Dame de Strasbourg, Strasbourg, France](https://maps.app.goo.gl/1EW13pnV3iDMQd21A)
 
-- Basilique Saint-Denis, Saint-Denis, France
+- [Basilique Saint-Denis, Saint-Denis, France](https://maps.app.goo.gl/pREvjwjW1gCD2cEV6)
