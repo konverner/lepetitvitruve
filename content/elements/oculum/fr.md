@@ -12,5 +12,7 @@ L'oculum permet d'éclairer naturellement l'intérieur d'un bâtiment tout en cr
 On le trouve principalement sur les églises, les chapelles et les grands palais baroques ou classiques.
 
 - Panthéon, Rome, Italie
-- Église du Gesù, Rome, Italie
-- Château de Versailles, Versailles, France
+
+- [Église du Gesù, Rome, Italie](https://maps.app.goo.gl/YZmv7ARsGQtVjJY4A)
+
+- [Cour de cassation, Paris, France](https://maps.app.goo.gl/anrTu8bTmBcFPPLL8)

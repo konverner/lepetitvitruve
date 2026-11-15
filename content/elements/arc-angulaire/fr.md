@@ -18,4 +18,4 @@ On le croise sur de nombreuses églises de la période romane, notamment dans le
 
 - [L'église Saint-Sernin, Toulouse, France](https://maps.app.goo.gl/XjPNsfmfoL82EWvx9)
 
-- Chrysler Building, New York, USA
+- [Chrysler Building, New York, USA](https://maps.app.goo.gl/9VWJUtjzZ4VqerzT7)

@@ -15,4 +15,6 @@ On l'observe très fréquemment sur la partie basse des palais italiens et des g
 
 - [Prison Regina Coeli, Rome, Italie](https://maps.app.goo.gl/TfLMeVsikirPTKhCA)
 
+- [Cour de cassation, Paris, France](https://maps.app.goo.gl/U2o4axk5cdHsbEz48)
+
 - Hôtel de la Marine, Paris, France

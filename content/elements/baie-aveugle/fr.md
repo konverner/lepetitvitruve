@@ -3,7 +3,7 @@
 ## Définition
 Composition simulant la présence d'une ouverture, comme une porte ou une fenêtre, mais dont le fond est complètement fermé par de la pierre ou des briques.
 
-Il ne faut pas la confondre avec la niche, enfoncement destiné à recevoir une statue ou un vase, qui n'imite pas nécessairement une ouverture.
+Il ne faut pas la confondre avec la [niche](../niche/), enfoncement destiné à recevoir une statue ou un vase, qui n'imite pas nécessairement une ouverture.
 
 
 ## Rôle
