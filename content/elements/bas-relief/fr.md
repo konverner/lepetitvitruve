@@ -12,10 +12,8 @@ Le bas-relief a principalement un rôle décoratif, enrichissant les façades et
 
 On le trouve très souvent sur les frontons des bâtiments publics, au-dessus des portails ou le long des frises qui ornent les façades classiques et Art déco.
 
-- Palais de la Porte Dorée, Paris, France, dont la façade extérieure est tapissée d'une gigantesque fresque en bas-relief sculptée dans la pierre
-
 - [Le Palais de Chaillot, Paris, France](https://maps.app.goo.gl/7wL5Ehxjxr9o2Xgv8)
 
-- Palais d'Été, Saint-Pétersbourg, Russie
+- [Palais d'Été, Saint-Pétersbourg, Russie](https://maps.app.goo.gl/1jDNRQk8veTy3hF98)
 
 - [Palais de la culture et des sciences, Varsovie, Pologne](https://maps.app.goo.gl/61Ubg5cfbfywj1R27)
