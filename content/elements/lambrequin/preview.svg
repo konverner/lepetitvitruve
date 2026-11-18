@@ -1,13 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
-  <style>
-    .lpv{--a:var(--accent-interactive,#8c1c1c)}
-    @media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}
-  </style>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
   <defs>
     <mask id="lpv-window-mask" x="0" y="0" width="120" height="120" maskUnits="userSpaceOnUse" style="mask-type:luminance">
-      <rect width="120" height="120" fill="#fff" stroke="none"/>
-      <path fill="#000" stroke="none" d="M12 42H108V56C103 67.5 97 69 92 80C87 69 81 67.5 76 56C71 67.5 65 69 60 80C55 69 49 67.5 44 56C39 67.5 33 69 28 80C23 69 17 67.5 12 56Z"/>
+      <rect width="120" height="120" fill="white" stroke="none"/>
+      <path fill="black" stroke="none" d="M12 42H108V56C103 67.5 97 69 92 80C87 69 81 67.5 76 56C71 67.5 65 69 60 80C55 69 49 67.5 44 56C39 67.5 33 69 28 80C23 69 17 67.5 12 56Z"/>
     </mask>
   </defs>
 
