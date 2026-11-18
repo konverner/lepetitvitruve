@@ -6,10 +6,12 @@
 Il se distingue d'un véritable vase d'horticulture : c'est un bloc de pierre massif et décoratif, qui ne contient ni terre ni plantes.
 
 ## Rôle
-Structurellement, le vase d'amortissement est un élément décoratif posé sur un pilier, une balustrade ou un fronton, dont la masse repose sur le support qui le porte. Pratiquement, il n'a pas d'usage fonctionnel : il ne reçoit ni plantes ni eau. Esthétiquement, il couronne et termine visuellement l'élément qui le porte, et il marque la composition des jardins, des terrasses et des façades classiques ou baroques, où il affirme le prestige de la demeure.
+Structurellement, le vase d'amortissement est un élément décoratif posé sur un pilier, une balustrade ou un fronton, dont la masse repose sur le support qui le porte. Esthétiquement, il couronne et termine visuellement l'élément qui le porte, et il marque la composition des jardins, des terrasses et des façades classiques ou baroques.
+
+Il n'a pas d'usage fonctionnel : il ne reçoit ni plantes ni eau.
 
 ## Exemples
-On le rencontre fréquemment au sommet des grilles d'honneur, le long des balustrades de terrasses et sur les toitures des demeures classiques ou baroques. On en observe une grande série alignée sur les balustrades en pierre des terrasses du château de Versailles. Au palais du Luxembourg, ils couronnent les piliers du portail et les terrasses, tandis qu'au palais de Sanssouci, ils ornent la balustrade supérieure encadrant la façade.
+On le rencontre fréquemment au long des balustrades de terrasses, parterres de jardins et sur les toitures des demeures classiques ou baroques.
 
 - [Château de Versailles, Versailles, France](https://maps.app.goo.gl/MRYdmMqt39k7kv1J9)
 
