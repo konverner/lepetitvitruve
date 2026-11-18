@@ -11,6 +11,8 @@ Le perron joue un rôle symbolique en marquant l'entrée principale d'un bâtime
 ## Exemples
 On le trouve très fréquemment au bas des châteaux, des édifices publics, des hôtels particuliers et des grandes maisons de ville.
 
-- Château de Fontainebleau, Fontainebleau, France
-- Palais de l'Élysée, Paris, France
-- La Maison-Blanche, Washington, D.C., États-Unis
+- [Château de Fontainebleau, Fontainebleau, France](https://maps.app.goo.gl/QxUivUKC4QXaPLBr7)
+
+- [Abbaye Royale de Celles-sur-Belle, Celles-sur-Belle, France](https://maps.app.goo.gl/fTyr4As7gPgrMJrc8)
+
+- [La Maison-Blanche, Washington, D.C., États-Unis](https://maps.app.goo.gl/YrRf5NMWjEVR1ME4A)
