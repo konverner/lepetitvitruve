@@ -1,61 +1,194 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
-<style>.s,.d{stroke-linecap:round;stroke-linejoin:round;pointer-events:all}.s{fill:var(--graphic-fill,transparent);stroke:var(--graphic-stroke,currentColor);stroke-width:1.5}.r{stroke-width:2.5}.d{fill:none;stroke:var(--graphic-stroke,currentColor);stroke-opacity:.55;stroke-width:.75}[data-part]{cursor:pointer}[data-part]:hover :is(.s,.d),[data-part].is-active :is(.s,.d){stroke:var(--accent-interactive);stroke-opacity:1}</style>
-  
-  <!-- Toiture et égout de toit -->
-  <g data-part="roof">
-    <path class="s" d="M20 40L380 40L360 15L40 15Z"/>
-    <path class="d" d="M70 40L66 15M110 40L106 15M150 40L146 15M190 40L186 15M230 40L226 15M270 40L266 15M310 40L306 15M350 40L346 15"/>
-    <path class="s" d="M10 40L390 40L390 52L10 52Z"/>
-    <path class="d" d="M10 46L390 46"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 478" fill="none">
 
-  <!-- Bandeau support / Planche de rive -->
-  <g data-part="support">
-    <path class="s" d="M20 52L380 52L380 68L20 68Z"/>
-    <path class="d" d="M35 60L365 60"/>
-    <circle class="d" cx="40" cy="60" r="1.5"/>
-    <circle class="d" cx="120" cy="60" r="1.5"/>
-    <circle class="d" cx="200" cy="60" r="1.5"/>
-    <circle class="d" cx="280" cy="60" r="1.5"/>
-    <circle class="d" cx="360" cy="60" r="1.5"/>
-  </g>
+  <style>
+    .outline,
+    .detail {
+      vector-effect: non-scaling-stroke;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      pointer-events: all;
+    }
 
-  <!-- Baie de fenêtre et maçonnerie de fond -->
+    .outline {
+      fill: var(--graphic-fill, transparent);
+      stroke: var(--graphic-stroke, currentColor);
+      stroke-width: 1.6;
+    }
+
+    .primary {
+      stroke-width: 2.4;
+    }
+
+    .detail {
+      fill: none;
+      stroke: var(--graphic-stroke, currentColor);
+      stroke-width: 0.9;
+      stroke-opacity: 0.52;
+    }
+
+    .context {
+      stroke-opacity: 0.38;
+    }
+
+    [data-part] {
+      cursor: pointer;
+      pointer-events: bounding-box;
+      outline: none;
+    }
+
+    [data-part]:hover :is(.outline, .detail),
+    [data-part]:focus-visible :is(.outline, .detail),
+    [data-part].active :is(.outline, .detail) {
+      stroke: var(--accent-interactive);
+      stroke-opacity: 1;
+    }
+
+    [data-part]:hover .outline,
+    [data-part]:focus-visible .outline,
+    [data-part].active .outline {
+      fill: color-mix(in srgb, var(--accent-interactive) 10%, transparent);
+    }
+  </style>
+
   <g data-part="window">
-    <path class="d" d="M0 100H60M340 100H400M0 160H60M340 160H400M0 220H60M340 220H400M0 280H60M340 280H400"/>
-    <path class="s" d="M70 115H330V280H70Z"/>
-    <path class="s" d="M85 130H315V270H85Z"/>
-    <path class="s" d="M197 130V270M203 130V270"/>
-    <path class="d" d="M85 180H315M85 225H315"/>
-    <path class="s" d="M60 280H340V292H60Z"/>
-    <path class="s" d="M50 292H350V300H50Z"/>
+
+    <!-- Masonry joints -->
+    <path class="detail context" d="M0 112H66M414 112H480
+             M0 168H66M414 168H480
+             M0 224H66M414 224H480
+             M0 280H66M414 280H480
+             M0 336H66M414 336H480
+             M0 392H66M414 392H480
+             M0 448H66M414 448H480" />
+
+    <path class="detail context" d="M26 112V168M40 168V224M22 224V280M36 280V336M24 336V392M38 392V448
+             M454 112V168M440 168V224M458 224V280M444 280V336M456 336V392M442 392V448" />
+
+    <!-- Window concealed at its head by the lambrequin -->
+    <path class="outline primary" d="M82 176V442H398V176" />
+
+    <path class="outline" d="M98 176V428H382V176" />
+
+    <!-- Mullions -->
+    <path class="outline" d="M236 176V428M244 176V428" />
+
+    <!-- Transoms -->
+    <path class="detail" d="M98 218H382M98 258H382" />
+
+    <!-- Sill -->
+    <path class="outline primary" d="M72 442H408V454H72Z" />
+
+    <path class="outline" d="M62 454H418V462H62Z" />
+
+    <path class="detail" d="M82 448H398" />
   </g>
 
-  <!-- Corps du lambrequin -->
+  <g data-part="roof">
+
+    <path class="outline primary" d="M28 44H452L430 18H50Z" />
+
+    <!-- Roofing joints -->
+    <path class="detail" d="M82 44L76 18
+             M128 44L122 18
+             M174 44L168 18
+             M220 44L214 18
+             M266 44L260 18
+             M312 44L306 18
+             M358 44L352 18
+             M404 44L398 18" />
+
+    <!-- Drip edge -->
+    <path class="outline primary" d="M18 44H462V58H18Z" />
+
+    <path class="detail" d="M18 51H462" />
+  </g>
+
+  <g data-part="support">
+
+    <path class="outline primary" d="M34 58H446V82H34Z" />
+
+    <path class="detail" d="M48 70H432" />
+
+    <circle class="detail" cx="58" cy="70" r="1.8" />
+    <circle class="detail" cx="149" cy="70" r="1.8" />
+    <circle class="detail" cx="240" cy="70" r="1.8" />
+    <circle class="detail" cx="331" cy="70" r="1.8" />
+    <circle class="detail" cx="422" cy="70" r="1.8" />
+  </g>
+
   <g data-part="lambrequin">
-    <path class="s" d="M20 68H380V82H20Z"/>
-    <path class="s" d="M20 82V115C20 115 28 115 32 125C36 135 44 165 56 165C68 165 76 135 80 125C84 115 92 115 92 115C92 115 100 115 104 125C108 135 116 165 128 165C140 165 148 135 152 125C156 115 164 115 164 115C164 115 172 115 176 125C180 135 188 165 200 165C212 165 220 135 224 125C228 115 236 115 236 115C236 115 244 115 248 125C252 135 260 165 272 165C284 165 292 135 296 125C300 115 308 115 308 115C308 115 316 115 320 125C324 135 332 165 344 165C356 165 364 135 368 125C372 115 380 115 380 115V82Z"/>
-    <path class="d" d="M20 92H380"/>
+
+    <!-- Fixing band -->
+    <path class="outline primary" d="M44 82H436V100H44Z" />
+
+    <path class="detail" d="M44 91H436" />
+
+    <!-- Repeating ornamental lower edge -->
+    <path class="outline primary" d="M44 100V118
+             C55 118 57 128 61 140
+             C65 153 70 166 84 174
+             C98 166 103 153 107 140
+             C111 128 112 118 123 118
+
+             C134 118 135 128 139 140
+             C143 153 148 166 162 174
+             C176 166 181 153 185 140
+             C189 128 190 118 201 118
+
+             C212 118 213 128 217 140
+             C221 153 226 166 240 174
+             C254 166 259 153 263 140
+             C267 128 268 118 279 118
+
+             C290 118 291 128 295 140
+             C299 153 304 166 318 174
+             C332 166 337 153 341 140
+             C345 128 346 118 357 118
+
+             C368 118 369 128 373 140
+             C377 153 382 166 396 174
+             C410 166 415 153 419 140
+             C423 128 425 118 436 118
+             V100Z" />
+
+    <!-- Subtle construction lines -->
+    <path class="detail" d="M123 101V116
+             M201 101V116
+             M279 101V116
+             M357 101V116" />
   </g>
 
-  <!-- Motifs & ajours -->
   <g data-part="motif">
-    <circle class="s" cx="56" cy="102" r="5"/>
-    <circle class="s" cx="128" cy="102" r="5"/>
-    <circle class="s" cx="200" cy="102" r="5"/>
-    <circle class="s" cx="272" cy="102" r="5"/>
-    <circle class="s" cx="344" cy="102" r="5"/>
 
-    <path class="s" d="M52 128C52 122 60 122 60 128C60 134 56 148 56 148C56 148 52 134 52 128Z"/>
-    <path class="s" d="M124 128C124 122 132 122 132 128C132 134 128 148 128 148C128 148 124 134 124 128Z"/>
-    <path class="s" d="M196 128C196 122 204 122 204 128C204 134 200 148 200 148C200 148 196 134 196 128Z"/>
-    <path class="s" d="M268 128C268 122 276 122 276 128C276 134 272 148 272 148C272 148 268 134 268 128Z"/>
-    <path class="s" d="M340 128C340 122 348 122 348 128C348 134 344 148 344 148C344 148 340 134 340 128Z"/>
+    <circle class="outline" cx="84" cy="111" r="4.5" />
+    <circle class="outline" cx="162" cy="111" r="4.5" />
+    <circle class="outline" cx="240" cy="111" r="4.5" />
+    <circle class="outline" cx="318" cy="111" r="4.5" />
+    <circle class="outline" cx="396" cy="111" r="4.5" />
 
-    <circle class="s" cx="56" cy="171" r="2.5"/>
-    <circle class="s" cx="128" cy="171" r="2.5"/>
-    <circle class="s" cx="200" cy="171" r="2.5"/>
-    <circle class="s" cx="272" cy="171" r="2.5"/>
-    <circle class="s" cx="344" cy="171" r="2.5"/>
+    <path class="outline" d="M80 133
+             C80 126 88 126 88 133
+             C88 139 84 153 84 153
+             C84 153 80 139 80 133Z" />
+
+    <path class="outline" d="M158 133
+             C158 126 166 126 166 133
+             C166 139 162 153 162 153
+             C162 153 158 139 158 133Z" />
+
+    <path class="outline" d="M236 133
+             C236 126 244 126 244 133
+             C244 139 240 153 240 153
+             C240 153 236 139 236 133Z" />
+
+    <path class="outline" d="M314 133
+             C314 126 322 126 322 133
+             C322 139 318 153 318 153
+             C318 153 314 139 314 133Z" />
+
+    <path class="outline" d="M392 133
+             C392 126 400 126 400 133
+             C400 139 396 153 396 153
+             C396 153 392 139 392 133Z" />
   </g>
 </svg>

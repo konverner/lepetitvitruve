@@ -1,28 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Toiture & Égout de toit -->
-  <path stroke-width="2" d="M12 16L108 16L102 10L18 10Z"/>
-  <path stroke-width="2" d="M16 16L104 16L104 22L16 22Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="lpv">
+  <style>
+    .lpv{--a:var(--accent-interactive,#8c1c1c)}
+    @media (prefers-color-scheme:dark){.lpv{--a:var(--accent-interactive,#e5707a)}}
+  </style>
 
-  <!-- Cadre de baies & fenêtre en arrière-plan -->
-  <path stroke-width="2" d="M26 40L26 98L94 98L94 40"/>
-  <path stroke-width="1.25" d="M32 46L32 92L88 92L88 46Z"/>
-  <path stroke-width="1.25" d="M60 46L60 92M32 68L88 68"/>
-  <path stroke-width="1.5" d="M20 98L100 98L100 104L20 104Z"/>
+  <defs>
+    <mask id="lpv-window-mask" x="0" y="0" width="120" height="120" maskUnits="userSpaceOnUse" style="mask-type:luminance">
+      <rect width="120" height="120" fill="#fff" stroke="none"/>
+      <path fill="#000" stroke="none" d="M12 42H108V56C103 67.5 97 69 92 80C87 69 81 67.5 76 56C71 67.5 65 69 60 80C55 69 49 67.5 44 56C39 67.5 33 69 28 80C23 69 17 67.5 12 56Z"/>
+    </mask>
+  </defs>
 
-  <!-- Bandeau support -->
-  <path stroke-width="1.25" d="M16 22L104 22L104 26L16 26Z"/>
+  <!-- Window, partially concealed by the lambrequin -->
+  <g mask="url(#lpv-window-mask)">
+    <path stroke-width="2" d="M16 104V43H104V104M12 104H108V108H12Z"/>
+    <path stroke-width="1.25" d="M21 43H99V99H21ZM60 43V99M21 75H99"/>
+  </g>
 
-  <!-- Dentelle du lambrequin -->
-  <path stroke-width="2" style="stroke:var(--a)" d="M16 26H104V34C104 40 100 48 93 48C86 48 82 40 82 34C82 40 78 48 71 48C64 48 60 40 60 34C60 40 56 48 49 48C42 48 38 40 38 34C38 40 34 48 27 48C20 48 16 40 16 34Z"/>
+  <path stroke-width="2" d="M4 22H116V32H4Z"/>
+  <path stroke-width="1.25" stroke-opacity=".55" d="M18 22V32M30 22V32M42 22V32M54 22V32M66 22V32M78 22V32M90 22V32M102 22V32"/>
+  <path stroke-width="2" d="M8 32H112V42H8Z"/>
 
-  <!-- Motifs & découpes -->
-  <circle cx="27" cy="32" r="1.5" fill="currentColor"/>
-  <circle cx="49" cy="32" r="1.5" fill="currentColor"/>
-  <circle cx="71" cy="32" r="1.5" fill="currentColor"/>
-  <circle cx="93" cy="32" r="1.5" fill="currentColor"/>
-
-  <circle cx="27" cy="42" r="1" fill="currentColor"/>
-  <circle cx="49" cy="42" r="1" fill="currentColor"/>
-  <circle cx="71" cy="42" r="1" fill="currentColor"/>
-  <circle cx="93" cy="42" r="1" fill="currentColor"/>
+  <path stroke-width="2" d="M12 42H108V56C103 67.5 97 69 92 80C87 69 81 67.5 76 56C71 67.5 65 69 60 80C55 69 49 67.5 44 56C39 67.5 33 69 28 80C23 69 17 67.5 12 56Z"/>
+  <g stroke-width="1.25">
+    <circle cx="28" cy="58" r="5"/>
+    <circle cx="28" cy="58" r="1.75"/>
+    <circle cx="60" cy="58" r="5"/>
+    <circle cx="60" cy="58" r="1.75"/>
+    <circle cx="92" cy="58" r="5"/>
+    <circle cx="92" cy="58" r="1.75"/>
+    <path d="M44 45L47.5 48.5L44 52L40.5 48.5ZM76 45L79.5 48.5L76 52L72.5 48.5Z"/>
+  </g>
 </svg>
