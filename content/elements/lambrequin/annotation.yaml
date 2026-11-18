@@ -19,6 +19,8 @@ parts:
 tags:
   - region/reunion
   - region/louisiana
+  - region/europe
   - style/colonial
+  - style/vernacular
   - mood/curious
   - rarity/rare
