@@ -10,4 +10,4 @@ Chaque élément c'est un token visuel qui contribue à la construction d'une st
 
 ## Contact
 
-Une question, une correction ou une suggestion d'élément : écrivez à [konst.verner@gmail.com](mailto:konst.verner@gmail.com).
+Une question, une correction ou une suggestion d'élément : écrivez à [konst.verner@gmail.com](mailto:konst.verner@gmail.com) ou via [GitHub](https://github.com/konst-verner/le-petit-vitruve).
